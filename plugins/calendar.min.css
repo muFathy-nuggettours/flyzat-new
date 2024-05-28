@@ -1,0 +1,252 @@
+.pika-single {
+	z-index: 10;
+	display: block;
+	position: relative;
+	color: #333;
+	background: #fff;
+	border: 1px solid #bbb;
+	margin-top: -1px;
+}
+
+.pika-single:after,
+.pika-single:before {
+	content: " ";
+	display: table
+}
+
+.pika-single:after {
+	clear: both
+}
+
+.pika-single.is-hidden {
+	display: none
+}
+
+.pika-single.is-bound {
+	position: absolute;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, .1)!important
+}
+
+.pika-lendar {
+	float: left;
+	width: 240px;
+	margin: 8px
+}
+
+.pika-title {
+	position: relative;
+	text-align: center
+}
+
+.pika-label {
+	display: inline-block;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	margin: 0;
+	font-size: 0;
+}
+
+.pika-select-month {
+	font-size: 13px;
+	width: 100px
+}
+
+.pika-select-year {
+	font-size: 13px;
+	width: 70px;
+	margin: 0 0 0 5px;
+}
+
+.pika-select-year:lang(ar) {
+	margin: 0 5px 0 0;
+}
+
+.pika-next,
+.pika-prev {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	outline: 0;
+	border: 0;
+	padding: 0;
+	width: 20px;
+	height: 30px;
+	text-indent: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 75% 75%;
+	opacity: .5
+}
+
+.pika-next:hover,
+.pika-prev:hover {
+	opacity: 1
+}
+
+.is-rtl .pika-next,
+.pika-prev {
+	float: left;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAAUklEQVR42u3VMQoAIBADQf8Pgj+OD9hG2CtONJB2ymQkKe0HbwAP0xucDiQWARITIDEBEnMgMQ8S8+AqBIl6kKgHiXqQqAeJepBo/z38J/U0uAHlaBkBl9I4GwAAAABJRU5ErkJggg==)
+}
+
+.is-rtl .pika-prev,
+.pika-next {
+	float: right;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAAU0lEQVR42u3VOwoAMAgE0dwfAnNjU26bYkBCFGwfiL9VVWoO+BJ4Gf3gtsEKKoFBNTCoCAYVwaAiGNQGMUHMkjGbgjk2mIONuXo0nC8XnCf1JXgArVIZAQh5TKYAAAAASUVORK5CYII=)
+}
+
+.pika-next.is-disabled,
+.pika-prev.is-disabled {
+	cursor: default;
+	opacity: .6
+}
+
+.pika-table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 0
+}
+
+.pika-table td,
+.pika-table th {
+	width: 14.285714285714286%;
+	padding: 0
+}
+
+.pika-table th {
+	color: #999;
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: 700;
+	text-align: center
+}
+
+.pika-button {
+	cursor: pointer;
+	display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: 0;
+	border: 0;
+	margin: 0;
+	width: 100%;
+	padding: 10px;
+	color: #666;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	text-align: center;
+	background: #f3f3f3
+}
+
+.pika-week {
+	font-size: 11px;
+	color: #999
+}
+
+.is-today .pika-button {
+	color: #595959
+}
+
+.has-event .pika-button,
+.is-selected .pika-button {
+	color: #fff;
+	background: #454545;
+	box-shadow: inset 0 1px 3px #2f2f2f
+}
+
+.has-event .pika-button:hover,
+.is-selected .pika-button:hover {
+	color: #fff;
+	background: #303030;
+	box-shadow: inset 0 1px 3px #2f2f2f
+}
+
+.has-event .pika-button {
+	background: #757575;
+	box-shadow: inset 0 1px 3px #a7a7a7
+}
+
+.is-disabled .pika-button,
+.is-inrange .pika-button {
+	background: #f4f4f4
+}
+
+.is-startrange .pika-button {
+	color: #fff;
+	background: #7f7f7f;
+	box-shadow: none
+}
+
+.is-endrange .pika-button {
+	color: #fff;
+	background: #777;
+	box-shadow: none
+}
+
+.is-disabled .pika-button,
+.is-outside-current-month .pika-button {
+	pointer-events: none;
+	cursor: default;
+	color: #999;
+	opacity: .6
+}
+
+.pika-button:hover,
+.pika-row.pick-whole-week:hover .pika-button {
+	color: #000;
+	background: #e3e3e3;
+	box-shadow: none
+}
+
+.pika-table abbr {
+	border: 0!important;
+	text-decoration: none;
+}
+
+.pika-table abbr:lang(ar){
+	font-size: 9px;
+}
+
+.pika-table th {
+	border: 0!important;
+	text-decoration: none
+}
+
+table.pika-time {
+	width: calc(100% - 14px);
+	background: #f8f8f8;
+	border:1px solid #ddd;
+	margin: 7px;
+
+}
+table.pika-time tr {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+table.pika-time td {
+padding: 6px;
+}
+
+table.pika-time td:nth-child(3){
+	padding: 0;
+}
+
+table.pika-time td.pika-time-label {
+	flex-grow: 1;
+}
+
+.pika-select-hour {
+	width: 70px;
+}
+
+.pika-select-minute {
+	width: 70px;
+}

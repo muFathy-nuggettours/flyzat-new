@@ -1,0 +1,18 @@
+.block_logo_2 img {
+	display: block;
+	margin: 0 auto 0 auto;
+	box-shadow: 2px 2px 8px rgba(0,0,0,.05);
+	transition: box-shadow 0.5s !important;	
+	background: #fff;
+	padding: 20px;
+}
+
+.block_logo_2:hover img {
+	box-shadow: 4px 4px 12px rgba(0,0,0,.1);
+}
+
+.block_logo_2 b {
+	display: block;
+	text-align: center;
+	margin-top: 15px;
+}

@@ -1,0 +1,76 @@
+{
+	"data_reservation_status": {
+		"0": "Pending Payment",
+		"1": "Paid - Pending PNR",
+		"2": "Confirmed",
+		"3": "Booked",
+		"4": "Pending Update",
+		"5": "Pending Cancellation",
+		"6": "Cancelled"
+	},
+	"data_flight_classes": {
+		"1": "Economy",
+		"2": "Business",
+		"3": "First"
+	},
+	"data_flight_types": {
+		"1": "One Way",
+		"2": "Two Way",
+		"3": "Multiple Destinations"
+	},
+	"data_passenger_types": {
+		"0": "Adult",
+		"1": "Child",
+		"2": "Infant"
+	},
+	"data_passenger_names_prefix": {
+		"1": "Mr.",
+		"2": "Ms."
+	},
+	"data_units": {
+		"mi": "Mile",
+		"km": "Kilometer"
+	},
+	"data_dictionary": {
+		"Anytime": "Anytime",
+		"Before Departure": "Before Departure",
+		"Economy": "Economy",
+		"Business": "Business",
+		"First": "First",
+		"ADT": "Adult",
+		"CNN": "Child",
+		"INF": "Infant"
+	},
+	"data_special_needs": {
+		"1": "Assisting a deaf passenger",
+		"2": "A wheelchair with liquid batteries",
+		"3": "Meet the passenger and provide assistance",
+		"4": "A wheelchair with dry batteries",
+		"5": "Wheelchair (Climbing up the slopes)",
+		"6": "Wheelchair (Access to cabin seat)",
+		"7": "Medical stretcher",
+		"8": "Wheelchair (step up)"
+	},
+	"data_special_meals": {
+		"1": "Indian Vegetarian Meal",
+		"2": "Low fat meal",
+		"3": "Normal meal",
+		"4": "Gluten-free meal",
+		"5": "Fruit plate",
+		"6": "Vegetarian meal (lacto-ovo)",
+		"7": "Salt-free meal",
+		"8": "Diabetes meal",
+		"9": "Baby's Meal",
+		"10": "Seafood Meal",
+		"11": "Vegetarian Meal (Dairy Free)",
+		"12": "Halal Meal",
+		"13": "Flavour-free meal",
+		"14": "Kid's Meal"
+	},
+	"data_contact_reasons": {
+		"0": "Question",
+		"1": "Update Reservation",
+		"2": "Cancel Reservation",
+		"3": "Refund Reservation"
+	}
+}

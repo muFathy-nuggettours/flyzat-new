@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <SOAP:Fault>
+      <faultcode>Server.Business</faultcode>
+      <faultstring>UNABLE TO FARE QUOTE</faultstring>
+      <detail>
+        <common_v51_0:ErrorInfo xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0">
+          <common_v51_0:Code>3037</common_v51_0:Code>
+          <common_v51_0:Service>AIRSVC</common_v51_0:Service>
+          <common_v51_0:Type>Business</common_v51_0:Type>
+          <common_v51_0:Description>No availability on chosen flights.</common_v51_0:Description>
+          <common_v51_0:TransactionId>6C79CD360A0EE0BC5B65A6C0717BA2E4</common_v51_0:TransactionId>
+          <common_v51_0:TraceId>c203400f09a471fbe7a6e7012f3136aa</common_v51_0:TraceId>
+        </common_v51_0:ErrorInfo>
+      </detail>
+    </SOAP:Fault>
+  </SOAP:Body>
+</SOAP:Envelope>

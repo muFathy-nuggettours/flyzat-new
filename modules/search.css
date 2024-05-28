@@ -1,0 +1,418 @@
+/* Containers & General Components */
+
+.flight_search_module .search_box {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	padding: 0 10px 10px 10px;
+}
+
+.flight_search_module .trips {
+	flex-grow: 1;
+	margin: 0 15px 0 0;
+}
+
+.flight_search_module:lang(ar) .trips {
+	margin: 0 0 0 15px;
+}
+
+.flight_search_module .trip {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	width: calc(100% + 10px);
+	margin: 0 0 0 -10px;
+}
+
+.flight_search_module:lang(ar) .trip {
+	margin: 0 -10px 0 0;
+}
+
+.flight_search_module .trip>div {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 0 0 10px;
+}
+
+.flight_search_module:lang(ar) .trip>div {
+	margin: 0 10px 0 0;
+}
+
+.flight_search_module .destination_container {
+	flex-basis: 450px;
+}
+
+.flight_search_module .date_container {
+	flex-basis: 120px;
+}
+
+.flight_search_module .options_container {
+	flex-grow: 2;
+}
+
+.flight_search_module .component {
+	width: 100%;
+}
+
+.flight_search_module .component>span {
+	display: block;
+	width: 100%;
+	margin: 10px 0 10px 0;
+	height: 20px;
+}
+
+.flight_search_module .component>div {
+	position: relative;
+}
+
+.flight_search_module .input {
+	position: relative;
+}
+
+.flight_search_module i.icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	width: 40px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: #909090;
+}
+
+.flight_search_module:lang(ar) i.icon {
+	left: initial;
+	right: 0;
+}
+
+/* Trip Separator */
+
+.flight_search_module .trip_template.template {
+	display: none;
+}
+
+.flight_search_module .trip_separator {
+	height: 30px;
+	display: flex;
+	align-items: center;
+	padding-bottom: 15px;
+	border-bottom: 5px solid #2073BA;
+	margin: 25px 0 0 0;
+	font-size: 14px;
+}
+
+.flight_search_module .trip_separator i {
+	font-size: 18px;
+	margin: 0 10px 0 0;
+}
+
+.flight_search_module:lang(ar) .trip_separator i {
+	margin: 0 0 0 10px;
+}
+
+.flight_search_module .trip_separator span {
+	flex-grow: 1;
+}
+
+.flight_search_module .trip_separator .btn {
+	display: flex;
+	align-items: center;
+}
+
+
+/* Extra Trips */
+
+.flight_search_module .multiple_trips .trip_extra:only-child .trip_remove {
+	display: none;
+}
+
+.flight_search_module .trip_remove {
+	margin: 0 0 0 5px;
+}
+
+.flight_search_module:lang(ar) .trip_remove {
+	margin: 0 5px 0 0;
+}
+
+
+/* Select2 */
+
+.flight_search_module .select2-selection {
+	padding: 0 0 0 35px;
+	min-height: 40px;
+}
+
+.flight_search_module:lang(ar) .select2-selection {
+	padding: 0 35px 0 0;
+}
+
+.flight_search_module .select2-selection--single.error {
+	background: #fde4e1 !important;
+	border: 1px solid #b94a48 !important;
+}
+
+.flight_search_module .select2-container--default .select2-selection--single .select2-selection__rendered {
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.flight_search_module .select2-container--default .select2-selection--single .select2-selection__arrow {
+	display: none;
+}
+
+.flight_search_module .select2-dropdown.select2-dropdown--above {
+	margin-top: 1px;
+}
+
+.flight_search_module .select2-dropdown.select2-dropdown--below {
+	margin-top: -1px;
+}
+
+
+/* Date */
+
+.flight_search_module .input_date {
+	position: relative;
+	background: #fff;
+	border: 1px solid #aaa;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 10px;
+	height: 83px;
+	cursor: pointer;
+}
+
+.flight_search_module .input_date * {
+	line-height: 1;
+}
+
+.flight_search_module .input_date b {
+	display: block;
+	margin: 5px 0 5px 0;
+	font-size: 30px;
+	color: #0E5592;
+}
+
+.flight_search_module .input_date i {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	font-size: 16px;
+	color: #aaa;
+}
+
+.flight_search_module .input_date i {
+	left: initial;
+	right: 5px;
+}
+
+
+/* Destinations */
+
+.flight_search_module .destination .switch_destinations {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 15px;
+	z-index: 20;
+	background: #fff;
+	color: #2073BA;
+	border-radius: 50%;
+	border: 1px solid #aaa;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+}
+
+.flight_search_module:lang(ar) .destination .switch_destinations {
+	right: initial;
+	left: 15px;
+}
+
+.flight_search_module .select2-container .select2-selection--single.from,
+.flight_search_module .select2-container .select2-selection--single.from-multiple {
+	border-bottom: 0 !important;
+}
+
+
+/* Travelers */
+
+.flight_search_module .travelers_dropdown {
+	padding: 0 0 0 45px;
+	display: block;
+	background: #fefefe;
+	height: 40px;
+	border: 1px solid #aaa;
+	border-top: 0;
+	color: #404040 !important;
+	display: flex;
+	align-items: center;
+}
+
+.flight_search_module:lang(ar) .travelers_dropdown {
+	padding: 0 45px 0 0;
+}
+
+.flight_search_module .dropdown-menu.travelers {
+	padding: 10px 10px 0 10px !important;
+	width: 100%;
+}
+
+.flight_search_module .dropdown-menu.travelers li>div {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.flight_search_module .dropdown-menu.travelers li>div b {
+	font-size: 12px;
+	flex-basis: 50px;
+}
+
+.flight_search_module .dropdown-menu.travelers li>div select {
+	font-size: 13px;
+	width: 80px;
+	min-height: 30px;
+	margin: 0 10px 0 0;
+}
+
+.flight_search_module:lang(ar) .dropdown-menu.travelers li>div select {
+	margin: 0 0 0 10px;
+}
+
+
+.flight_search_module .dropdown-menu.travelers li>div span {
+	flex-grow: 1;
+	font-size: 12px;
+}
+
+
+/* Search Button */
+
+.flight_search_module .search_button {
+	padding: 15px;
+	flex-basis: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.flight_search_module .search_button i {
+	margin-bottom: 10px;
+}
+
+
+/* Tabs */
+
+.flight_search_module .search_types {
+	padding: 10px 10px 0 10px;
+}
+
+.flight_search_module .search_types .nav {
+	margin: 0;
+	background: transparent;
+}
+
+.flight_search_module .nav-tabs>li>a {
+	border-radius: 0;
+}
+
+.flight_search_module .nav-tabs>li:not(.active)>a:hover {
+	background: #e2ecee;
+}
+
+@media screen and (max-width:769px) {
+	.flight_search_module .search_box .trips {
+		margin-left: 0;
+	}
+	.flight_search_module .destination_container {
+		flex-grow: 4;
+	}
+	.flight_search_module .date_container {
+		flex-grow: 1;
+	}
+	.flight_search_module .options_container {
+		flex-grow: 2;
+	}
+	.flight_search_module .search_button {
+		padding: 15px;
+		flex-basis: 100%;
+		display: flex;
+		flex-direction: row;
+		margin-top: 15px;
+	}
+	.flight_search_module .search_button i {
+		margin-bottom: 0;
+		margin-left: 10px;
+	}
+	.flight_search_module .trip_separator {
+		margin-top: 25px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+	.flight_search_module .date_container {
+		flex-grow: 1;
+	}
+	.flight_search_module .destination_container {
+		flex-basis: 400px;
+	}
+}
+
+
+/* Search destinations block */
+
+.flight_search_module .search_destinations {
+	display: flex;
+	align-items: center;
+}
+
+.flight_search_module .search_destinations i.fas {
+	font-size: 24px;
+	color: #aaa;
+}
+
+.flight_search_module .search_destinations .title {
+	flex-grow: 1;
+}
+
+.flight_search_module .search_destinations .title b {
+	display: block;
+}
+
+.flight_search_module .search_destinations .title small {
+	display: block;
+}
+
+.flight_search_module .search_destinations b.code {
+	padding: 5px;
+	background: #2073BA;
+	color: white;
+	font-size: 11px;
+}
+
+.flight_search_module .search_destinations .search_higlight {
+	font-style: normal;
+	color: #2073BA !important;
+}
+
+
+
+
+/* Checkboxes */
+
+.flight_search_module .check_container {
+	padding: 5px 10px 5px 10px;
+	margin: 0;
+}

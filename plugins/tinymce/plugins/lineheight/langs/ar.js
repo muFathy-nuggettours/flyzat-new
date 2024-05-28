@@ -1,0 +1,1 @@
+tinymce.addI18n("ar",{"Line Height":"إرتفاع السطر"});

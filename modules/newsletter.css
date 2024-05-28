@@ -1,0 +1,11 @@
+.module_newsletter {
+	display: flex;
+}
+
+.module_newsletter input[type=button] {
+	margin: 0 0 0 10px;
+}
+
+.module_newsletter:lang(ar) input[type=button] {
+	margin: 0 10px 0 0;
+}

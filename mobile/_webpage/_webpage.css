@@ -1,0 +1,30 @@
+body {
+	width: 100vw;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+/* iOS Fixes */
+
+@supports (-webkit-overflow-scrolling: touch) {
+	.applicationContainer {
+		position: relative;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+		height: 100vh;
+	}
+	body.modal-open .applicationContainer {
+		/* Fix iOS bootstrap modal flicker */
+		overflow: hidden;
+	}
+}
+
+/* Never show website loading */
+
+body.body #page-loading {
+	display: none !important;
+}

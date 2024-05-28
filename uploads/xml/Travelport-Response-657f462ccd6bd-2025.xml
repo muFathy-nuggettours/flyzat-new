@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <SOAP-ENV:Fault>
+      <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>
+      <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>
+      <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>
+      <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>
+    </SOAP-ENV:Fault>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,31 @@
+.module_social {
+	width: 100%;
+	margin: 0 auto 0 auto;
+	display: flex;
+	align-items: center;
+	line-height: 1;
+}
+
+.module_social a {
+	margin: 0 10px 0 0;
+	border-radius: 3px;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.module_social:lang(ar) a {
+	margin: 0 0 0 10px;
+}
+
+.module_social a:last-child {
+	margin: 0;
+}
+
+.module_social a span {
+	color: #fff;
+	font-size: 22px;
+}

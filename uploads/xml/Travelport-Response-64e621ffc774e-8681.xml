@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <universal:AirCreateReservationRsp xmlns:universal="http://www.travelport.com/schema/universal_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" xmlns:air="http://www.travelport.com/schema/air_v51_0" TraceId="c13460014860c292a3a77d4b47bf50e9" TransactionId="22F4BEE80A0EE0DB4A0AE379A7838E4F" ResponseTime="4171">
+      <common_v51_0:ResponseMessage Code="13566" Type="Warning" ProviderCode="1G">Brand optional services were filtered out as they are not offered in the brand or are only available at a charge.</common_v51_0:ResponseMessage>
+      <common_v51_0:ResponseMessage Code="3824" Type="Warning" ProviderCode="1G">The fare HostToken has been ignored. The BrandTier has been applied.</common_v51_0:ResponseMessage>
+      <common_v51_0:ResponseMessage Code="13565" Type="Warning" ProviderCode="1G">UpsellBrandID has been ignored.</common_v51_0:ResponseMessage>
+      <universal:UniversalRecord LocatorCode="QLH1UE" Version="0" Status="Active">
+        <common_v51_0:BookingTraveler Key="06SLhnbDuDKAHGqOqgAAAA==" TravelerType="ADT" DOB="1973-08-29" ElStat="A">
+          <common_v51_0:BookingTravelerName First="FADY" Last="FELALY"/>
+          <common_v51_0:PhoneNumber Key="06SLhnbDuDKAIGqOqgAAAA==" Type="None" Location="RUH" Number=" 966548598445" ElStat="A">
+            <common_v51_0:ProviderReservationInfoRef Key="06SLhnbDuDKAWb/OqgAAAA=="/>
+          </common_v51_0:PhoneNumber>
+        </common_v51_0:BookingTraveler>
+        <common_v51_0:ActionStatus Key="06SLhnbDuDKAUGqOqgAAAA==" Type="ACTIVE" ProviderReservationInfoRef="06SLhnbDuDKAWb/OqgAAAA==" ProviderCode="1G" ElStat="A"/>
+        <universal:ProviderReservationInfo Key="06SLhnbDuDKAWb/OqgAAAA==" ProviderCode="1G" LocatorCode="5DZ7NB" CreateDate="2023-08-23T15:13:02.560+00:00" ModifiedDate="2023-08-23T15:13:02.560+00:00" HostCreateDate="2023-08-23" OwningPCC="36X1"/>
+        <air:AirReservation LocatorCode="QLHEBM" CreateDate="2023-08-23T15:13:02.096+00:00" ModifiedDate="2023-08-23T15:13:02.560+00:00">
+          <common_v51_0:SupplierLocator SupplierCode="MS" SupplierLocatorCode="NGBH7D" ProviderReservationInfoRef="06SLhnbDuDKAWb/OqgAAAA==" CreateDateTime="2023-08-23T15:13:00.000+00:00"/>
+          <common_v51_0:BookingTravelerRef Key="06SLhnbDuDKAHGqOqgAAAA=="/>
+          <common_v51_0:ProviderReservationInfoRef Key="06SLhnbDuDKAWb/OqgAAAA=="/>
+          <air:AirSegment Key="H3xJhn3CuDKAyzQ3tgAAAA==" Group="0" Carrier="MS" CabinClass="Economy" FlightNumber="652" ProviderCode="1G" Origin="RUH" Destination="CAI" DepartureTime="2023-12-29T13:00:00.000+03:00" ArrivalTime="2023-12-29T14:55:00.000+02:00" TravelTime="175" Distance="1003" ClassOfService="T" ETicketability="Yes" Equipment="738" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="06SLhnbDuDKAWb/OqgAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" ElStat="A">
+            <air:FlightDetails Key="H3xJhn3CuDKAzzQ3tgAAAA==" Origin="RUH" Destination="CAI" DepartureTime="2023-12-29T13:00:00.000+03:00" ArrivalTime="2023-12-29T14:55:00.000+02:00" FlightTime="175" TravelTime="175" Equipment="738" OriginTerminal="2" DestinationTerminal="3" AutomatedCheckin="false" ElStat="A"/>
+            <common_v51_0:SellMessage>DEPARTS RUH TERMINAL 2  - ARRIVES CAI TERMINAL 3</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>*PLS INSERT FREQUENT FLYER NUMBER*</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>*PLS INSERT PHONE AND EMAIL FOR DESTINATION*</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>*SEAT RQST IS SUBJ TO CHG DUE TO IRR OR POLICY CHG*</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v51_0:SellMessage>
+          </air:AirSegment>
+          <air:AirPricingInfo Key="H3xJhn3CuDKA2zQ3tgAAAA==" TotalPrice="SAR742.00" BasePrice="SAR345.00" ApproximateTotalPrice="SAR742.00" ApproximateBasePrice="SAR345.00" Taxes="SAR397.00" LatestTicketingTime="2023-12-29T23:59:00.000+03:00" TrueLastDateToTicket="2023-12-29T23:59:00.000+03:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="MS" ProviderCode="1G" ProviderReservationInfoRef="06SLhnbDuDKAWb/OqgAAAA==" AirPricingInfoGroup="1" TotalNetPrice="SAR742.00" PricingType="StoredFare" ElStat="A" FareCalculationInd="A">
+            <air:FareInfo Key="H3xJhn3CuDKA9zQ3tgAAAA==" FareBasis="TRIMSO" PassengerTypeCode="ADT" Origin="RUH" Destination="CAI" EffectiveDate="2023-08-23T00:00:00.000+03:00" Amount="NUC92.00" PrivateFare="AirlinePrivateFare" NegotiatedFare="true" TourCode="COMSN23" NotValidBefore="2023-12-29" NotValidAfter="2023-12-29" PseudoCityCode="36X1" ElStat="A">
+              <air:FareTicketDesignator Value="PV"/>
+              <air:ContractCode Code="KSA1" ProviderCode="1G"/>
+              <common_v51_0:Endorsement Value="BAG. BUSINESS 32KG/158CM"/>
+              <common_v51_0:Endorsement Value="BAG. ECONOMY 23KG/158CM"/>
+              <common_v51_0:Endorsement Value="HAVE A NICE TRIP"/>
+              <air:BaggageAllowance>
+                <air:NumberOfPieces>1</air:NumberOfPieces>
+              </air:BaggageAllowance>
+              <air:Brand Key="H3xJhn3CuDKA9zQ3tgAAAA==" BrandID="1227350" Name="ECONOMY BEST BUY" Carrier="MS" BrandTier="0001">
+                <air:Title Type="External" LanguageCode="EN">Economy Best Buy</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">BB</air:Title>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy Best Buy</air:Text>
+              </air:Brand>
+              <common_v51_0:Commission Level="Fare" Type="PercentBase" Percentage="7.0"/>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="H3xJhn3CuDKA9zQ3tgAAAA==" SegmentRef="H3xJhn3CuDKAyzQ3tgAAAA=="/>
+            <air:TaxInfo Category="E3" Amount="SAR8.00" Key="H3xJhn3CuDKA3zQ3tgAAAA=="/>
+            <air:TaxInfo Category="IO" Amount="SAR110.00" Key="H3xJhn3CuDKA4zQ3tgAAAA=="/>
+            <air:TaxInfo Category="T2" Amount="SAR5.00" Key="H3xJhn3CuDKA5zQ3tgAAAA=="/>
+            <air:TaxInfo Category="S4" Amount="SAR8.00" Key="H3xJhn3CuDKA6zQ3tgAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR85.00" Key="H3xJhn3CuDKA7zQ3tgAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="SAR181.00" Key="H3xJhn3CuDKA8zQ3tgAAAA=="/>
+            <air:FareCalc>RUH MS CAI 92.00TRIMSO/PV NUC92.00END ROE3.75</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="51" BookingTravelerRef="06SLhnbDuDKAHGqOqgAAAA==">
+              <air:FareGuaranteeInfo GuaranteeDate="2023-08-23" GuaranteeType="GuaranteedUsingAirlinePrivateFare"/>
+            </air:PassengerType>
+            <common_v51_0:BookingTravelerRef Key="06SLhnbDuDKAHGqOqgAAAA=="/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR187.00</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR281.00</air:Amount>
+            </air:CancelPenalty>
+            <air:TicketingModifiersRef Key="06SLhnbDuDKAdb/OqgAAAA=="/>
+          </air:AirPricingInfo>
+          <air:TicketingModifiers PlatingCarrier="MS" Key="06SLhnbDuDKAdb/OqgAAAA==" ElStat="A">
+            <air:DocumentSelect IssueElectronicTicket="true"/>
+          </air:TicketingModifiers>
+        </air:AirReservation>
+        <common_v51_0:GeneralRemark Key="06SLhnbDuDKAeb/OqgAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="06SLhnbDuDKAWb/OqgAAAA==" SupplierCode="MS" Direction="Incoming" CreateDate="2023-08-23T15:13:00.000+00:00" ElStat="A">
+          <common_v51_0:RemarkData>MISSING SSR CTCM MOBILE OR SSR CTCE EMAIL OR SSR CTCR NON-CONSENT FOR MS</common_v51_0:RemarkData>
+        </common_v51_0:GeneralRemark>
+        <common_v51_0:AgencyInfo>
+          <common_v51_0:AgentAction ActionType="Created" AgentCode="uAPI5876662770-8d052977" BranchCode="P3763969" AgencyCode="S3763962" EventTime="2023-08-23T15:12:59.724+00:00"/>
+        </common_v51_0:AgencyInfo>
+        <common_v51_0:FormOfPayment Key="06SLhnbDuDKATGqOqgAAAA==" Type="Cash" Reusable="false" ProfileKey="OMTxMpZ7SkK03DWdtu1H2w==" ElStat="A">
+          <common_v51_0:ProviderReservationInfoRef Key="06SLhnbDuDKAWb/OqgAAAA=="/>
+        </common_v51_0:FormOfPayment>
+      </universal:UniversalRecord>
+    </universal:AirCreateReservationRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

@@ -1,0 +1,1 @@
+<? require_once(($on_mobile ? "mobile/_webpage/_header.php" : "_header.php")); ?>

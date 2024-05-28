@@ -1,0 +1,62 @@
+.section_header {
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.section_header .overlay {
+	background: linear-gradient(315deg, #132d4620 0%, #132d46ee 100%);
+	padding: 25px 0 25px 0;
+}
+
+.section_header:lang(ar) .overlay {
+	background: linear-gradient(135deg, #132d4620 0%, #132d46ee 100%);
+}
+
+.section_header .section_titles {
+	padding: 15px 0 15px 0;
+}
+
+.section_header h2 {
+	display: block;
+	color: #fff;
+	padding: 0;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.section_header h1 {
+	display: block;
+	color: #fff;
+	padding: 0;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.section_header:lang(ar) h1 {
+	line-height: 1.75;
+}
+
+.section_header span {
+	display: block;
+	width: 100%;
+	color: #fefefe;
+	margin-top: 15px;
+}
+
+.section_header .breadcrumb {
+	background: transparent;
+	padding: 0;
+	border-radius: 0;
+}
+
+.section_header .breadcrumb li {
+	color: #eee;
+}
+
+.section_header .breadcrumb a {
+	font-weight: bold;
+	color: #fff;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <air:AirPriceReq xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" xmlns:univ="http://www.travelport.com/schema/universal_v51_0" TargetBranch="P3763969" TraceId="3f8d7f313ab7bfe4dfe5cc105e0d182a">
+      <com:BillingPointOfSaleInfo xmlns:com="http://www.travelport.com/schema/common_v51_0" OriginApplication="UAPI"/>
+      <air:AirItinerary>
+        <air:AirSegment ProviderCode="1G" Key="RZbh1opCuDKAoXXedIAAAA==" Group="0" Carrier="MS" FlightNumber="649" Origin="CAI" Destination="RUH" DepartureTime="2023-12-12T23:45:00.000+02:00" ArrivalTime="2023-12-13T03:05:00.000+03:00" FlightTime="140" Distance="1003" ETicketability="Yes" Equipment="321" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop"/>
+      </air:AirItinerary>
+      <air:AirPricingModifiers CurrencyType="SAR"/>
+      <com:SearchPassenger xmlns:com="http://www.travelport.com/schema/common_v51_0" Code="ADT" Age="64" BookingTravelerRef="NjgwMDA0Nzk2NGVmMjlhZDY2MmUwMy40NTQyMzc4OA=="/>
+      <air:AirPricingCommand/>
+    </air:AirPriceReq>
+  </soapenv:Body>
+</soapenv:Envelope>

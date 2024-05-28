@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <SOAP:Fault>
+      <faultcode>Server.Business</faultcode>
+      <faultstring>Unsuccessful primary host transaction causing reservation failure.</faultstring>
+      <detail>
+        <common_v51_0:ErrorInfo xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0">
+          <common_v51_0:Code>3515</common_v51_0:Code>
+          <common_v51_0:Service>AIRSVC</common_v51_0:Service>
+          <common_v51_0:Type>Business</common_v51_0:Type>
+          <common_v51_0:Description>Unsuccessful primary host transaction causing reservation failure.</common_v51_0:Description>
+          <common_v51_0:TransactionId>85A5C7630A0E7DE22339EE9F07827369</common_v51_0:TransactionId>
+          <common_v51_0:TraceId>aea61d182dea2d9afaf9db8eeec0ffb2</common_v51_0:TraceId>
+        </common_v51_0:ErrorInfo>
+      </detail>
+    </SOAP:Fault>
+  </SOAP:Body>
+</SOAP:Envelope>

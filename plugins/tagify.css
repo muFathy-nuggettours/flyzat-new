@@ -1,0 +1,109 @@
+.tagarea {
+	display: none;
+}
+
+.tag-box {
+	list-style: none;
+	padding: 2px;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	border: 1px solid #b9b9b9;
+	box-shadow: inset 1px 1px 2px rgba(0, 0, 0, .1);
+	background: #fcfcfc;
+}
+
+.tag-box li {
+	padding: 0 5px 0 5px;
+}
+
+.tag-box li.tags {
+	background: #eee;
+	border: 1px solid #c8c8c8;
+	margin: 2px;
+	position: relative;
+	max-width: 50vw;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: flex;
+	align-items: center;
+}
+
+.tag-box li.tags span {
+	cursor: pointer;
+}
+
+.tag-box li .input-tag {
+	height: auto;
+	border: 0;
+	background: transparent;
+	box-shadow: initial;
+	vertical-align: middle;
+	height: 32px;
+}
+
+.tag-box-block {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.tag-box-block li {
+	padding: 0;
+}
+
+.tag-box-block li.tags {
+	background: #eee;
+	border: 1px solid #c8c8c8;
+	margin: 0 0 5px 0;
+	position: relative;
+	padding: 5px;
+	min-height: 30px;
+	word-break: break-all;
+	display: flex;
+	align-items: center;
+}
+
+.tag-box-block li.tags span {
+	cursor: pointer;
+	flex-grow: 1;
+}
+
+.tag-box li.tags .remove,
+.tag-box-block li.tags .remove {
+	color: red;
+	cursor: pointer;
+	display: block;
+	font-size: 14px;
+	margin: 0 5px 0 0;
+}
+
+.tag-box:lang(ar) li.tags .remove,
+.tag-box-block:lang(ar) li.tags .remove {
+	margin: 0 0 0 5px;
+}
+
+.tag-box li.tags .remove:after {
+	content: "×";
+}
+
+.tag-box-block li.tags .remove:after {
+	content: "×";
+}
+
+.tag-box-block .ui-sortable-placeholder {
+	visibility: visible !important;
+	background: #fcfcfc !important;
+	border:1px dashed #ccc !important;
+}
+
+li.new-tag {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+	min-height: 30px;
+	padding: 0;
+}

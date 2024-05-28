@@ -1,0 +1,127 @@
+#PREVENT DIRECTORY LISTING & FIX URL PARAMETER ISSUE
+Options -Indexes -MultiViews
+
+#INITIALIZE REWRITE ENGINE
+RewriteEngine On
+
+#----- SET ENVIRONMENT VARIABLES [Edit Production/Development Status Here] -----
+#RewriteRule .* - [E=DEVELOPMENT_FOLDER:_prismatecs/flymix/]
+RewriteRule .* - [E=PANEL_FOLDER:admin]
+RewriteRule .* - [E=TRANSFER_PROTOCOL:https]
+RewriteRule .* - [E=FORCE_WWW:true]
+
+#============ REDIRECTION ==================
+#REDIRECT TO WITHOUT WWW
+RewriteCond %{env:FORCE_WWW} ^false$
+RewriteCond %{HTTP_HOST} ^www\.(.+) [NC]
+RewriteRule ^(.*) %{env:TRANSFER_PROTOCOL}://%1/$1 [NC,L,R=301]
+
+#FORCE WWW
+RewriteCond %{env:FORCE_WWW} ^true$
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ %{env:TRANSFER_PROTOCOL}://www.%{HTTP_HOST}%{REQUEST_URI} [NC,L,R=301]
+
+#FORCE HTTPS
+RewriteCond %{env:TRANSFER_PROTOCOL} ^https$
+RewriteCond %{SERVER_PORT} ^80$
+RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [NC,L,R]
+
+#ADD TRAILER SLASH IF NOT PRESENT
+RewriteCond %{REQUEST_URI} !(/$|\.) 
+RewriteRule (.*) %{REQUEST_URI}/ [NC,L,R=301]
+#==========================================
+#ERROR PAGES
+ErrorDocument 401  /%{env:DEVELOPMENT_FOLDER}broken-link/
+ErrorDocument 404  /%{env:DEVELOPMENT_FOLDER}broken-link/
+#==========================================
+#FOLDER EXCEPTIONS [Allow PHP Direct Access]
+RewriteRule ^plugins/tinymce/.*$ - [NC,L]
+RewriteRule ^mobile/.*$ - [NC,L]
+#==========================================
+#FOLDERS EXCEPTIONS
+RewriteRule	^(.*)/blocks/(.*)$ blocks/$2
+RewriteRule ^(.*)/core/(.*)$ core/$2
+RewriteRule ^(.*)/plugins/(.*)$ plugins/$2
+RewriteRule ^(.*)/plugins/tinymce/(.*)$ plugins/tinymce/$2
+RewriteRule ^(.*)/fonts/(.*)$ fonts/$2
+RewriteRule ^(.*)/images/(.*)$ images/$2
+RewriteRule ^(.*)/modules/(.*)$ modules/$2
+RewriteRule ^(.*)/uploads/(.*)$ uploads/$2
+RewriteRule ^(.*)/website/(.*)$ website/$2
+#============ REWEITE RULES ================
+#STANDARD EXCEPTIONS
+RewriteRule ^(.*)/requests/?$ __requests.php?language=$1	[NC,L]
+RewriteRule ^(.*)/uploader/?$ __uploader.php?language=$1	[NC,L]
+RewriteRule ^requests/?$ __requests.php	[NC,L]
+RewriteRule ^uploader/?$ __uploader.php	[NC,L]
+#==========================================
+#MOBILE
+RewriteRule ^([A-Z]{2}/|)mobile/?$ mobile/index.php?language=$1	[NC,L,QSA]
+RewriteRule ^(.*)/mobile/(.*)$ mobile/$2	[NC,L,QSA]
+#==========================================
+#INDEX
+RewriteRule ^([A-Z]{2}/|)?$ index.php?language=$1	[NC,L]
+#==========================================
+#COMMON
+RewriteRule ^([A-Z]{2}/|)broken-link/?$ 404.php?language=$1	[NC,L]
+RewriteRule ^([A-Z]{2}/|)search/?$ search.php?language=$1	[NC,L,QSA]
+RewriteRule ^([A-Z]{2}/|)sitemap.xml?$ sitemap.php?language=$1	[NC,L]
+#==========================================
+#CORE SECTIONS
+#==========================================
+#WEBSITE SECTIONS
+RewriteRule ^([A-Z]{2}/|)flights/?$ flights.php?language=$1	[NC,L,QSA]
+RewriteRule ^([A-Z]{2}/|)booking/([^/]+)/?$ booking.php?language=$1&id=$2	[NC,L,QSA]
+RewriteRule ^([A-Z]{2}/|)checkout/([^/]+)/?$ checkout.php?language=$1&session=$2	[NC,L,QSA]
+RewriteRule ^([A-Z]{2}/|)checkout-balance/([^/]+)/?$ checkout_balance.php?language=$1&session=$2	[NC,L,QSA]
+RewriteRule ^([A-Z]{2}/|)reservation/([^/]+)/?$ _view_reservation.php?language=$1&id=$2	[NC,L]
+
+RewriteRule ^([A-Z]{2}/|)destinations/?$ destinations.php?language=$1	[NC,L,QSA]
+RewriteRule ^([A-Z]{2}/|)destinations/([^/]+)/?$ destinations.php?language=$1&id=$2	[NC,L]
+
+RewriteRule ^([A-Z]{2}/|)s/?$ seo.php?language=$1	[NC,L,QSA]
+RewriteRule ^([A-Z]{2}/|)s/([^/]+)/?$ seo.php?language=$1&id=$2	[NC,L]
+
+#SEO PAGES
+RewriteRule ^([A-Z]{2}/|)countries/?$ page_countries.php?language=$1				[NC,L,QSA]
+RewriteRule ^([A-Z]{2}/|)countries/([^/]+)/?$ page_countries.php?language=$1&id=$2	[NC,L]
+RewriteRule ^([A-Z]{2}/|)regions/?$ page_regions.php?language=$1					[NC,L,QSA]
+RewriteRule ^([A-Z]{2}/|)regions/([^/]+)/?$ page_regions.php?language=$1&id=$2		[NC,L]
+RewriteRule ^([A-Z]{2}/|)airports/?$ page_airports.php?language=$1					[NC,L,QSA]
+RewriteRule ^([A-Z]{2}/|)airports/([^/]+)/?$ page_airports.php?language=$1&id=$2	[NC,L]
+RewriteRule ^([A-Z]{2}/|)airlines/?$ page_airlines.php?language=$1					[NC,L,QSA]
+RewriteRule ^([A-Z]{2}/|)airlines/([^/]+)/?$ page_airlines.php?language=$1&id=$2	[NC,L]
+RewriteRule ^([A-Z]{2}/|)planes/?$ page_planes.php?language=$1						[NC,L,QSA]
+RewriteRule ^([A-Z]{2}/|)planes/([^/]+)/?$ page_planes.php?language=$1&id=$2		[NC,L]
+
+#USERS
+RewriteRule ^([A-Z]{2}/|)logout/?$ accounts.php?language=$1&action=logout	[NC,L]
+RewriteRule ^([A-Z]{2}/|)login/?$ accounts.php?language=$1&action=login	[NC,L]
+RewriteRule ^([A-Z]{2}/|)signup/?$ accounts.php?language=$1&action=signup	[NC,L]
+RewriteRule ^([A-Z]{2}/|)reset-password/?$ accounts.php?language=$1&action=reset-password	[NC,L]
+RewriteRule ^([A-Z]{2}/|)reset-password/([^/]+)/?$ accounts.php?language=$1&action=reset-password&hash=$2	[NC,L]
+RewriteRule ^([A-Z]{2}/|)user/?$ user.php?language=$1	[NC,L]
+RewriteRule ^([A-Z]{2}/|)user/([^/]+)/?$ user.php?language=$1&page=$2	[NC,L,QSA]
+#==========================================
+#DYNAMIC URL RE-WRITE
+#==========================================
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^([A-Z]{2}/|)(.*)/?$ pages.php?language=$1&canonical=$2	[NC,L,QSA]
+#==========================================
+#PREVENT PHP DIRECT ACCESS [Multiple Languages]
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[/\s?] [NC]
+RewriteRule ^([A-Z]{2})/ 404.php?language=$1 [NC,L]
+
+#PREVENT PHP DIRECT ACCESS [Default Language]
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[/\s?] [NC]
+RewriteRule ^(.*)$ 404.php [NC,L]
+#==========================================
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74___lsphp .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

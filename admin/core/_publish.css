@@ -1,0 +1,279 @@
+body {
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	background-image-resize: 1;
+	/*
+	0 - No resizing (default)
+	1 - Shrink-to-fit w (keep aspect ratio)
+	2 - Shrink-to-fit h (keep aspect ratio)
+	3 - Shrink-to-fit w and/or h (keep aspect ratio)
+	4 - Resize-to-fit w (keep aspect ratio)
+	5 - Resize-to-fit h (keep aspect ratio)
+	6 - Resize-to-fit w and h
+	*/
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img {
+	border: 0;
+	max-width: 100%;
+}
+
+
+/* ===== Copied from Core ===== */
+
+.force-ltr {
+	direction: ltr !important;
+}
+
+.force-rtl {
+	direction: rtl !important;
+}
+
+div.subtitle {
+	font-size: 14px;
+	margin: 10px 0 10px 0;
+	font-weight: bold;
+	color: #505050;
+}
+
+.center-large {
+	text-align: center;
+}
+
+.crud_image {
+	max-width: 100px;
+}
+
+
+/* ===== PDF Standards ===== */
+
+div.title,
+div.alert,
+.hide_pdf {
+	display: none;
+}
+
+
+/* ===== Document Header and Footer ===== */
+
+table.pdf_header {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.pdf_header td {
+	font-size: 12px;
+	vertical-align: bottom;
+	line-height: 1.5;
+}
+
+img.pdf_logo {
+	height: 60px;
+}
+
+table.pdf_footer {
+	width: 100%;
+	border-collapse: collapse;
+	border-top: 1px solid #c8c8c8;
+}
+
+table.pdf_footer td {
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+
+/* ===== Page Header and Footer ===== */
+
+div.pdf_page_header {
+	padding: 5px;
+	background: #eee;
+	border: 1px solid #c8c8c8;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+div.pdf_page_header .pdf_title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+div.pdf_page_header .pdf_subtitle {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+
+/* ===== Data Table ===== */
+
+table.data_table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.data_table tr td.title {
+	width: 15%;
+	padding: 7px;
+	background: #f0f0f0;
+	vertical-align: middle;
+}
+
+table.data_table tr td {
+	padding: 10px;
+	border: 1px solid #c8c8c8;
+	background: #fff;
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+table.data_table tr td:not(.title) {
+	width: 35%;
+}
+
+table.data_table tr td:nth-last-child(1):nth-child(2) {
+	width: 85%;
+}
+
+
+/* ===== Manage Table ===== */
+
+table.manage {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.manage tr th,
+table.manage tr td {
+	border: 1px solid #c8c8c8;
+	padding: 7px;
+	font-size: 12px;
+}
+
+table.manage tr th {
+	background: #dadada;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid #c8c8c8;
+}
+
+table.manage tr:nth-child(even) td {
+	background-color: #f5f5f5;
+}
+
+/* ===== Fancy Table ===== */
+
+table.fancy {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #202020;
+}
+
+table.fancy tr th,
+table.fancy tr td {
+	padding: 7px;
+	font-size: 12px;
+}
+
+table.fancy tr th {
+	background: #202020;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+
+table.fancy tr:nth-child(even) td {
+	background-color: #f5f5f5;
+}
+
+
+/* ===== View Page ===== */
+
+.pdf_section {
+	display: block;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	margin: 10px 0 10px 0;
+	background: #202020;
+}
+
+.info_header {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	background: #f9f9f9;
+	border-radius: 5px;
+}
+
+.header_content_image .info_icon {
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+
+.header_content_image .info_title {
+	margin: -5px 0 0 90px;
+}
+
+.header_content_icon .info_icon {
+	display: none;
+	width: 0;
+	height: 0;
+}
+
+.header_content_icon .info_title {
+	margin: -5px 0 0 0;
+}
+
+.info_header .info_blocks {
+	width: 100%;
+	background: #f4f4f4;
+	padding: 5px;
+	border: 1px solid #e8e8e8;
+	margin-top: 10px;
+}
+
+.info_header .info_blocks .info_block_item {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.info_header .info_blocks .info_block_item p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.info_header .info_blocks .info_block_item span {
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+}
+
+.message {
+	text-align: center;
+	padding: 5px;
+}
+
+.message b {
+	display: block;
+	width: 100%;
+	font-size: 14px;
+}
+
+.message small {
+	display: block;
+	width: 100%;
+	font-size: 13px;
+	color: #606060;
+}

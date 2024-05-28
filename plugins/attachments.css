@@ -1,0 +1,120 @@
+.attachment-button {
+	margin-bottom: 5px;
+	display: flex;
+}
+
+.attachment-button input {
+	display: none;
+}
+
+.attachment-button div {
+	display: none;
+	margin: 0 5px 0 5px;
+	align-items: center;
+}
+
+.attachment-button div i {
+	margin: 0 5px 0 5px;
+	font-size: 18px;
+}
+
+.attachments-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.attachments-list li {
+	float: left;
+	text-align: center;
+	position: relative;
+	margin: 5px 5px 5px 0px;
+}
+
+.attachments-list:lang(ar) li {
+	float: right;
+	margin: 5px 0px 5px 5px;
+}
+
+.attachment-block {
+	width: 165px;
+	height: 170px;
+	background: #f8f8f8;
+	border-radius: 3px;
+	overflow: hidden;
+	border: 1px solid #c8c8c8;
+	position: relative;
+}
+
+.attachment-preview {
+	width: calc(100% - 10px);
+	height: 90px;
+	margin: 5px 5px 0px 5px;
+	border-radius: 3px;
+	overflow: hidden;
+	background: white;
+	border: 1px solid #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.attachment-preview i {
+	font-size: 40px;
+	color: #909090;
+}
+
+.attachment-preview .image {
+	width: 100%;
+	height: 100px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.attachment-details {
+	line-height: 130%;
+	margin: 5px 5px 5px 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 12px;
+}
+
+.attachment-details small {
+	display: block;
+	color: #909090;
+	font-size: 11px;
+	margin-top: 2px;
+}
+
+.attachment-buttons {
+	display: flex;
+	text-align: right;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+.attachment-buttons a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0px 0px 5px;
+	padding: 5px;
+	border-radius: 2px;
+	background: #eee;
+	width: 25px;
+	height: 25px;
+	border: 0;
+	transition: all 0.25s;
+	color: #606060;
+}
+
+.attachment-buttons a:hover {
+	background: #ccc;
+	color: #606060;
+}
+
+td[data-attachments] {
+	padding-bottom: 5px !important;
+}

@@ -1,0 +1,50 @@
+.block_generic_10 {
+	display: block;
+	position: relative;
+	width: 100%;
+	padding-top: 125%;
+	cursor: pointer;
+	font-size: 16px;
+	background: #eee;
+	font-weight: bold;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, .1);
+	overflow: hidden;
+	transition: box-shadow 0.5s !important;
+}
+
+.block_generic_10:hover {
+	box-shadow: 4px 4px 12px rgba(0, 0, 0, .2);
+}
+
+.block_generic_10 .image {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.5s;
+	background-size: cover;
+	background-position: center center;
+}
+
+.block_generic_10:hover .image {
+	transform: scale(1.1);
+}
+
+.block_generic_10 span {
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background: red;
+	padding: 50px 15px 15px 15px;
+	background: rgb(14, 85, 146);
+	background: linear-gradient(0deg, rgba(14, 85, 146, 1) 0%, rgba(14, 85, 146, 0) 100%);
+	color: #fff;
+}
+
+.block_generic_10 small {
+	display: block;
+	color: #eee;
+}

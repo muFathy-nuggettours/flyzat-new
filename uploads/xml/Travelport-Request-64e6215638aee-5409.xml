@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <air:AirPriceReq xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" xmlns:univ="http://www.travelport.com/schema/universal_v51_0" TargetBranch="P3763969" TraceId="c13460014860c292a3a77d4b47bf50e9">
+      <com:BillingPointOfSaleInfo xmlns:com="http://www.travelport.com/schema/common_v51_0" OriginApplication="UAPI"/>
+      <air:AirItinerary>
+        <air:AirSegment ProviderCode="1G" Key="KRXHhnd3nDKAII2zqgAAAA==" Group="0" Carrier="MS" FlightNumber="650" Origin="RUH" Destination="CAI" DepartureTime="2023-12-29T04:00:00.000+03:00" ArrivalTime="2023-12-29T05:55:00.000+02:00" FlightTime="175" Distance="1003" ETicketability="Yes" Equipment="321" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop"/>
+      </air:AirItinerary>
+      <air:AirPricingModifiers CurrencyType="SAR"/>
+      <com:SearchPassenger xmlns:com="http://www.travelport.com/schema/common_v51_0" Code="ADT" Age="51" BookingTravelerRef="NTcwMDAwODQ2NGU2MWI2MGYzOTRjMS42OTg2NTkxOQ=="/>
+      <air:AirPricingCommand/>
+    </air:AirPriceReq>
+  </soapenv:Body>
+</soapenv:Envelope>

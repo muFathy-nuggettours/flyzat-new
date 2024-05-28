@@ -1,0 +1,30 @@
+.scroll-top {
+	width: 40px;
+	height: 40px;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.8;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 5;
+	background: #202020;
+	text-align: center;
+	line-height: 57px;
+	transition: all 0.2s !important;
+}
+
+.scroll-top:hover {
+	opacity: 1;
+}
+
+.scroll-top i {
+	font-size: 34px;
+	color: white;
+}
+
+.scroll-top span:hover {
+	color: #f8f8f8;
+}

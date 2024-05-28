@@ -1,0 +1,29 @@
+.module_expressions .links {
+    list-style: none;
+    column-count: 5;
+    padding: 0;
+	margin: 0;
+}
+
+@media screen and (max-width: 992px) {
+   .module_expressions  .links {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   .module_expressions  .links {
+        column-count: 1;
+    }
+}
+
+.module_expressions .links .link-item {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.module_expressions .navigation .bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

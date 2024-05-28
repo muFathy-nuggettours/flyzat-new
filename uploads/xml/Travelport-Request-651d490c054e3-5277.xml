@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <air:AirPriceReq xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" xmlns:univ="http://www.travelport.com/schema/universal_v51_0" TargetBranch="P3763969" TraceId="d80db72236a220ecb4b8ae9009dc1437">
+      <com:BillingPointOfSaleInfo xmlns:com="http://www.travelport.com/schema/common_v51_0" OriginApplication="UAPI"/>
+      <air:AirItinerary>
+        <air:AirSegment ProviderCode="1G" Key="MGOKTrX3nDKAvz8nsTAAAA==" Group="0" Carrier="NE" FlightNumber="161" Origin="RUH" Destination="CAI" DepartureTime="2024-01-05T09:05:00.000+03:00" ArrivalTime="2024-01-05T10:55:00.000+02:00" FlightTime="170" Distance="1003" ETicketability="Yes" Equipment="734" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cache status used. No polled avail exists." OptionalServicesIndicator="false" AvailabilitySource="H" AvailabilityDisplayType="Fare Shop/Optimal Shop"/>
+      </air:AirItinerary>
+      <air:AirPricingModifiers CurrencyType="SAR"/>
+      <com:SearchPassenger xmlns:com="http://www.travelport.com/schema/common_v51_0" Code="ADT" Age="44" BookingTravelerRef="MjAwMDA0ODQ2NTFkNDkwYjU0Y2FjOS41NzE1NjA5OQ=="/>
+      <air:AirPricingCommand/>
+    </air:AirPriceReq>
+  </soapenv:Body>
+</soapenv:Envelope>

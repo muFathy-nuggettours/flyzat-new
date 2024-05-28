@@ -1,0 +1,54 @@
+/* Copyrights */
+
+.footer .copyrights {
+	background: #0e2133;
+	color: #fefefe;
+}
+
+.footer .copyrights .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer .copyrights .container>div:first-child {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.footer .copyrights .copyrights_links a {
+	display: inline-block;
+	color: #fff;
+}
+
+@media screen and (max-width:576px) {
+	.footer .copyrights .container {
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	.footer .copyrights .copyrights_links {
+		margin-top: 10px;
+		text-align: center;
+	}
+}
+
+
+/* Contact Button */
+
+.live_contact .main_button {
+	background-color: #132d46;
+	border: 6px solid #11233480;
+}
+
+.live_contact .main_button:not(.active):before {
+	background: #132d46;
+}
+
+.live_contact .sub_buttons_container .sub_button {
+	box-shadow: initial;
+	background: #173b5d;
+}
+
+.live_contact .sub_buttons_container .sub_button:hover {
+	background: #1b466e;
+}

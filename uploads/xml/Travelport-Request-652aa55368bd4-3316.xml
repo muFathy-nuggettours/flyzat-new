@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <air:LowFareSearchReq xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:com="http://www.travelport.com/schema/common_v51_0" SolutionResult="false" TargetBranch="P3763969" TraceId="36eee9fe2728ab5a149495ed0888f07f">
+      <com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BRU"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="CAI"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2023-10-30"/>
+        <air:AirLegModifiers>
+          <air:PermittedCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PermittedCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="CAI"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BRU"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2023-11-17"/>
+        <air:AirLegModifiers>
+          <air:PermittedCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PermittedCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers>
+        <air:PreferredProviders>
+          <com:Provider Code="1G"/>
+        </air:PreferredProviders>
+      </air:AirSearchModifiers>
+      <com:SearchPassenger Code="ADT" Age="30"/>
+      <com:SearchPassenger Code="ADT" Age="30"/>
+      <com:SearchPassenger Code="ADT" Age="30"/>
+      <com:SearchPassenger Code="ADT" Age="30"/>
+      <air:AirPricingModifiers CurrencyType="SAR"/>
+    </air:LowFareSearchReq>
+  </soapenv:Body>
+</soapenv:Envelope>

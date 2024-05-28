@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <air:AirPriceReq xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" xmlns:univ="http://www.travelport.com/schema/universal_v51_0" TargetBranch="P3763969" TraceId="aea61d182dea2d9afaf9db8eeec0ffb2">
+      <com:BillingPointOfSaleInfo xmlns:com="http://www.travelport.com/schema/common_v51_0" OriginApplication="UAPI"/>
+      <air:AirItinerary>
+        <air:AirSegment ProviderCode="1G" Key="7Q40E+OEuDKA5ZIPiAAAAA==" Group="0" Carrier="EK" FlightNumber="117" Origin="DXB" Destination="IST" DepartureTime="2024-05-17T18:00:00.000+04:00" ArrivalTime="2024-05-17T21:35:00.000+03:00" FlightTime="275" Distance="1870" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop"/>
+      </air:AirItinerary>
+      <air:AirPricingModifiers CurrencyType="SAR"/>
+      <com:SearchPassenger xmlns:com="http://www.travelport.com/schema/common_v51_0" Code="ADT" Age="29" BookingTravelerRef="OTEwMDAzOTI2NjQ3MTA2OTdhNjIzNi42MDgyOTQ4MQ=="/>
+      <air:AirPricingCommand/>
+    </air:AirPriceReq>
+  </soapenv:Body>
+</soapenv:Envelope>

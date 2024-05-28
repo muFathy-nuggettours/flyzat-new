@@ -1,0 +1,392 @@
+/* ========== Theme ========== */
+
+
+/* 0c1a26 > 0e2133 > 10263b > 112b44 > 143350 */
+/* 112334 > 132d46 > 163451 > 173b5d > 1b466e */
+/* 173047 > 1a3e60 > 1e476f > 20517f > 256096 */
+
+
+/* ========== Scrollbar ========== */
+
+body::-webkit-scrollbar-thumb {
+	background-color: #112334;
+}
+
+
+/* ========== Loading ========== */
+
+#page-loading {
+	background: rgba(255, 255, 255, .9);
+	text-shadow: initial;
+	color: #163451;
+	font-size: 14px;
+	flex-direction: column;
+}
+
+body.body #page-loading {
+	display: flex;
+}
+
+.lds-ellipsis {
+	display: inline-block;
+	position: relative;
+	width: 80px;
+	height: 80px;
+}
+
+.lds-ellipsis div {
+	position: absolute;
+	top: 33px;
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+	background: #0e2133;
+	left: 8px;
+	animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+	background: #10263b;
+	left: 8px;
+	animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+	background: #112b44;
+	left: 32px;
+	animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+	background: #143350;
+	left: 56px;
+	animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes lds-ellipsis3 {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(0);
+	}
+}
+
+@keyframes lds-ellipsis2 {
+	0% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(24px, 0);
+	}
+}
+
+
+/* ==== Login Page ==== */
+
+.login_side {
+	background: #132d46;
+	background: linear-gradient(-45deg, #112334 0%, #163451dd 100%), url(../images/menu.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+
+/* ========== Panel Theme ========== */
+
+.header {
+	background: #112334;
+	background: linear-gradient(135deg, #112334 0%, #173047 100%);
+}
+
+.welcome_module .user_welcome {
+	background: #112334 !important;
+	background: linear-gradient(135deg, #112334 0%, #173047 100%) !important;
+}
+
+
+/* ==== Side Menu Container ==== */
+
+.menu-container {
+	background: #132d46;
+	background: linear-gradient(-45deg, #112334 0%, #163451dd 100%), url(../images/menu.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+
+/* ==== Side Menu Icons ==== */
+
+.side-panel div.separator {
+	padding: 5px;
+	text-shadow: initial;
+	color: #173b5d;
+	background: transparent;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.side-panel .panel-heading img {
+	filter: contrast(0) brightness(190%) grayscale(1);
+}
+
+.side-panel ul.icons_container:before {
+	background: #173b5d20;
+}
+
+.side-panel div.index_button:hover {
+	background: #173b5d08;
+}
+
+.side-panel li.active div.index_button {
+	background: #1b466e15;
+	color: #1b466e;
+}
+
+
+/* ==== Index Icons  ==== */
+
+.menu-panel div.separator {
+	background: linear-gradient(135deg, #173b5d 0%, #163451 100%);
+}
+
+
+/* ========== Page Titles ========== */
+
+
+/* Inline Page Title */
+
+body.inline div.title {
+	background: #173b5d;
+	background: linear-gradient(-45deg, #173b5d 0%, #163451 100%);
+}
+
+
+/* Page Subtitles */
+
+.page_subtitle,
+.subtitle {
+	color: #112334;
+}
+
+
+/* ===== View IFrame Page ===== */
+
+.tab-inline-header li.active a {
+	background: #112334;
+	background: linear-gradient(-45deg, #163451 0%, #173b5d 100%);
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, .2);
+}
+
+
+/* ========== Inputs ========== */
+
+
+/* Inputs */
+
+input[list]:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=file]:focus,
+input[type=email]:focus,
+input[type=date]:focus,
+input[type=time]:focus,
+textarea:focus,
+select:focus,
+input.form-control:focus,
+.select2-selection[aria-expanded=true] {
+	border-color: #163451 !important;
+	box-shadow: 0 0 0 4px #16345120;
+}
+
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	box-shadow: 0 0 0 4px #16345120, inset 0 0 0 100px #fcfcfc;
+}
+
+.radio_container [type="radio"]:checked+span:after,
+.radio_container [type="radio"].with-gap:checked+span:before,
+.radio_container [type="radio"].with-gap:checked+span:after {
+	border: 1px solid #163451;
+}
+
+.radio_container [type="radio"]:checked+span:after,
+.radio_container [type="radio"].with-gap:checked+span:after {
+	background-color: #163451;
+}
+
+.check_container [type="checkbox"]:checked+span:after {
+	background-color: #163451;
+}
+
+.switch label input[type=checkbox]:checked+.lever {
+	background-color: #16345180;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+	background-color: #163451;
+}
+
+/* Range Slider */
+
+input[type=range].range_slider::-webkit-slider-thumb {
+	background: #163451;
+}
+
+
+input[type=range].range_slider::-moz-range-thumb {
+	background: #163451;
+}
+
+/* Bootstrap Slider */
+
+.slider-handle {
+	background: #163451 !important;
+}
+
+.slider-selection {
+	background: #132d46 !important;
+}
+
+
+/* Wizard */
+
+.wizard li.active span.round-tab {
+	border: 2px solid #132d46 !important;
+}
+
+.wizard li.active span.round-tab i {
+	color: #132d46 !important;
+}
+
+.wizard li:after {
+	border-bottom-color: #132d46 !important;
+}
+
+.wizard li.active:after {
+	border-bottom-color: #132d46 !important;
+}
+
+.tab-title-container {
+	background: #132d46 !important;
+}
+
+
+/* Button Primary */
+
+.btn:not(.btn-default) {
+	border-color: transparent !important;
+}
+
+.btn-primary {
+	background-color: #163451;
+	box-shadow: 2px 2px 6px -2px rgba(0, 0, 0, .1);
+	transition: all 0.25s;
+}
+
+.btn-primary:hover {
+	background-color: #173b5d;
+	border-color: transparent;
+	box-shadow: 2px 2px 6px -2px rgba(0, 0, 0, .4);
+}
+
+.btn-danger,
+.btn-success,
+.btn-warning,
+.btn-info {
+	border-color: transparent;
+	box-shadow: 2px 2px 6px -2px rgba(0, 0, 0, .1);
+	transition: all 0.25s;
+}
+
+.btn-danger:hover,
+.btn-success:hover,
+.btn-warning:hover,
+.btn-info:hover {
+	border-color: transparent;
+	box-shadow: 2px 2px 6px -2px rgba(0, 0, 0, .4);
+}
+
+fieldset[disabled] .btn-primary:hover,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary.focus,
+.open>.dropdown-toggle.btn-primary,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open>.dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open>.dropdown-toggle.btn-primary.focus {
+	background-color: #132d46;
+}
+
+
+/* Fancy Table */
+
+table.fancy tr th {
+	background: #132d46;
+	border-color: #132d46 !important;
+}
+
+table.fancy tr td {
+	border-color: #132d46;
+}
+
+
+/* Panels */
+
+.panel-primary {
+	border-color: #132d46;
+}
+
+.panel-primary>.panel-heading {
+	background-color: #132d46;
+	border-color: #132d46;
+}
+
+
+/* Pagination */
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+	background-color: #132d46;
+	border-color: #132d46;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+	color: #132d46;
+}

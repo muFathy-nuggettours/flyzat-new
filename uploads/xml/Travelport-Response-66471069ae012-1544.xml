@@ -1,0 +1,792 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <air:AirPriceRsp xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" TraceId="aea61d182dea2d9afaf9db8eeec0ffb2" TransactionId="85981C480A0E7DF3254682091AABCCB6" ResponseTime="148">
+      <common_v51_0:ResponseMessage Code="710401" Type="Warning" ProviderCode="1G">Taxes returned at the FareInfo level are for informational purposes only, and may differ from those returned at the Itinerary/Passenger Type levels.</common_v51_0:ResponseMessage>
+      <air:AirItinerary>
+        <air:AirSegment Key="41/vE+z3nDKAZ5TlkAAAAA==" Group="0" Carrier="EK" FlightNumber="117" ProviderCode="1G" Origin="DXB" Destination="IST" DepartureTime="2024-05-17T18:00:00.000+04:00" ArrivalTime="2024-05-17T21:35:00.000+03:00" FlightTime="275" TravelTime="275" Distance="1870" ClassOfService="K" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="EK">Emirates</air:CodeshareInfo>
+          <air:FlightDetails Key="41/vE+z3nDKAa5TlkAAAAA==" Origin="DXB" Destination="IST" DepartureTime="2024-05-17T18:00:00.000+04:00" ArrivalTime="2024-05-17T21:35:00.000+03:00" FlightTime="275" TravelTime="275" Distance="1870"/>
+        </air:AirSegment>
+      </air:AirItinerary>
+      <air:AirPriceResult>
+        <air:AirPricingSolution Key="41/vE+z3nDKAb5TlkAAAAA==" TotalPrice="SAR2087.00" BasePrice="AED1630" ApproximateTotalPrice="SAR2087.00" ApproximateBasePrice="SAR1667.00" EquivalentBasePrice="SAR1667.00" Taxes="SAR420.00" Fees="SAR0.00" ApproximateTaxes="SAR420.00" QuoteDate="2024-05-17">
+          <air:AirSegmentRef Key="41/vE+z3nDKAZ5TlkAAAAA=="/>
+          <air:AirPricingInfo Key="41/vE+z3nDKAe5TlkAAAAA==" TotalPrice="SAR2087.00" BasePrice="AED1630" ApproximateTotalPrice="SAR2087.00" ApproximateBasePrice="SAR1667.00" EquivalentBasePrice="SAR1667.00" ApproximateTaxes="SAR420.00" Taxes="SAR420.00" LatestTicketingTime="2024-05-17T23:59:00.000+03:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="EK" ProviderCode="1G">
+            <air:FareInfo Key="41/vE+z3nDKAl5TlkAAAAA==" FareBasis="KLSOSAE1" PassengerTypeCode="ADT" Origin="DXB" Destination="IST" EffectiveDate="2024-05-17T11:08:00.000+03:00" DepartureDate="2024-05-17" Amount="SAR1667.00" NegotiatedFare="false" NotValidBefore="2024-05-17" NotValidAfter="2024-05-17" TaxAmount="SAR420.00">
+              <common_v51_0:Endorsement Value="NON-END/FLEX"/>
+              <air:FareRuleKey FareInfoRef="41/vE+z3nDKAl5TlkAAAAA==" ProviderCode="1G">6UUVoSldxwg8JjzGM92PRcbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxsq9Xrmw+DmxWa1uaqI55k3aSkvhp2ybVmKBOxSAM95++8SawF6WvfAyGqh8JIaqMKMlHloE21CEdOA3K37KQGmjH21zKfkxOr/bRGkSYBeVvL0gTWvGVKnsahilB5/WBia1cyyGgjaO0bQwVLa4rinSPrp27jtp4B1xjSbRrjKTicpvYbmY4XJPs4I6wnaTmCyQuQMLevvir5wkVQHOuKXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dc3mNX1GvOry3EdbqPPDZRsBAkLPMThzJF0L4212SLyvA6k3aPuZSNe5f5u0G60EiMiuywXvCVMo=</air:FareRuleKey>
+              <air:Brand Key="41/vE+z3nDKAl5TlkAAAAA==" BrandID="1354478" UpSellBrandID="1354483" Name="Economy Flex" Carrier="EK" BrandTier="0003">
+                <air:Title Type="External" LanguageCode="EN">Economy Flex</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">EcoFlex</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Flex includes:
+
+&#x2022; Free seat selection and paid seat selection
+&#x2022; Earn 0.7 Skywards Mile for every mile flown
+&#x2022; Checked baggage allowance
+&#x2022; Cabin baggage 1 bag up to 7kg
+&#x2022; Regional multicourse dining
+&#x2022; Complimentary alcoholic and non-alcoholic drinks
+&#x2022; Up to 5,000 channels of entertainment
+&#x2022; Free unlimited online chat messaging for Emirates Skywards Gold members 
+&#x2022; Buy great value Wi-Fi plans
+&#x2022; Changes permitted for a fee 
+&#x2022; Refunds permitted for a fee
+
+Please refer to the terms and conditions of the fare
+&#x2022; Please note that if the flight is operated by another airline then the onboard product or service will vary. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+                <air:Text Type="Upsell" LanguageCode="EN">Economy Flex lets you choose your seats for free, and you can enjoy more baggage allowance and more flexibility to change your booking.</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Flex includes:
+
+&#x2022; Free seat selection and paid seat selection
+&#x2022; Earn 0.7 Skywards Mile for every mile flown
+&#x2022; Checked baggage allowance
+&#x2022; Cabin baggage 1 bag up to 7kg
+&#x2022; Regional multicourse dining
+&#x2022; Complimentary alcoholic and non-alcoholic drinks
+&#x2022; Up to 5,000 channels of entertainment
+&#x2022; Free unlimited online chat messaging for Emirates Skywards Gold members 
+&#x2022; Buy great value Wi-Fi plans
+&#x2022; Changes permitted for a fee 
+&#x2022; Refunds permitted for a fee
+
+Please refer to the terms and conditions of the fare
+&#x2022; Please note that if the flight is operated by another airline then the onboard product or service will vary. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Includes rebooking or refunds against a fee, and seat reservation</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="99">https://cdn.travelport.com/emirates/EK_general_medium_281052.JPG</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="99">https://cdn.travelport.com/emirates/EK_general_medium_281052.JPG</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAn5TlkAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="41/vE+z3nDKAq5TlkAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Checked Baggage 30kgs</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101923.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101923.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Check in your bags for extra convenience</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Checked Baggage 30kgs</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Checked Baggage 30kgs</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kgs</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Y,1,30,BAG</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAr5TlkAAAAA==" SecondaryType="CY" Chargeable="Included in the brand" OptionalServicesRuleRef="41/vE+z3nDKAs5TlkAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Hand Luggage</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101946.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101946.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Your cabin baggage allowance depends on which cabin class you're flying in.
+
+Emirates First Class and Business Class customers can carry two pieces of carry-on baggage: one briefcase plus either one handbag or one garment bag. 
+
+Emirates Economy Class customers are permitted one piece of carry-on baggage - either a handbag or laptop bag.
+
+You can find out more on the Emirates website.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Your cabin baggage allowance depends on which cabin class you're flying in.
+
+Emirates First Class and Business Class customers can carry two pieces of carry-on baggage: one briefcase plus either one handbag or one garment bag. 
+
+Emirates Economy Class customers are permitted one piece of carry-on baggage - either a handbag or laptop bag.
+
+You can find out more on the Emirates website.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Hand Luggage</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Hand Lugg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-05-17T08:08:09.690+00:00" ServiceSubCode="056" Key="41/vE+z3nDKAt5TlkAAAAA==" SecondaryType="RF" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>REFUNDABLE TICKET</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-05-17T08:08:09.690+00:00" ServiceSubCode="059" Key="41/vE+z3nDKAu5TlkAAAAA==" SecondaryType="VC" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>CHANGEABLE TICKET</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                  </air:OptionalService>
+                  <air:OptionalService Type="RuleOverride" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAv5TlkAAAAA==" SecondaryType="31" Chargeable="Available for a charge" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Changes</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101947.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101947.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Making changes to your reservation</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">All Flex Plus fares on Emirates are entitled to free changes and are fully refundable. Please refer to the fares rules for further details on Special, Saver and Flex terms and conditions.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">All Flex Plus fares on Emirates are entitled to free changes and are fully refundable. Please refer to the fares rules for further details on Special, Saver and Flex terms and conditions.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Changes</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Changes</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="RuleOverride" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAw5TlkAAAAA==" SecondaryType="33" Chargeable="Available for a charge" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refundable</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101948.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101948.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Flexibility when you need it</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">All Flex Plus fares on Emirates are entitled to free changes and and are fully refundable. Please refer to the fares rules for further details on Special, Saver and Flex terms and conditions.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">All Flex Plus fares on Emirates are entitled to free changes and and are fully refundable. Please refer to the fares rules for further details on Special, Saver and Flex terms and conditions.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Refundable</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAx5TlkAAAAA==" Chargeable="Included in the brand" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Seat Assignment</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101928.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101928.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pre assign your preferred seat in advance</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Seat Selection. Refer to Fare Quote for applicability.
+
+Please note that if the flight is operated by another airline then the options to pre assign seats might be different. Information may differ for customized fare offering.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Seat Selection. Refer to Fare Quote for applicability.
+
+Please note that if the flight is operated by another airline then the options to pre assign seats might be different. Information may differ for customized fare offering.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Seat Assignment</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Seats</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-05-17T08:08:09.690+00:00" ServiceSubCode="" Key="41/vE+z3nDKAy5TlkAAAAA==" Chargeable="Not offered" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Seat selection 48hrs prior</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101928.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101928.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Seat selection 48hrs prior</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Seat selection 48hrs prior for Business Special fare.
+If you are travelling on a Business Special fare you can select a complimentary seat when check&#x2011;in opens 48 hours before you fly. Skywards Platinum members can select their seat anytime.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Seat selection 48hrs prior for Business Special fare.
+If you are travelling on a Business Special fare you can select a complimentary seat when check&#x2011;in opens 48 hours before you fly. Skywards Platinum members can select their seat anytime.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Seat selection 48hrs prior</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">SA 48hrs</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-05-17T08:08:09.690+00:00" ServiceSubCode="" Key="41/vE+z3nDKAz5TlkAAAAA==" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meals and beverages</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_102091.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_102091.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:Text Type="Strapline" LanguageCode="EN">On board catering</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Meals and beverages</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Meals and beverages</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Meals and beverages</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Meals</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKA25TlkAAAAA==" Chargeable="Included in the brand" Tag="In Flight Entertainment" DisplayOrder="11">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>ICE entertainment</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101937.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101937.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Movies, TV and so much more</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Choose from over 2,500 channels of movies, TV shows, music and games, on demand and in multiple languages.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Choose from over 2,500 channels of movies, TV shows, music and games, on demand and in multiple languages.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">ICE entertainment</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">ICE</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKA35TlkAAAAA==" SecondaryType="IT" Chargeable="Included in the brand" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Wi-Fi in the sky</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101943.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101943.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Connecting you in the sky</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">It&#x2019;s free to blog, post or tweet from your seat on all of our A380 and select Boeing 777 aircraft. Enjoy 10MB of free data (that&#x2019;s enough to search, send emails and update Facebook). You can also pay just USD 1 to use up to 500MB, meaning you can stay connected throughout your flight.*
+
+*Wi-Fi isn&#x2019;t available on our A330 and A340 aircraft.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">It&#x2019;s free to blog, post or tweet from your seat on all of our A380 and select Boeing 777 aircraft. Enjoy 10MB of free data (that&#x2019;s enough to search, send emails and update Facebook). You can also pay just USD 1 to use up to 500MB, meaning you can stay connected throughout your flight.*
+
+*Wi-Fi isn&#x2019;t available on our A330 and A340 aircraft.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Wi-Fi in the sky</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">WiFi</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="FrequentFlyer" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKA45TlkAAAAA==" SecondaryType="MG" Chargeable="Included in the brand" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Mileage Accrual</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101950.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101950.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Earn and save</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">The number of Miles you earn depends on the fare type you choose: Special, Saver, Flex or Flex Plus.
+
+Economy
+Special 25%  flown miles earned
+Saver 35% Flown miles earned
+Flex 70% flown miles earned
+Flex Plus 100% flown miles earned
+
+Business
+Special 100% flown miles earned
+Saver 125% flown miles earned
+Flex 175% flown miles earned
+Flex Plus 190% flown miles earned
+
+All First Class fares earn 250% miles</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">The number of Miles you earn depends on the fare type you choose: Special, Saver, Flex or Flex Plus.
+
+Economy
+Special 25%  flown miles earned
+Saver 35% Flown miles earned
+Flex 70% flown miles earned
+Flex Plus 100% flown miles earned
+
+Business
+Special 100% flown miles earned
+Saver 125% flown miles earned
+Flex 175% flown miles earned
+Flex Plus 190% flown miles earned
+
+All First Class fares earn 250% miles</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Mileage Accrual</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Mileage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="GroundTransportation" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKA55TlkAAAAA==" SecondaryType="LI" Chargeable="Not offered" Tag="Chauffeur Transfer" DisplayOrder="18">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Chauffeur Drive</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101932.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101932.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Starting your journey in style</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Make the most of every moment on your journey when you fly in Emirates
+
+First Class or Business Class by booking our complimentary Chauffeur-drive service. We&#x2019;ll collect you from your door and, when you land, we&#x2019;ll be there to take you to your final destination. Enjoy our exclusive Chauffeur-drive service in over 70 cities worldwide - simply book online in advance.
+
+*Complimentary Chauffeur Drive service on certain itineraries with flights operated by Emirates are subject to T&amp;C. Please refer www.emirates.com for details.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Make the most of every moment on your journey when you fly in Emirates
+
+First Class or Business Class by booking our complimentary Chauffeur-drive service. We&#x2019;ll collect you from your door and, when you land, we&#x2019;ll be there to take you to your final destination. Enjoy our exclusive Chauffeur-drive service in over 70 cities worldwide - simply book online in advance.
+
+*Complimentary Chauffeur Drive service on certain itineraries with flights operated by Emirates are subject to T&amp;C. Please refer www.emirates.com for details.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Chauffeur Drive</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">CDRIVE</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKA65TlkAAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge Access</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101951.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101951.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Relax away from the crowds</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Emirates lounges offer respite on the road with gourmet buffets, a la carte meals and fresh juice bars. 
+
+You can take some time for yourself with a soothing spa, massage or beauty treatment while you wait for your flight. 
+
+You ll find our lounges at over 30 airports worldwide.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Emirates lounges offer respite on the road with gourmet buffets, a la carte meals and fresh juice bars. 
+
+You can take some time for yourself with a soothing spa, massage or beauty treatment while you wait for your flight. 
+
+You ll find our lounges at over 30 airports worldwide.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge Access</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Lounge</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKA75TlkAAAAA==" SecondaryType="CI" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Check in</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101941.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101941.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Check in at a separate exclusive zone</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Emirates Skywards members can check in at dedicated counters at all airports in our network, and our Silver, Gold and Platinum members are invited to board early.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Emirates Skywards members can check in at dedicated counters at all airports in our network, and our Silver, Gold and Platinum members are invited to board early.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Check in</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Priority</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKA85TlkAAAAA==" SecondaryType="FT" Chargeable="Not offered" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Fast Track</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101934.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101934.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Avoid the queues</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Speed through immigration at most airports. We give you a fast track card when you fly in Emirates First Class or Business Class, or if you&#x2019;re an Emirates Skywards Gold or Platinum member.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Speed through immigration at most airports. We give you a fast track card when you fly in Emirates First Class or Business Class, or if you&#x2019;re an Emirates Skywards Gold or Platinum member.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Fast Track</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Fast Track</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalServiceRules Key="41/vE+z3nDKAq5TlkAAAAA==">
+                    <common_v51_0:Remarks>Y,1,KG,30,BAG</common_v51_0:Remarks>
+                  </air:OptionalServiceRules>
+                  <air:OptionalServiceRules Key="41/vE+z3nDKAs5TlkAAAAA==">
+                    <common_v51_0:Remarks>Y,X,X,X,CY - W20,H38,L55,CM</common_v51_0:Remarks>
+                  </air:OptionalServiceRules>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="K" CabinClass="Economy" FareInfoRef="41/vE+z3nDKAl5TlkAAAAA==" SegmentRef="41/vE+z3nDKAZ5TlkAAAAA==" HostTokenRef="41/vE+z3nDKAc5TlkAAAAA=="/>
+            <air:TaxInfo Category="AE" Amount="SAR77.00" Key="41/vE+z3nDKAg5TlkAAAAA=="/>
+            <air:TaxInfo Category="F6" Amount="SAR41.00" Key="41/vE+z3nDKAh5TlkAAAAA=="/>
+            <air:TaxInfo Category="TP" Amount="SAR6.00" Key="41/vE+z3nDKAi5TlkAAAAA=="/>
+            <air:TaxInfo Category="ZR" Amount="SAR6.00" Key="41/vE+z3nDKAj5TlkAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR290.00" Key="41/vE+z3nDKAk5TlkAAAAA=="/>
+            <air:FareCalc>DXB EK IST 443.80KLSOSAE1 NUC443.80END ROE3.67275</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="29"/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR245.00</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR378.00</air:Amount>
+            </air:CancelPenalty>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="DXB" Destination="IST" Carrier="EK">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/EK</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>30K</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="DXB" Destination="IST" Carrier="EK">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="AED0" ApproximateBasePrice="SAR0.00" TotalPrice="AED0" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+          <air:FareNote Key="41/vE+z3nDKAA6TlkAAAAA==">RATE USED IN EQU TOTAL IS BSR 1AED - 1.02274419SAR</air:FareNote>
+          <air:FareNote Key="41/vE+z3nDKAB6TlkAAAAA==">LAST DATE TO PURCHASE TICKET: 17MAY24</air:FareNote>
+          <air:FareNote Key="41/vE+z3nDKAC6TlkAAAAA==">TICKETING AGENCY 36X1</air:FareNote>
+          <air:FareNote Key="41/vE+z3nDKAD6TlkAAAAA==">DEFAULT PLATING CARRIER EK</air:FareNote>
+          <air:FareNote Key="41/vE+z3nDKAE6TlkAAAAA==">FARE HAS A PLATING CARRIER RESTRICTION</air:FareNote>
+          <air:FareNote Key="41/vE+z3nDKAF6TlkAAAAA==">E-TKT REQUIRED</air:FareNote>
+          <air:FareNote Key="41/vE+z3nDKAG6TlkAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+          <common_v51_0:HostToken Key="41/vE+z3nDKAc5TlkAAAAA==">GFB10101ADT00  01KLSOSAE1                              010001#GFB200010101NADTV3022AE100010002499#GFMCXOX022NAE10 EK ADTKLSOSAE1</common_v51_0:HostToken>
+        </air:AirPricingSolution>
+        <air:AirPricingSolution Key="41/vE+z3nDKAH6TlkAAAAA==" TotalPrice="SAR3223.00" BasePrice="AED2740" ApproximateTotalPrice="SAR3223.00" ApproximateBasePrice="SAR2803.00" EquivalentBasePrice="SAR2803.00" Taxes="SAR420.00" Fees="SAR0.00" ApproximateTaxes="SAR420.00" QuoteDate="2024-05-17">
+          <air:AirSegmentRef Key="41/vE+z3nDKAZ5TlkAAAAA=="/>
+          <air:AirPricingInfo Key="41/vE+z3nDKAJ6TlkAAAAA==" TotalPrice="SAR3223.00" BasePrice="AED2740" ApproximateTotalPrice="SAR3223.00" ApproximateBasePrice="SAR2803.00" EquivalentBasePrice="SAR2803.00" ApproximateTaxes="SAR420.00" Taxes="SAR420.00" LatestTicketingTime="2024-05-17T23:59:00.000+03:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="EK" ProviderCode="1G">
+            <air:FareInfo Key="41/vE+z3nDKAP6TlkAAAAA==" FareBasis="XLOWFAE1" PassengerTypeCode="ADT" Origin="DXB" Destination="IST" EffectiveDate="2024-05-17T11:08:00.000+03:00" DepartureDate="2024-05-17" Amount="SAR2803.00" NegotiatedFare="false" TaxAmount="SAR420.00">
+              <air:FareRuleKey FareInfoRef="41/vE+z3nDKAP6TlkAAAAA==" ProviderCode="1G">6UUVoSldxwg8JjzGM92PRcbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxsq9Xrmw+DmxWa1uaqI55k3aSkvhp2ybT+/e34q1JGrBdgrMn/Nt5LAyGqh8JIaqI87V5A1Tr0YqUjF9bzY3aSmjH21zKfkxOr/bRGkSYBeVvL0gTWvGVKnsahilB5/WBia1cyyGgjaO0bQwVLa4rinSPrp27jtp4B1xjSbRrjKTicpvYbmY4XJPs4I6wnaTprJ0HqKNh+0ir5wkVQHOuKXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dc3mNX1GvOry3EdbqPPDZRsBAkLPMThzJF0L4212SLyvA6k3aPuZSNe5f5u0G60EiMiuywXvCVMo=</air:FareRuleKey>
+              <air:Brand Key="41/vE+z3nDKAP6TlkAAAAA==" BrandID="1354483" Name="Economy Flex Plus" UpSellBrandFound="false" Carrier="EK" BrandTier="0004">
+                <air:Title Type="External" LanguageCode="EN">Economy Flex Plus</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">EcoFlxPlus</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Flex Plus includes:
+
+&#x2022; Free seat selection and paid seat selection
+&#x2022; Earn 1 Skywards Mile for every mile flown
+&#x2022; Checked baggage allowance
+&#x2022; Cabin baggage 1 bag up to 7kg
+&#x2022; Regional multicourse dining
+&#x2022; Complimentary alcoholic and non-alcoholic drinks
+&#x2022; Up to 5,000 channels of entertainment
+&#x2022; Free unlimited online chat messaging for Emirates Skywards Gold members 
+&#x2022; Buy great value Wi-Fi plans
+&#x2022; Eligible to upgrade with Skywards Miles 
+&#x2022; Changes permitted free of charge
+&#x2022; Fully refundable
+
+Please refer to the terms and conditions of the fare
+&#x2022; Please note that if the flight is operated by another airline then the onboard product or service will vary. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+                <air:Text Type="Upsell" LanguageCode="EN">Upgrade to Economy Flex Plus to enjoy the full flexibility to make changes to your booking, enjoy more baggage allowance, choose your seats for free, and earn more Skywards Miles.</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Flex Plus includes:
+
+&#x2022; Free seat selection and paid seat selection
+&#x2022; Earn 1 Skywards Mile for every mile flown
+&#x2022; Checked baggage allowance
+&#x2022; Cabin baggage 1 bag up to 7kg
+&#x2022; Regional multicourse dining
+&#x2022; Complimentary alcoholic and non-alcoholic drinks
+&#x2022; Up to 5,000 channels of entertainment
+&#x2022; Free unlimited online chat messaging for Emirates Skywards Gold members 
+&#x2022; Buy great value Wi-Fi plans
+&#x2022; Eligible to upgrade with Skywards Miles 
+&#x2022; Changes permitted free of charge
+&#x2022; Fully refundable
+
+Please refer to the terms and conditions of the fare
+&#x2022; Please note that if the flight is operated by another airline then the onboard product or service will vary. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">The fully flexible fare</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="99">https://cdn.travelport.com/emirates/EK_general_medium_281052.JPG</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="99">https://cdn.travelport.com/emirates/EK_general_medium_281052.JPG</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAQ6TlkAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="41/vE+z3nDKAR6TlkAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Checked Baggage 35kgs</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101926.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101926.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Check in your bags for extra convenience</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Checked Baggage 35kgs</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Checked Baggage 35kgs</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Checked Baggage 35kgs</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Y,X,35,BAG</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAS6TlkAAAAA==" SecondaryType="CY" Chargeable="Included in the brand" OptionalServicesRuleRef="41/vE+z3nDKAT6TlkAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Hand Luggage</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101946.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101946.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Your cabin baggage allowance depends on which cabin class you're flying in.
+
+Emirates First Class and Business Class customers can carry two pieces of carry-on baggage: one briefcase plus either one handbag or one garment bag. 
+
+Emirates Economy Class customers are permitted one piece of carry-on baggage - either a handbag or laptop bag.
+
+You can find out more on the Emirates website.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Your cabin baggage allowance depends on which cabin class you're flying in.
+
+Emirates First Class and Business Class customers can carry two pieces of carry-on baggage: one briefcase plus either one handbag or one garment bag. 
+
+Emirates Economy Class customers are permitted one piece of carry-on baggage - either a handbag or laptop bag.
+
+You can find out more on the Emirates website.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Hand Luggage</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Hand Lugg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-05-17T08:08:09.690+00:00" ServiceSubCode="056" Key="41/vE+z3nDKAU6TlkAAAAA==" SecondaryType="RF" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>REFUNDABLE TICKET</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-05-17T08:08:09.690+00:00" ServiceSubCode="059" Key="41/vE+z3nDKAV6TlkAAAAA==" SecondaryType="VC" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>CHANGEABLE TICKET</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                  </air:OptionalService>
+                  <air:OptionalService Type="RuleOverride" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAY6TlkAAAAA==" SecondaryType="31" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Changes</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101947.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101947.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Making changes to your reservation</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">All Flex Plus fares on Emirates are entitled to free changes and are fully refundable. Please refer to the fares rules for further details on Special, Saver and Flex terms and conditions.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">All Flex Plus fares on Emirates are entitled to free changes and are fully refundable. Please refer to the fares rules for further details on Special, Saver and Flex terms and conditions.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Changes</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Changes</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="RuleOverride" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAZ6TlkAAAAA==" SecondaryType="33" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refundable</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101948.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101948.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Flexibility when you need it</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">All Flex Plus fares on Emirates are entitled to free changes and and are fully refundable. Please refer to the fares rules for further details on Special, Saver and Flex terms and conditions.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">All Flex Plus fares on Emirates are entitled to free changes and and are fully refundable. Please refer to the fares rules for further details on Special, Saver and Flex terms and conditions.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Refundable</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAa6TlkAAAAA==" Chargeable="Included in the brand" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Seat Assignment</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101928.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101928.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pre assign your preferred seat in advance</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Seat Selection. Refer to Fare Quote for applicability.
+
+Please note that if the flight is operated by another airline then the options to pre assign seats might be different. Information may differ for customized fare offering.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Seat Selection. Refer to Fare Quote for applicability.
+
+Please note that if the flight is operated by another airline then the options to pre assign seats might be different. Information may differ for customized fare offering.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Seat Assignment</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Seats</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-05-17T08:08:09.690+00:00" ServiceSubCode="" Key="41/vE+z3nDKAb6TlkAAAAA==" Chargeable="Not offered" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Seat selection 48hrs prior</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101928.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101928.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Seat selection 48hrs prior</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Seat selection 48hrs prior for Business Special fare.
+If you are travelling on a Business Special fare you can select a complimentary seat when check&#x2011;in opens 48 hours before you fly. Skywards Platinum members can select their seat anytime.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Seat selection 48hrs prior for Business Special fare.
+If you are travelling on a Business Special fare you can select a complimentary seat when check&#x2011;in opens 48 hours before you fly. Skywards Platinum members can select their seat anytime.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Seat selection 48hrs prior</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">SA 48hrs</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-05-17T08:08:09.690+00:00" ServiceSubCode="" Key="41/vE+z3nDKAc6TlkAAAAA==" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meals and beverages</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_102091.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_102091.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:Text Type="Strapline" LanguageCode="EN">On board catering</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Meals and beverages</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Meals and beverages</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Meals and beverages</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Meals</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAd6TlkAAAAA==" Chargeable="Included in the brand" Tag="In Flight Entertainment" DisplayOrder="11">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>ICE entertainment</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101937.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101937.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Movies, TV and so much more</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Choose from over 2,500 channels of movies, TV shows, music and games, on demand and in multiple languages.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Choose from over 2,500 channels of movies, TV shows, music and games, on demand and in multiple languages.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">ICE entertainment</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">ICE</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAe6TlkAAAAA==" SecondaryType="IT" Chargeable="Included in the brand" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Wi-Fi in the sky</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101943.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101943.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Connecting you in the sky</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">It&#x2019;s free to blog, post or tweet from your seat on all of our A380 and select Boeing 777 aircraft. Enjoy 10MB of free data (that&#x2019;s enough to search, send emails and update Facebook). You can also pay just USD 1 to use up to 500MB, meaning you can stay connected throughout your flight.*
+
+*Wi-Fi isn&#x2019;t available on our A330 and A340 aircraft.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">It&#x2019;s free to blog, post or tweet from your seat on all of our A380 and select Boeing 777 aircraft. Enjoy 10MB of free data (that&#x2019;s enough to search, send emails and update Facebook). You can also pay just USD 1 to use up to 500MB, meaning you can stay connected throughout your flight.*
+
+*Wi-Fi isn&#x2019;t available on our A330 and A340 aircraft.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Wi-Fi in the sky</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">WiFi</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="FrequentFlyer" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAf6TlkAAAAA==" SecondaryType="MG" Chargeable="Included in the brand" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Mileage Accrual</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101950.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101950.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Earn and save</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">The number of Miles you earn depends on the fare type you choose: Special, Saver, Flex or Flex Plus.
+
+Economy
+Special 25%  flown miles earned
+Saver 35% Flown miles earned
+Flex 70% flown miles earned
+Flex Plus 100% flown miles earned
+
+Business
+Special 100% flown miles earned
+Saver 125% flown miles earned
+Flex 175% flown miles earned
+Flex Plus 190% flown miles earned
+
+All First Class fares earn 250% miles</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">The number of Miles you earn depends on the fare type you choose: Special, Saver, Flex or Flex Plus.
+
+Economy
+Special 25%  flown miles earned
+Saver 35% Flown miles earned
+Flex 70% flown miles earned
+Flex Plus 100% flown miles earned
+
+Business
+Special 100% flown miles earned
+Saver 125% flown miles earned
+Flex 175% flown miles earned
+Flex Plus 190% flown miles earned
+
+All First Class fares earn 250% miles</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Mileage Accrual</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Mileage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="GroundTransportation" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAi6TlkAAAAA==" SecondaryType="LI" Chargeable="Not offered" Tag="Chauffeur Transfer" DisplayOrder="18">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Chauffeur Drive</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101932.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101932.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Starting your journey in style</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Make the most of every moment on your journey when you fly in Emirates
+
+First Class or Business Class by booking our complimentary Chauffeur-drive service. We&#x2019;ll collect you from your door and, when you land, we&#x2019;ll be there to take you to your final destination. Enjoy our exclusive Chauffeur-drive service in over 70 cities worldwide - simply book online in advance.
+
+*Complimentary Chauffeur Drive service on certain itineraries with flights operated by Emirates are subject to T&amp;C. Please refer www.emirates.com for details.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Make the most of every moment on your journey when you fly in Emirates
+
+First Class or Business Class by booking our complimentary Chauffeur-drive service. We&#x2019;ll collect you from your door and, when you land, we&#x2019;ll be there to take you to your final destination. Enjoy our exclusive Chauffeur-drive service in over 70 cities worldwide - simply book online in advance.
+
+*Complimentary Chauffeur Drive service on certain itineraries with flights operated by Emirates are subject to T&amp;C. Please refer www.emirates.com for details.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Chauffeur Drive</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">CDRIVE</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAj6TlkAAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge Access</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101951.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101951.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Relax away from the crowds</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Emirates lounges offer respite on the road with gourmet buffets, a la carte meals and fresh juice bars. 
+
+You can take some time for yourself with a soothing spa, massage or beauty treatment while you wait for your flight. 
+
+You ll find our lounges at over 30 airports worldwide.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Emirates lounges offer respite on the road with gourmet buffets, a la carte meals and fresh juice bars. 
+
+You can take some time for yourself with a soothing spa, massage or beauty treatment while you wait for your flight. 
+
+You ll find our lounges at over 30 airports worldwide.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge Access</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Lounge</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAk6TlkAAAAA==" SecondaryType="CI" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Check in</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101941.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101941.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Check in at a separate exclusive zone</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Emirates Skywards members can check in at dedicated counters at all airports in our network, and our Silver, Gold and Platinum members are invited to board early.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Emirates Skywards members can check in at dedicated counters at all airports in our network, and our Silver, Gold and Platinum members are invited to board early.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Check in</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Priority</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-05-17T08:08:09.690+00:00" Key="41/vE+z3nDKAl6TlkAAAAA==" SecondaryType="FT" Chargeable="Not offered" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="41/vE+z3nDKAZ5TlkAAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Fast Track</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101934.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101934.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Avoid the queues</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Speed through immigration at most airports. We give you a fast track card when you fly in Emirates First Class or Business Class, or if you&#x2019;re an Emirates Skywards Gold or Platinum member.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Speed through immigration at most airports. We give you a fast track card when you fly in Emirates First Class or Business Class, or if you&#x2019;re an Emirates Skywards Gold or Platinum member.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Fast Track</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Fast Track</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalServiceRules Key="41/vE+z3nDKAR6TlkAAAAA==">
+                    <common_v51_0:Remarks>Y,X,KG,35,BAG</common_v51_0:Remarks>
+                  </air:OptionalServiceRules>
+                  <air:OptionalServiceRules Key="41/vE+z3nDKAT6TlkAAAAA==">
+                    <common_v51_0:Remarks>Y,X,X,X,CY - W20,H38,L55,CM</common_v51_0:Remarks>
+                  </air:OptionalServiceRules>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="X" CabinClass="Economy" FareInfoRef="41/vE+z3nDKAP6TlkAAAAA==" SegmentRef="41/vE+z3nDKAZ5TlkAAAAA==" HostTokenRef="41/vE+z3nDKAI6TlkAAAAA=="/>
+            <air:TaxInfo Category="AE" Amount="SAR77.00" Key="41/vE+z3nDKAK6TlkAAAAA=="/>
+            <air:TaxInfo Category="F6" Amount="SAR41.00" Key="41/vE+z3nDKAL6TlkAAAAA=="/>
+            <air:TaxInfo Category="TP" Amount="SAR6.00" Key="41/vE+z3nDKAM6TlkAAAAA=="/>
+            <air:TaxInfo Category="ZR" Amount="SAR6.00" Key="41/vE+z3nDKAN6TlkAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR290.00" Key="41/vE+z3nDKAO6TlkAAAAA=="/>
+            <air:FareCalc>DXB EK IST 746.03XLOWFAE1 NUC746.03END ROE3.67275</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="29"/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Percentage>0.00</air:Percentage>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+              <air:Percentage>0.00</air:Percentage>
+            </air:CancelPenalty>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="DXB" Destination="IST" Carrier="EK">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/EK</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>35K</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="DXB" Destination="IST" Carrier="EK">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="AED0" ApproximateBasePrice="SAR0.00" TotalPrice="AED0" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+          <common_v51_0:HostToken Key="41/vE+z3nDKAI6TlkAAAAA==">GFB10101ADT00  01XLOWFAE1                              010001#GFB200010101NADTV3022AE100010000599#GFMCXOX022NAE10 EK ADTXLOWFAE1</common_v51_0:HostToken>
+        </air:AirPricingSolution>
+      </air:AirPriceResult>
+    </air:AirPriceRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

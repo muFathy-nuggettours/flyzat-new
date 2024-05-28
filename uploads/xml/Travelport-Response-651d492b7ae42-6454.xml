@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <universal:AirCreateReservationRsp xmlns:universal="http://www.travelport.com/schema/universal_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" xmlns:air="http://www.travelport.com/schema/air_v51_0" TraceId="d80db72236a220ecb4b8ae9009dc1437" TransactionId="FA65C5D60A0E7DC52E30C049C7D311CD" ResponseTime="3077">
+      <common_v51_0:ResponseMessage Code="13566" Type="Warning" ProviderCode="1G">Brand optional services were filtered out as they are not offered in the brand or are only available at a charge.</common_v51_0:ResponseMessage>
+      <common_v51_0:ResponseMessage Code="3824" Type="Warning" ProviderCode="1G">The fare HostToken has been ignored. The BrandTier has been applied.</common_v51_0:ResponseMessage>
+      <universal:UniversalRecord LocatorCode="V5MS97" Version="0" Status="Active">
+        <common_v51_0:BookingTraveler Key="g7JK3rF3nDKAw9mbjBAAAA==" TravelerType="ADT" DOB="1980-01-14" ElStat="A">
+          <common_v51_0:BookingTravelerName First="abdelrehim" Last="abdelrehim"/>
+          <common_v51_0:PhoneNumber Key="g7JK3rF3nDKAx9mbjBAAAA==" Type="None" Location="RUH" Number=" 966591204485" ElStat="A">
+            <common_v51_0:ProviderReservationInfoRef Key="g7JK3rF3nDKAVd+bjBAAAA=="/>
+          </common_v51_0:PhoneNumber>
+        </common_v51_0:BookingTraveler>
+        <common_v51_0:ActionStatus Key="g7JK3rF3nDKA69mbjBAAAA==" Type="ACTIVE" ProviderReservationInfoRef="g7JK3rF3nDKAVd+bjBAAAA==" ProviderCode="1G" ElStat="A"/>
+        <universal:ProviderReservationInfo Key="g7JK3rF3nDKAVd+bjBAAAA==" ProviderCode="1G" LocatorCode="5SX8LD" CreateDate="2023-10-04T11:14:51.317+00:00" ModifiedDate="2023-10-04T11:14:51.317+00:00" HostCreateDate="2023-10-04" OwningPCC="36X1"/>
+        <air:AirReservation LocatorCode="V5MWGK" CreateDate="2023-10-04T11:14:50.779+00:00" ModifiedDate="2023-10-04T11:14:51.317+00:00">
+          <common_v51_0:SupplierLocator SupplierCode="NE" SupplierLocatorCode="12C643" ProviderReservationInfoRef="g7JK3rF3nDKAVd+bjBAAAA==" CreateDateTime="2023-10-04T11:14:00.000+00:00"/>
+          <common_v51_0:BookingTravelerRef Key="g7JK3rF3nDKAw9mbjBAAAA=="/>
+          <common_v51_0:ProviderReservationInfoRef Key="g7JK3rF3nDKAVd+bjBAAAA=="/>
+          <air:AirSegment Key="Xp6KTrw3nDKAvdrItTAAAA==" Group="0" Carrier="NE" CabinClass="Economy" FlightNumber="161" ProviderCode="1G" Origin="RUH" Destination="CAI" DepartureTime="2024-01-05T09:05:00.000+03:00" ArrivalTime="2024-01-05T10:55:00.000+02:00" TravelTime="170" Distance="1003" ClassOfService="E" ETicketability="Yes" Equipment="734" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="g7JK3rF3nDKAVd+bjBAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false" AvailabilitySource="L" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" ElStat="A">
+            <air:FlightDetails Key="Xp6KTrw3nDKAwdrItTAAAA==" Origin="RUH" Destination="CAI" DepartureTime="2024-01-05T09:05:00.000+03:00" ArrivalTime="2024-01-05T10:55:00.000+02:00" FlightTime="170" TravelTime="170" Equipment="734" AutomatedCheckin="false" ElStat="A"/>
+            <common_v51_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v51_0:SellMessage>
+          </air:AirSegment>
+          <air:AirPricingInfo Key="Xp6KTrw3nDKAzdrItTAAAA==" TotalPrice="SAR465.00" BasePrice="SAR86.00" ApproximateTotalPrice="SAR465.00" ApproximateBasePrice="SAR86.00" Taxes="SAR379.00" LatestTicketingTime="2024-01-05T23:59:00.000+03:00" TrueLastDateToTicket="2024-01-05T23:59:00.000+03:00" PricingMethod="Guaranteed" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="NE" ProviderCode="1G" ProviderReservationInfoRef="g7JK3rF3nDKAVd+bjBAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="A" FareCalculationInd="G">
+            <air:FareInfo Key="Xp6KTrw3nDKA5drItTAAAA==" FareBasis="ESANEOW" PassengerTypeCode="ADT" Origin="RUH" Destination="CAI" EffectiveDate="2023-10-04T00:00:00.000+03:00" Amount="NUC22.93" NotValidBefore="2024-01-05" NotValidAfter="2024-01-05" PseudoCityCode="36X1" ElStat="A">
+              <common_v51_0:Endorsement Value="NONENDORSABLE/REBOOKING/"/>
+              <common_v51_0:Endorsement Value="AND REFUND SUBJ TO PENALTY"/>
+              <air:BaggageAllowance>
+                <air:MaxWeight Value="30" Unit="Kilograms"/>
+              </air:BaggageAllowance>
+              <air:Brand Key="Xp6KTrw3nDKA5drItTAAAA==" BrandID="328682" Name="Economy" Carrier="NE" BrandTier="0001">
+                <air:Title Type="External" LanguageCode="EN">Economy</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">Econ</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Enjoy Nesma airlines full economy service, Snack and drink are available for purchase.
+
+Economy Class fares include:
+
+&#x2022;  Checked baggage for  1 X 20KG 
+&#x2022; Hand baggage 1 x 5KG 
+
+&#x2022; Refund permitted if after departure at SAR 200 &amp; less than 12 hours at SAR 140 &amp; SAR 100 for more than 12 hours.                                
+&#x2022; Rebooking permitted after departure at SAR140 &amp; if less than 12 hours at 100 SAR and 70 SAR for more than 12 hours.</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Enjoy Nesma airlines full economy service, Snack and drink are available for purchase.
+
+Economy Class fares include:
+
+&#x2022;  Checked baggage for  1 X 20KG 
+&#x2022; Hand baggage 1 x 5KG 
+
+&#x2022; Refund permitted if after departure at SAR 200 &amp; less than 12 hours at SAR 140 &amp; SAR 100 for more than 12 hours.                                
+&#x2022; Rebooking permitted after departure at SAR140 &amp; if less than 12 hours at 100 SAR and 70 SAR for more than 12 hours.</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy</air:Text>
+                <air:ImageLocation Type="Consumer" ImageWidth="541" ImageHeight="212">https://cdn.travelport.com/nesmaair/NE_general_large_158073.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/nesmaair/NE_general_medium_158072.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2023-10-04T11:14:20.017+00:00" ElStat="A" ServiceSubCode="" Key="Xp6KTrw3nDKA8drItTAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="Xp6KTrw3nDKA9drItTAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Checked Baggage</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nesmaair/NE_general_medium_158076.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nesmaair/NE_general_medium_158076.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:Text Type="Strapline" LanguageCode="EN">Checked Baggage</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Take advantage of Nesma airlines generous baggage allowance and check in your luggage for ease of travel. Baggage allowance 1 X 30KG in economy/Business</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Take advantage of Nesma airlines generous baggage allowance and check in your luggage for ease of travel. Baggage allowance 1 X 30KG in economy/Business</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Checked Baggage</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Y,1,30,Bag</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2023-10-04T11:14:20.017+00:00" ElStat="A" ServiceSubCode="" Key="Xp6KTrw3nDKA+drItTAAAA==" SecondaryType="CY" Chargeable="Included in the brand" OptionalServicesRuleRef="Xp6KTrw3nDKA/drItTAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Carry on baggage</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nesmaair/NE_general_medium_158076.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nesmaair/NE_general_medium_158076.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">All Nesma airlines flights permit passengers to carry on 1 bag of up to 5 kg on board the aircraft.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">All Nesma airlines flights permit passengers to carry on 1 bag of up to 5 kg on board the aircraft.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Carry on baggage</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Y,1,5,CY</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2023-10-04T11:14:20.017+00:00" ElStat="A" ServiceSubCode="" Key="Xp6KTrw3nDKAEerItTAAAA==" Chargeable="Included in the brand" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Seat Assignment</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nesmaair/NE_general_medium_158080.png"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nesmaair/NE_general_medium_158080.png"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:Text Type="Strapline" LanguageCode="EN">Seat Assignment</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Seat Assignment
+Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Seat Assignment
+Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Seat Assignment</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Seat</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2023-10-04T11:14:20.017+00:00" ElStat="A" ServiceSubCode="" Key="Xp6KTrw3nDKAFerItTAAAA==" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meals and Beverages</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nesmaair/NE_general_medium_158079.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nesmaair/NE_general_medium_158079.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:Text Type="Strapline" LanguageCode="EN">Meals and Beverages</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Meals and Beverages</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Meals and Beverages</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Meals and Beverages</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Meals</air:Title>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="E" CabinClass="Economy" FareInfoRef="Xp6KTrw3nDKA5drItTAAAA==" SegmentRef="Xp6KTrw3nDKAvdrItTAAAA=="/>
+            <air:TaxInfo Category="E3" Amount="SAR8.00" Key="Xp6KTrw3nDKA0drItTAAAA=="/>
+            <air:TaxInfo Category="IO" Amount="SAR110.00" Key="Xp6KTrw3nDKA1drItTAAAA=="/>
+            <air:TaxInfo Category="T2" Amount="SAR5.00" Key="Xp6KTrw3nDKA2drItTAAAA=="/>
+            <air:TaxInfo Category="S4" Amount="SAR8.00" Key="Xp6KTrw3nDKA3drItTAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="SAR248.00" Key="Xp6KTrw3nDKA4drItTAAAA=="/>
+            <air:FareCalc>RUH NE CAI 22.93ESANEOW NUC22.93END ROE3.75</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="44" BookingTravelerRef="g7JK3rF3nDKAw9mbjBAAAA==">
+              <air:FareGuaranteeInfo GuaranteeDate="2023-10-04" GuaranteeType="Guaranteed"/>
+            </air:PassengerType>
+            <common_v51_0:BookingTravelerRef Key="g7JK3rF3nDKAw9mbjBAAAA=="/>
+            <air:ChangePenalty NoShow="true" PenaltyApplies="Anytime">
+              <air:Percentage>100.00</air:Percentage>
+            </air:ChangePenalty>
+            <air:ChangePenalty NoShow="true" PenaltyApplies="Anytime">
+              <air:Percentage>100.00</air:Percentage>
+            </air:ChangePenalty>
+            <air:CancelPenalty NoShow="true" PenaltyApplies="Anytime">
+              <air:Percentage>100.00</air:Percentage>
+            </air:CancelPenalty>
+            <air:CancelPenalty NoShow="true" PenaltyApplies="Anytime">
+              <air:Percentage>100.00</air:Percentage>
+            </air:CancelPenalty>
+            <air:TicketingModifiersRef Key="g7JK3rF3nDKAjd+bjBAAAA=="/>
+          </air:AirPricingInfo>
+          <air:TicketingModifiers PlatingCarrier="NE" Key="g7JK3rF3nDKAjd+bjBAAAA==" ElStat="A">
+            <air:DocumentSelect IssueElectronicTicket="true"/>
+          </air:TicketingModifiers>
+        </air:AirReservation>
+        <common_v51_0:GeneralRemark Key="g7JK3rF3nDKAod+bjBAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="g7JK3rF3nDKAVd+bjBAAAA==" SupplierCode="NE" Direction="Incoming" CreateDate="2023-10-04T11:14:00.000+00:00" ElStat="A">
+          <common_v51_0:RemarkData>PLS ADV PSGR MOBILE AND/OR EMAIL AS SSR CTCM/CTCE</common_v51_0:RemarkData>
+        </common_v51_0:GeneralRemark>
+        <common_v51_0:GeneralRemark Key="g7JK3rF3nDKApd+bjBAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="g7JK3rF3nDKAVd+bjBAAAA==" SupplierCode="NE" Direction="Incoming" CreateDate="2023-10-04T11:14:00.000+00:00" ElStat="A">
+          <common_v51_0:RemarkData>OPTION TIME IS 04OCT 1614 UTC</common_v51_0:RemarkData>
+        </common_v51_0:GeneralRemark>
+        <common_v51_0:AgencyInfo>
+          <common_v51_0:AgentAction ActionType="Created" AgentCode="uAPI5876662770-8d052977" BranchCode="P3763969" AgencyCode="S3763962" EventTime="2023-10-04T11:14:48.474+00:00"/>
+        </common_v51_0:AgencyInfo>
+        <common_v51_0:FormOfPayment Key="g7JK3rF3nDKA59mbjBAAAA==" Type="Cash" Reusable="false" ProfileKey="YAD0EHoXQm6D1YluGHLE1Q==" ElStat="A">
+          <common_v51_0:ProviderReservationInfoRef Key="g7JK3rF3nDKAVd+bjBAAAA=="/>
+        </common_v51_0:FormOfPayment>
+      </universal:UniversalRecord>
+    </universal:AirCreateReservationRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

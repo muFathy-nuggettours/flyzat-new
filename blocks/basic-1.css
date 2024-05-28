@@ -1,0 +1,51 @@
+.block_basic_1 {
+	display: block;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	font-size: 16px;
+	background: #fff;
+	font-weight: bold;
+	box-shadow: 2px 2px 8px rgba(0,0,0,.05);
+	transition: box-shadow 0.5s !important;
+}
+
+.block_basic_1:hover {
+	box-shadow: 4px 4px 12px rgba(0,0,0,.1);
+}
+
+.block_basic_1 .hover {
+	width: 100%;
+	padding-bottom: 100%;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.block_basic_1 .hover .image {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.5s;
+	background-size: cover;
+	background-position: center center;
+}
+
+.block_basic_1 .hover:hover .image {
+	transform: scale(1.1);
+}
+
+.block_basic_1 span {
+	display: block;
+	padding: 10px;
+}
+
+.block_basic_1 small {
+	display: block;
+	color: #808080;
+}

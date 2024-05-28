@@ -1,0 +1,1 @@
+<? require_once(($on_mobile ? "mobile/_webpage/_footer.php" : "_footer.php")); ?>

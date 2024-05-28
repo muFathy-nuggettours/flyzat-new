@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <air:LowFareSearchReq xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:com="http://www.travelport.com/schema/common_v51_0" SolutionResult="false" TargetBranch="P3763969" TraceId="4169d7d4ea6a81e8a4a0df9e42e8693d">
+      <com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="JED"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="DXB"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2023-09-14"/>
+        <air:AirLegModifiers>
+          <air:PermittedCabins>
+            <com:CabinClass Type="Business"/>
+          </air:PermittedCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="DXB"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="JED"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2023-09-16"/>
+        <air:AirLegModifiers>
+          <air:PermittedCabins>
+            <com:CabinClass Type="Business"/>
+          </air:PermittedCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers>
+        <air:PreferredProviders>
+          <com:Provider Code="1G"/>
+        </air:PreferredProviders>
+      </air:AirSearchModifiers>
+      <com:SearchPassenger Code="ADT" Age="30"/>
+      <air:AirPricingModifiers CurrencyType="SAR"/>
+    </air:LowFareSearchReq>
+  </soapenv:Body>
+</soapenv:Envelope>

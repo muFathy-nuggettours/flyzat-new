@@ -1,0 +1,48 @@
+.scroll-top {
+	width: 40px;
+	height: 40px;
+	display: none;
+	opacity: 0.75;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 5;
+	transition: opacity 0.2s !important;
+}
+
+.scroll-top:hover {
+	opacity: 1;
+}
+
+.scroll-top i {
+	font-size: 34px;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	border-radius: 100%;
+	width: 85%;
+	height: 85%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 5;
+}
+
+.scroll-top span:hover {
+	color: #f8f8f8;
+}
+
+.scroll-top svg {
+	width: 100%;
+	height: 100%;
+	transform: rotate(-90deg);
+}
+
+.scroll-top svg circle {
+	fill: none;
+	stroke: #606060;
+	stroke-dashoffset: -157%;
+	stroke-width: 50%;
+}

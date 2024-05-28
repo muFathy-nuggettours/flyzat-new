@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <air:LowFareSearchReq xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:com="http://www.travelport.com/schema/common_v51_0" SolutionResult="false" TargetBranch="P3763969" TraceId="7ca60f99853951676b5f6451271acdd2">
+      <com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="MCT"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="TIA"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2024-04-30"/>
+        <air:AirLegModifiers>
+          <air:PermittedCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PermittedCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers>
+        <air:PreferredProviders>
+          <com:Provider Code="1G"/>
+        </air:PreferredProviders>
+      </air:AirSearchModifiers>
+      <com:SearchPassenger Code="ADT" Age="30"/>
+      <air:AirPricingModifiers CurrencyType="SAR"/>
+    </air:LowFareSearchReq>
+  </soapenv:Body>
+</soapenv:Envelope>

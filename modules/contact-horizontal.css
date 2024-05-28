@@ -1,0 +1,40 @@
+.module_contact_horizontal {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.module_contact_horizontal > div {
+	display: flex;
+	align-items: center;
+	margin: 0 30px 0 0;
+	padding: 5px 0 5px 0;
+}
+
+.module_contact_horizontal:lang(ar) > div {
+	margin: 0 0 0 30px;
+}
+
+.module_contact_horizontal > div i {
+	font-size: 40px;
+	margin: 0 15px 0 0;
+	color: #80b6e8;
+}
+
+.module_contact_horizontal:lang(ar) > div i {
+	margin: 0 0 0 15px;
+}
+
+.module_contact_horizontal > div span small {
+	display: block;
+	color: #ccc;
+	line-height: 1.8;
+}
+
+.module_contact_horizontal > div span b {
+	color: #fff;
+	font-size: 18px;
+	display: inline-block;
+	direction: ltr;
+	line-height: 2;
+}

@@ -1,0 +1,50 @@
+.block_video .image_container {
+	width: 100%;
+	position: relative;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, .25);
+}
+
+.block_video .image_container .image {
+	width: 100%;
+	padding-top: 70%;
+	background-size: cover;
+	background-position: center center;
+}
+
+.block_video .image_container .image .overlay {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	transition: background 0.25s;
+}
+
+.block_video .image_container .image .overlay .glyphicon-play {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 26px;
+	background: rgba(255, 255, 255, .5);
+	color: #fff;
+	border: 4px solid #fff;
+	border-radius: 50%;
+	width: 55px;
+	height: 55px;
+	transition: transform 0.25s;
+}
+
+.block_video:hover .image_container .image .overlay {
+	background: rgba(0, 0, 0, .35);
+}
+
+.block_video:hover .image_container .image .overlay .glyphicon-play {
+	transform: scale(1.15);
+}

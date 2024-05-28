@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <air:LowFareSearchReq xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:com="http://www.travelport.com/schema/common_v51_0" SolutionResult="false" TargetBranch="P3763969" TraceId="68bc34b0e8d8570f37bbc634d134cf8a">
+      <com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="YKF"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="YXX"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2024-07-03">
+          <com:SearchExtraDays DaysBefore="3" DaysAfter="3"/>
+        </air:SearchDepTime>
+        <air:AirLegModifiers>
+          <air:PermittedCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PermittedCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="YXX"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="YKF"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2024-07-08">
+          <com:SearchExtraDays DaysBefore="3" DaysAfter="3"/>
+        </air:SearchDepTime>
+        <air:AirLegModifiers>
+          <air:PermittedCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PermittedCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers>
+        <air:PreferredProviders>
+          <com:Provider Code="1G"/>
+        </air:PreferredProviders>
+      </air:AirSearchModifiers>
+      <com:SearchPassenger Code="ADT" Age="30"/>
+      <com:SearchPassenger Code="ADT" Age="30"/>
+      <com:SearchPassenger Code="ADT" Age="30"/>
+      <air:AirPricingModifiers CurrencyType="SAR"/>
+    </air:LowFareSearchReq>
+  </soapenv:Body>
+</soapenv:Envelope>

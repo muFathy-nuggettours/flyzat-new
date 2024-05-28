@@ -1,0 +1,36 @@
+.module_contact_info .info {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.module_contact_info .info:last-child {
+	margin-bottom: 0;
+}
+
+.module_contact_info,
+.module_contact_info a {
+	color: #10263b !important;
+}
+
+.module_contact_info .info i {
+	width: 35px;
+	height: 35px;
+	min-width: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 16px;
+	color: #10263b;
+	border: 1px solid #10263b;
+}
+
+.module_contact_info .info .number {
+	direction: ltr;
+	text-align: left;
+}
+
+.module_contact_info:lang(ar) .info .number {
+	text-align: right;
+}

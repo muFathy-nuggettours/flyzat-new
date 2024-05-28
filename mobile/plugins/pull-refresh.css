@@ -1,0 +1,45 @@
+.ptr--ptr {
+	position: absolute;
+	z-index: 1000;
+	background: rgba(0, 0, 0, .5);
+	color: white;
+	pointer-events: none;
+	font-size: 11px;
+	font-weight: bold;
+	top: 0;
+	height: 0;
+	transition: height 0.3s, min-height 0.3s;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: flex-end;
+	align-content: stretch;
+}
+
+.ptr--box {
+	padding: 10px;
+	flex-basis: 100%;
+}
+
+.ptr--pull {
+	transition: none;
+}
+
+.ptr--text {
+	margin-top: 0px;
+}
+
+.ptr--icon {
+	font-family: FontAwesome;
+	font-size: 13px;
+	transition: transform .3s;
+}
+
+.ptr--top {
+	touch-action: pan-x pan-down pinch-zoom;
+}
+
+.ptr--release .ptr--icon {
+	transform: rotate(180deg);
+}

@@ -1,0 +1,95 @@
+.slider {
+	background: #2073ba;
+	position: relative;
+}
+
+.slider .overlay {
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.25);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -5;
+}
+
+.slider .description {
+	padding: 30px 15px 15px 15px;
+	text-align: center;
+}
+
+.slider .description * {
+	animation-delay: 0.25s;
+}
+
+.slider .description h2 {
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	margin: 0 auto 10px auto;
+}
+
+.slider .description p {
+	font-size: 15px;
+	color: #fefefe;
+}
+
+.slider .swiper-slide {
+	overflow: hidden;
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+}
+
+.slider .swiper-button-next, .slider .swiper-button-prev {
+	background-image: none !important;
+}
+
+.slider .swiper-button-next:after {
+	font-family: "Font Awesome 5 Pro";
+	content: "\f0a9";
+	font-weight: 300;
+	color: #eee;
+	font-size: 30px;
+	display: block;
+	opacity: 0.5;
+}
+
+.slider .swiper-button-prev:after {
+	font-family: "Font Awesome 5 Pro";
+	content: "\f0a8";
+	font-weight: 300;
+	color: #eee;
+	font-size: 30px;
+	display: block;
+	opacity: 0.5;
+}
+
+/* Search Box */
+
+.slider .search_container {
+	position: absolute;
+	top: 140px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 10;
+}
+
+.slider .flight_search_module {
+	background: rgba(255,255,255,.97);
+    border: 10px solid rgba(255, 255, 255, .25);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+	padding: 5px;
+}
+
+@media screen and (max-width:768px){
+	.slider .description h2 {
+		font-size: 18px;
+	}
+
+	.slider .description p {
+		font-size: 14px;
+	}	
+}

@@ -1,0 +1,94 @@
+.welcome_module {
+	margin-bottom: 10px;
+}
+
+.welcome_module .date_container {
+	width: 100%;
+	height: 160px;
+	background: rgb(255, 255, 255);
+	background: linear-gradient(-45deg, rgba(255, 255, 255, 1) 0%, rgba(244, 244, 244, 1) 100%);
+	border-radius: 5px;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, .05);
+	color: #293949;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 20px;
+	line-height: 1;
+}
+
+.welcome_module .date_container div.date {
+	font-size: 16px;
+	margin: 10px 0px 25px 0px;
+}
+
+.welcome_module .date_container div.time {
+	font-size: 26px;
+	margin: 10px 0px 10px 0px;
+}
+
+.welcome_module .user_welcome {
+	width: 100%;
+	height: 160px;
+	background: #202020;
+	border-radius: 5px;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, .1);
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.welcome_module .user_welcome:before {
+	position: absolute;
+	top: -10%;
+	right: -140px;
+	width: 400px;
+	height: 400px;
+	content: "";
+	border-radius: 50%;
+	background: rgba(255, 255, 255, .05);
+}
+
+.welcome_module .user_welcome:after {
+	position: absolute;
+	top: -150px;
+	right: 100px;
+	width: 250px;
+	height: 250px;
+	content: "";
+	border-radius: 50%;
+	background: rgba(255, 255, 255, .05);
+}
+
+.welcome_module .user_welcome b {
+	display: block;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.welcome_module .user_welcome img {
+	width: 250px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.welcome_module:lang(ar) .user_welcome img {
+	right: initial;
+	left: 20px;
+}
+
+@media screen and (max-width:480px) {
+	.welcome_module .user_welcome img {
+		display: none;
+	}
+	.welcome_module .user_welcome {
+		height: auto;
+	}
+	.welcome_module .user_welcome b {
+		margin: 5px auto 5px auto;
+	}
+}

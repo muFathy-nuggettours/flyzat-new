@@ -1,0 +1,1 @@
+<? require_once(($on_mobile ? "mobile/_home.php" : "_index.php")); ?>

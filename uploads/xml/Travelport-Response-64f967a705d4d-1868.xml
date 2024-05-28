@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <SOAP:Fault>
+      <faultcode>Server.System</faultcode>
+      <faultstring>NO AVAILABILITY FOR THIS REQUEST</faultstring>
+      <detail>
+        <common_v51_0:ErrorInfo xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0">
+          <common_v51_0:Code>260</common_v51_0:Code>
+          <common_v51_0:Service>SYSTEM</common_v51_0:Service>
+          <common_v51_0:Type>System</common_v51_0:Type>
+          <common_v51_0:Description>No availability for this request.</common_v51_0:Description>
+          <common_v51_0:TransactionId>6E3CE43C0A0EE0C3650B3E2A8C79CD16</common_v51_0:TransactionId>
+          <common_v51_0:TraceId>ef0136fb5c3354da8292c191287458ed</common_v51_0:TraceId>
+        </common_v51_0:ErrorInfo>
+      </detail>
+    </SOAP:Fault>
+  </SOAP:Body>
+</SOAP:Envelope>
