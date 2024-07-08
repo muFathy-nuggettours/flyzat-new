@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <air:AirPriceReq xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" xmlns:univ="http://www.travelport.com/schema/universal_v51_0" TargetBranch="P3763969" TraceId="0b41711e086764c13948744562c235da">
+      <com:BillingPointOfSaleInfo xmlns:com="http://www.travelport.com/schema/common_v51_0" OriginApplication="UAPI"/>
+      <air:AirItinerary>
+        <air:AirSegment ProviderCode="1G" Key="Kj9yL/XEuDKA0oDFIkAAAA==" Group="0" Carrier="NP" FlightNumber="351" Origin="CAI" Destination="RUH" DepartureTime="2024-06-10T17:45:00.000+03:00" ArrivalTime="2024-06-10T20:30:00.000+03:00" FlightTime="165" Distance="1003" ETicketability="Yes" Equipment="320" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cache status used. No polled avail exists." OptionalServicesIndicator="false" AvailabilitySource="H" AvailabilityDisplayType="Fare Shop/Optimal Shop"/>
+      </air:AirItinerary>
+      <air:AirPricingModifiers CurrencyType="SAR"/>
+      <com:SearchPassenger xmlns:com="http://www.travelport.com/schema/common_v51_0" Code="ADT" Age="19" BookingTravelerRef="NzIwMDA2MDY2NjY2YjQ3MjNkOTE5OC45MzM3NjMwMw=="/>
+      <air:AirPricingCommand/>
+    </air:AirPriceReq>
+  </soapenv:Body>
+</soapenv:Envelope>

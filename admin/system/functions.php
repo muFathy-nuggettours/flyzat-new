@@ -696,6 +696,7 @@ function travelportBook($id){
 	$passengers_keys["INF"] = array();
 	$passengers_parameters = array();
 	$passengers = explode(",", $reservation["passengers"]);
+    $passengers_xml = "";
 	foreach ($passengers AS $id){
 		$passenger = getID($id, "users_passengers");
 		$passenger_type = $data_map_travelport_passenger_types[$passenger["type"]];

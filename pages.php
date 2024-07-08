@@ -1,4 +1,5 @@
 <? include "system/_handler.php";
+requireLogin(true); 
 
 //Similar page content variables
 $inline_page = (isset($get["inline"]) ? true : false);

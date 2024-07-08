@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <universal:AirCreateReservationRsp xmlns:universal="http://www.travelport.com/schema/universal_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" xmlns:air="http://www.travelport.com/schema/air_v51_0" TraceId="00c135bdce1184889398bc661a494a9d" TransactionId="2C7E21F40A0E7DD56DC1B1D294C2057C" ResponseTime="2583">
+      <common_v51_0:ResponseMessage Code="13566" Type="Warning" ProviderCode="1G">Brand optional services were filtered out as they are not offered in the brand or are only available at a charge.</common_v51_0:ResponseMessage>
+      <common_v51_0:ResponseMessage Code="3824" Type="Warning" ProviderCode="1G">The fare HostToken has been ignored. The BrandTier has been applied.</common_v51_0:ResponseMessage>
+      <common_v51_0:ResponseMessage Code="13565" Type="Warning" ProviderCode="1G">UpsellBrandID has been ignored.</common_v51_0:ResponseMessage>
+      <universal:UniversalRecord LocatorCode="EHSKZA" Version="0" Status="Active">
+        <common_v51_0:BookingTraveler Key="XIXsL/V3nDKA57e2FDBAAA==" TravelerType="ADT" DOB="1970-10-05" ElStat="A">
+          <common_v51_0:BookingTravelerName First="Fatima" Last="Tagtag"/>
+          <common_v51_0:PhoneNumber Key="XIXsL/V3nDKAQ8e2FDBAAA==" Type="None" Location="RUH" Number=" 201100098208" ElStat="A">
+            <common_v51_0:ProviderReservationInfoRef Key="XIXsL/V3nDKAuG42FDBAAA=="/>
+          </common_v51_0:PhoneNumber>
+        </common_v51_0:BookingTraveler>
+        <common_v51_0:BookingTraveler Key="XIXsL/V3nDKA+7e2FDBAAA==" TravelerType="ADT" DOB="1993-01-22" ElStat="A">
+          <common_v51_0:BookingTravelerName First="Nouraleslam" Last="AlBousafi"/>
+          <common_v51_0:PhoneNumber Key="XIXsL/V3nDKAR8e2FDBAAA==" Type="None" Location="RUH" Number=" 201100098208" ElStat="A">
+            <common_v51_0:ProviderReservationInfoRef Key="XIXsL/V3nDKAuG42FDBAAA=="/>
+          </common_v51_0:PhoneNumber>
+        </common_v51_0:BookingTraveler>
+        <common_v51_0:ActionStatus Key="XIXsL/V3nDKAT8e2FDBAAA==" Type="ACTIVE" ProviderReservationInfoRef="XIXsL/V3nDKAuG42FDBAAA==" ProviderCode="1G" ElStat="A"/>
+        <universal:ProviderReservationInfo Key="XIXsL/V3nDKAuG42FDBAAA==" ProviderCode="1G" LocatorCode="84YDPB" CreateDate="2024-06-18T17:56:24.572+00:00" ModifiedDate="2024-06-18T17:56:24.572+00:00" HostCreateDate="2024-06-18" OwningPCC="36X1"/>
+        <air:AirReservation LocatorCode="EHSQV0" CreateDate="2024-06-18T17:56:24.123+00:00" ModifiedDate="2024-06-18T17:56:24.572+00:00">
+          <common_v51_0:SupplierLocator SupplierCode="EK" SupplierLocatorCode="ISV7BJ" ProviderReservationInfoRef="XIXsL/V3nDKAuG42FDBAAA==" CreateDateTime="2024-06-18T17:56:00.000+00:00"/>
+          <common_v51_0:BookingTravelerRef Key="XIXsL/V3nDKA57e2FDBAAA=="/>
+          <common_v51_0:BookingTravelerRef Key="XIXsL/V3nDKA+7e2FDBAAA=="/>
+          <common_v51_0:ProviderReservationInfoRef Key="XIXsL/V3nDKAuG42FDBAAA=="/>
+          <air:AirSegment Key="frfwL/IDuDKAhi+GEDBAAA==" Group="0" Carrier="EK" CabinClass="Economy" FlightNumber="927" ProviderCode="1G" Origin="DXB" Destination="CAI" DepartureTime="2024-07-19T08:15:00.000+04:00" ArrivalTime="2024-07-19T11:05:00.000+03:00" TravelTime="230" Distance="1499" ClassOfService="Q" ETicketability="Yes" Equipment="388" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="XIXsL/V3nDKAuG42FDBAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" ElStat="A">
+            <air:FlightDetails Key="frfwL/IDuDKAii+GEDBAAA==" Origin="DXB" Destination="CAI" DepartureTime="2024-07-19T08:15:00.000+04:00" ArrivalTime="2024-07-19T11:05:00.000+03:00" FlightTime="230" TravelTime="230" Equipment="388" OriginTerminal="3" DestinationTerminal="2" AutomatedCheckin="false" ElStat="A"/>
+            <common_v51_0:SellMessage>DEPARTS DXB TERMINAL 3  - ARRIVES CAI TERMINAL 2</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>*ADD PASSPORT DTLS IN SSR DOCS CONTACT IN SSR CTCM CTCE*</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v51_0:SellMessage>
+          </air:AirSegment>
+          <air:AirPricingInfo Key="XIXsL/V3nDKA2az2FDBAAA==" TotalPrice="SAR1241.00" BasePrice="AED890" ApproximateTotalPrice="SAR1241.00" ApproximateBasePrice="SAR911.00" EquivalentBasePrice="SAR911.00" Taxes="SAR330.00" LatestTicketingTime="2024-06-26T23:59:00.000+03:00" TrueLastDateToTicket="2024-06-26T23:59:00.000+03:00" PricingMethod="Guaranteed" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="XIXsL/V3nDKAuG42FDBAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="C" FareCalculationInd="G">
+            <air:FareInfo Key="XIXsL/V3nDKA3az2FDBAAA==" FareBasis="QLEOPAE1" PassengerTypeCode="ADT" Origin="DXB" Destination="CAI" EffectiveDate="2024-06-18T00:00:00.000+03:00" Amount="NUC241.17" NegotiatedFare="false" NotValidBefore="2024-07-19" NotValidAfter="2024-07-19" PseudoCityCode="36X1" ElStat="C">
+              <air:FareSurcharge Key="XIXsL/V3nDKAxG42FDBAAA==" Type="Other" Amount="NUC7.02" ElStat="A" SegmentRef="frfwL/IDuDKAhi+GEDBAAA=="/>
+              <common_v51_0:Endorsement Value="NON-END/SAVER"/>
+              <common_v51_0:Endorsement Value="REWARD UPGDS  ALLOWED"/>
+              <air:BaggageAllowance>
+                <air:NumberOfPieces>2</air:NumberOfPieces>
+              </air:BaggageAllowance>
+              <air:Brand Key="XIXsL/V3nDKA3az2FDBAAA==" BrandID="1380516" Name="Economy Saver" Carrier="EK" BrandTier="0002">
+                <air:Title Type="External" LanguageCode="EN">Economy Saver</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">EcoSaver</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Saver includes:
+
+&#x2022; Seat selection available for a fee
+&#x2022; Earn 0.3 Skywards Mile for every mile flown
+&#x2022; Checked baggage allowance
+&#x2022; Cabin baggage 1 bag up to 7kg
+&#x2022; Regional multicourse dining
+&#x2022; Complimentary alcoholic and non-alcoholic drinks
+&#x2022; Up to 5,000 channels of entertainment
+&#x2022; Free unlimited online chat messaging for Emirates Skywards Gold members 
+&#x2022; Buy great value Wi-Fi plans
+&#x2022; Eligible to upgrade with Skywards Miles at check-in
+&#x2022; Changes are not permitted or for a fee
+&#x2022; Non-refundable 
+
+Please refer to the terms and conditions of the fare and the rules of the destination
+&#x2022; Please note that if the flight is operated by another airline then the onboard product or service will vary. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+                <air:Text Type="Upsell" LanguageCode="EN">Upgrade to Economy Saver to enjoy more baggage allowance, earn more Skyward Miles and be eligible to upgrade using your Miles.</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Saver includes:
+
+&#x2022; Seat selection available for a fee
+&#x2022; Earn 0.3 Skywards Mile for every mile flown
+&#x2022; Checked baggage allowance
+&#x2022; Cabin baggage 1 bag up to 7kg
+&#x2022; Regional multicourse dining
+&#x2022; Complimentary alcoholic and non-alcoholic drinks
+&#x2022; Up to 5,000 channels of entertainment
+&#x2022; Free unlimited online chat messaging for Emirates Skywards Gold members 
+&#x2022; Buy great value Wi-Fi plans
+&#x2022; Eligible to upgrade with Skywards Miles at check-in
+&#x2022; Changes are not permitted or for a fee
+&#x2022; Non-refundable 
+
+Please refer to the terms and conditions of the fare and the rules of the destination
+&#x2022; Please note that if the flight is operated by another airline then the onboard product or service will vary. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">The best regular fares</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="99">https://cdn.travelport.com/emirates/EK_general_medium_281052.JPG</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="99">https://cdn.travelport.com/emirates/EK_general_medium_281052.JPG</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-18T17:56:17.673+00:00" ElStat="A" Key="frfwL/IDuDKAxi+GEDBAAA==" Chargeable="Included in the brand" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Checked baggage</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101926.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101926.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Take everything you need</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Baggage policy 
+
+Customers are allowed two bags of up to 23kg each in Economy Class, and two bags of up to 32kg each in First Class or Business Class. For Central and South America, customers are allowed two bags of up to 32kg each in all classes.
+
+Further baggage details are available at Emirates.com</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Baggage policy 
+
+Customers are allowed two bags of up to 23kg each in Economy Class, and two bags of up to 32kg each in First Class or Business Class. For Central and South America, customers are allowed two bags of up to 32kg each in all classes.
+
+Further baggage details are available at Emirates</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Checked baggage</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">AMS BAGS</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-18T17:56:17.673+00:00" ElStat="A" Key="frfwL/IDuDKAyi+GEDBAAA==" SecondaryType="CY" Chargeable="Included in the brand" OptionalServicesRuleRef="frfwL/IDuDKAzi+GEDBAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Hand Luggage</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101946.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101946.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Your cabin baggage allowance depends on which cabin class you"re flying in.
+
+Emirates First Class and Business Class customers can carry two pieces of carry-on baggage: one briefcase plus either one handbag or one garment bag. 
+
+Emirates Economy Class customers are permitted one piece of carry-on baggage - either a handbag or laptop bag.
+
+You can find out more on the Emirates website.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Your cabin baggage allowance depends on which cabin class you"re flying in.
+
+Emirates First Class and Business Class customers can carry two pieces of carry-on baggage: one briefcase plus either one handbag or one garment bag. 
+
+Emirates Economy Class customers are permitted one piece of carry-on baggage - either a handbag or laptop bag.
+
+You can find out more on the Emirates website.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Hand Luggage</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Hand Lugg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-18T17:56:17.673+00:00" ElStat="A" ServiceSubCode="" Key="frfwL/IDuDKA6i+GEDBAAA==" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meals and beverages</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_102091.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_102091.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:Text Type="Strapline" LanguageCode="EN">On board catering</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Meals and beverages</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Meals and beverages</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Meals and beverages</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Meals</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-18T17:56:17.673+00:00" ElStat="A" Key="frfwL/IDuDKA7i+GEDBAAA==" Chargeable="Included in the brand" Tag="In Flight Entertainment" DisplayOrder="11">
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>ICE entertainment</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101937.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101937.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Movies, TV and so much more</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Choose from over 2,500 channels of movies, TV shows, music and games, on demand and in multiple languages.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Choose from over 2,500 channels of movies, TV shows, music and games, on demand and in multiple languages.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">ICE entertainment</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">ICE</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-18T17:56:17.673+00:00" ElStat="A" Key="frfwL/IDuDKA8i+GEDBAAA==" SecondaryType="IT" Chargeable="Included in the brand" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Wi-Fi in the sky</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101943.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101943.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Connecting you in the sky</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">It&#x2019;s free to blog, post or tweet from your seat on all of our A380 and select Boeing 777 aircraft. Enjoy 10MB of free data (that&#x2019;s enough to search, send emails and update Facebook). You can also pay just USD 1 to use up to 500MB, meaning you can stay connected throughout your flight.*
+
+*Wi-Fi isn&#x2019;t available on our A330 and A340 aircraft.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">It&#x2019;s free to blog, post or tweet from your seat on all of our A380 and select Boeing 777 aircraft. Enjoy 10MB of free data (that&#x2019;s enough to search, send emails and update Facebook). You can also pay just USD 1 to use up to 500MB, meaning you can stay connected throughout your flight.*
+
+*Wi-Fi isn&#x2019;t available on our A330 and A340 aircraft.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Wi-Fi in the sky</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">WiFi</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="FrequentFlyer" CreateDate="2024-06-18T17:56:17.673+00:00" ElStat="A" Key="frfwL/IDuDKA9i+GEDBAAA==" SecondaryType="MG" Chargeable="Included in the brand" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Mileage Accrual</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101950.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/emirates/EK_general_medium_101950.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Earn and save</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">The number of Miles you earn depends on the fare type you choose: Special, Saver, Flex or Flex Plus.
+
+Economy
+Special 25%  flown miles earned
+Saver 35% Flown miles earned
+Flex 70% flown miles earned
+Flex Plus 100% flown miles earned
+
+Business
+Special 100% flown miles earned
+Saver 125% flown miles earned
+Flex 175% flown miles earned
+Flex Plus 190% flown miles earned
+
+All First Class fares earn 250% miles</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">The number of Miles you earn depends on the fare type you choose: Special, Saver, Flex or Flex Plus.
+
+Economy
+Special 25%  flown miles earned
+Saver 35% Flown miles earned
+Flex 70% flown miles earned
+Flex Plus 100% flown miles earned
+
+Business
+Special 100% flown miles earned
+Saver 125% flown miles earned
+Flex 175% flown miles earned
+Flex Plus 190% flown miles earned
+
+All First Class fares earn 250% miles</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Mileage Accrual</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Mileage</air:Title>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="Q" CabinClass="Economy" FareInfoRef="XIXsL/V3nDKA3az2FDBAAA==" SegmentRef="frfwL/IDuDKAhi+GEDBAAA=="/>
+            <air:TaxInfo Category="AE" Amount="SAR77.00" Key="XIXsL/V3nDKA4az2FDBAAA=="/>
+            <air:TaxInfo Category="F6" Amount="SAR41.00" Key="XIXsL/V3nDKA5az2FDBAAA=="/>
+            <air:TaxInfo Category="TP" Amount="SAR6.00" Key="XIXsL/V3nDKA6az2FDBAAA=="/>
+            <air:TaxInfo Category="ZR" Amount="SAR6.00" Key="XIXsL/V3nDKA7az2FDBAAA=="/>
+            <air:TaxInfo Category="S4" Amount="SAR8.00" Key="XIXsL/V3nDKA8az2FDBAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR192.00" Key="XIXsL/V3nDKA9az2FDBAAA=="/>
+            <air:FareCalc>DXB EK CAI 234.15QLEOPAE1 Q DXBCAI7.02NUC241.17END ROE3.67275</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="54" BookingTravelerRef="XIXsL/V3nDKA57e2FDBAAA==">
+              <air:FareGuaranteeInfo GuaranteeDate="2024-06-18" GuaranteeType="Guaranteed"/>
+            </air:PassengerType>
+            <air:PassengerType Code="ADT" Age="32" BookingTravelerRef="XIXsL/V3nDKA+7e2FDBAAA==">
+              <air:FareGuaranteeInfo GuaranteeDate="2024-06-18" GuaranteeType="Guaranteed"/>
+            </air:PassengerType>
+            <common_v51_0:BookingTravelerRef Key="XIXsL/V3nDKA57e2FDBAAA=="/>
+            <common_v51_0:BookingTravelerRef Key="XIXsL/V3nDKA+7e2FDBAAA=="/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR153.00</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="After Departure">
+              <air:Percentage>100.00</air:Percentage>
+            </air:CancelPenalty>
+            <air:TicketingModifiersRef Key="XIXsL/V3nDKA1G42FDBAAA=="/>
+          </air:AirPricingInfo>
+          <air:TicketingModifiers PlatingCarrier="EK" Key="XIXsL/V3nDKA1G42FDBAAA==" ElStat="A">
+            <air:DocumentSelect IssueElectronicTicket="true"/>
+          </air:TicketingModifiers>
+        </air:AirReservation>
+        <common_v51_0:AgencyInfo>
+          <common_v51_0:AgentAction ActionType="Created" AgentCode="uAPI5876662770-8d052977" BranchCode="P3763969" AgencyCode="S3763962" EventTime="2024-06-18T17:56:22.196+00:00"/>
+        </common_v51_0:AgencyInfo>
+        <common_v51_0:FormOfPayment Key="XIXsL/V3nDKAS8e2FDBAAA==" Type="Cash" Reusable="false" ProfileKey="Jue2PGTUTTutcIGqhrVyqQ==" ElStat="A">
+          <common_v51_0:ProviderReservationInfoRef Key="XIXsL/V3nDKAuG42FDBAAA=="/>
+        </common_v51_0:FormOfPayment>
+      </universal:UniversalRecord>
+    </universal:AirCreateReservationRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

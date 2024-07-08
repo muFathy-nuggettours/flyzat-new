@@ -1,4 +1,5 @@
 <? include "system/_handler.php";
+requireLogin(true); 
 
 setCurrentPageRedirect();
 $mysqltable = "system_database_regions";

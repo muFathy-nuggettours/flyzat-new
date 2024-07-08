@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <air:AirPriceReq xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" xmlns:univ="http://www.travelport.com/schema/universal_v51_0" TargetBranch="P3763969" TraceId="8f1c149884183f876cef3049e3742844">
+      <com:BillingPointOfSaleInfo xmlns:com="http://www.travelport.com/schema/common_v51_0" OriginApplication="UAPI"/>
+      <air:AirItinerary>
+        <air:AirSegment ProviderCode="1G" Key="gVyi8AOEuDKA2h9PJGAAAA==" Group="0" Carrier="MS" FlightNumber="768" Origin="BCN" Destination="CAI" DepartureTime="2024-06-29T16:25:00.000+02:00" ArrivalTime="2024-06-29T21:35:00.000+03:00" FlightTime="250" Distance="1806" ETicketability="Yes" Equipment="738" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop"/>
+        <air:AirSegment ProviderCode="1G" Key="gVyi8AOEuDKA4h9PJGAAAA==" Group="1" Carrier="MS" FlightNumber="829" Origin="CAI" Destination="BEN" DepartureTime="2024-06-30T09:10:00.000+03:00" ArrivalTime="2024-06-30T10:25:00.000+02:00" FlightTime="135" Distance="672" ETicketability="Yes" Equipment="738" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop"/>
+      </air:AirItinerary>
+      <air:AirPricingModifiers CurrencyType="SAR"/>
+      <com:SearchPassenger xmlns:com="http://www.travelport.com/schema/common_v51_0" Code="ADT" Age="23" BookingTravelerRef="OTEwMDAzOTI2Njc4NDIyMDJhN2M2NC4xOTExMjc5Mg=="/>
+      <air:AirPricingCommand/>
+    </air:AirPriceReq>
+  </soapenv:Body>
+</soapenv:Envelope>

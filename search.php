@@ -1,4 +1,5 @@
 <? include "system/_handler.php";
+requireLogin(true); 
 
 setCurrentPageRedirect();
 $section_information = mysqlFetch(mysqlQuery("SELECT * FROM " . $suffix . "website_pages WHERE page='" . basename($_SERVER["SCRIPT_FILENAME"], ".php") . "'"));

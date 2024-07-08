@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <universal:AirCreateReservationRsp xmlns:universal="http://www.travelport.com/schema/universal_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" xmlns:air="http://www.travelport.com/schema/air_v51_0" TraceId="ae84e5a33cf9f5319306fab5405cd081" TransactionId="88E8594A0A0EE02E5054E8676EAC765F" ResponseTime="3027">
+      <common_v51_0:ResponseMessage Code="13566" Type="Warning" ProviderCode="1G">Brand optional services were filtered out as they are not offered in the brand or are only available at a charge.</common_v51_0:ResponseMessage>
+      <common_v51_0:ResponseMessage Code="3824" Type="Warning" ProviderCode="1G">The fare HostToken has been ignored. The BrandTier has been applied.</common_v51_0:ResponseMessage>
+      <common_v51_0:ResponseMessage Code="13565" Type="Warning" ProviderCode="1G">UpsellBrandID has been ignored.</common_v51_0:ResponseMessage>
+      <universal:UniversalRecord LocatorCode="5J4EFQ" Version="0" Status="Active">
+        <common_v51_0:BookingTraveler Key="ijX/cBuAuDKAZlRKZcAAAA==" TravelerType="ADT" DOB="1973-08-29" ElStat="A">
+          <common_v51_0:BookingTravelerName First="FADY" Last="FELALY"/>
+          <common_v51_0:PhoneNumber Key="ijX/cBuAuDKAalRKZcAAAA==" Type="None" Location="RUH" Number=" 966548598445" ElStat="A">
+            <common_v51_0:ProviderReservationInfoRef Key="ijX/cBuAuDKA5ExKZcAAAA=="/>
+          </common_v51_0:PhoneNumber>
+        </common_v51_0:BookingTraveler>
+        <common_v51_0:ActionStatus Key="ijX/cBuAuDKAklRKZcAAAA==" Type="ACTIVE" ProviderReservationInfoRef="ijX/cBuAuDKA5ExKZcAAAA==" ProviderCode="1G" ElStat="A"/>
+        <universal:ProviderReservationInfo Key="ijX/cBuAuDKA5ExKZcAAAA==" ProviderCode="1G" LocatorCode="8B5Y8J" CreateDate="2024-07-06T16:37:29.863+00:00" ModifiedDate="2024-07-06T16:37:29.863+00:00" HostCreateDate="2024-07-06" OwningPCC="36X1"/>
+        <air:AirReservation LocatorCode="5J4K28" CreateDate="2024-07-06T16:37:29.498+00:00" ModifiedDate="2024-07-06T16:37:29.863+00:00">
+          <common_v51_0:SupplierLocator SupplierCode="RJ" SupplierLocatorCode="WYTLPQ" ProviderReservationInfoRef="ijX/cBuAuDKA5ExKZcAAAA==" CreateDateTime="2024-07-06T16:37:00.000+00:00"/>
+          <common_v51_0:BookingTravelerRef Key="ijX/cBuAuDKAZlRKZcAAAA=="/>
+          <common_v51_0:ProviderReservationInfoRef Key="ijX/cBuAuDKA5ExKZcAAAA=="/>
+          <air:AirSegment Key="/k+AdB8CuDKAkjKHZcAAAA==" Group="0" Carrier="RJ" CabinClass="Economy" FlightNumber="735" ProviderCode="1G" Origin="RUH" Destination="AMM" DepartureTime="2024-07-21T06:40:00.000+03:00" ArrivalTime="2024-07-21T09:10:00.000+03:00" TravelTime="150" Distance="801" ClassOfService="W" ETicketability="Yes" Equipment="321" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="ijX/cBuAuDKA5ExKZcAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" ElStat="A">
+            <air:FlightDetails Key="/k+AdB8CuDKAljKHZcAAAA==" Origin="RUH" Destination="AMM" DepartureTime="2024-07-21T06:40:00.000+03:00" ArrivalTime="2024-07-21T09:10:00.000+03:00" FlightTime="150" TravelTime="150" Equipment="321" OriginTerminal="2" AutomatedCheckin="false" ElStat="A"/>
+            <common_v51_0:SellMessage>DEPARTS RUH TERMINAL 2</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>*MANDATORY TO ENTER SSR DOCS FOR CORRECT APIS*</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>*A COMPLEMENTARY FAST TRACK UPON ARRIVAL AT AMMAN*</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>*FOR RJ BUSINESS AND PLATINUM PASSENGERS*</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v51_0:SellMessage>
+            <common_v51_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v51_0:SellMessage>
+          </air:AirSegment>
+          <air:AirPricingInfo Key="/k+AdB8CuDKAojKHZcAAAA==" TotalPrice="SAR399.00" BasePrice="SAR173.00" ApproximateTotalPrice="SAR399.00" ApproximateBasePrice="SAR173.00" Taxes="SAR226.00" LatestTicketingTime="2024-07-10T23:59:00.000+03:00" TrueLastDateToTicket="2024-07-10T23:59:00.000+03:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="RJ" ProviderCode="1G" ProviderReservationInfoRef="ijX/cBuAuDKA5ExKZcAAAA==" AirPricingInfoGroup="1" TotalNetPrice="SAR399.00" PricingType="StoredFare" ElStat="A" FareCalculationInd="A">
+            <air:FareInfo Key="/k+AdB8CuDKAvjKHZcAAAA==" FareBasis="WBBSPSA1" PassengerTypeCode="ADT" Origin="RUH" Destination="AMM" EffectiveDate="2024-07-06T00:00:00.000+03:00" Amount="NUC46.13" PrivateFare="AirlinePrivateFare" NegotiatedFare="true" TourCode="PVRUHAMMXY0823" NotValidBefore="2024-07-21" NotValidAfter="2024-07-21" PseudoCityCode="36X1" ElStat="A">
+              <air:ContractCode Code="PLUS" ProviderCode="1G"/>
+              <common_v51_0:Endorsement Value="NNEND/CHANGE RES FEE APPLY"/>
+              <air:BaggageAllowance>
+                <air:NumberOfPieces>1</air:NumberOfPieces>
+              </air:BaggageAllowance>
+              <air:Brand Key="/k+AdB8CuDKAvjKHZcAAAA==" BrandID="1434285" Name="ECONOMY PLUS" Carrier="RJ" BrandTier="0003">
+                <air:Title Type="External" LanguageCode="EN">Economy Plus</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">ECPLUS</air:Title>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy Plus</air:Text>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ElStat="A" ServiceSubCode="P02" Key="/k+AdB8CuDKAyjKHZcAAAA==" Chargeable="Included in the brand" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>CARRYON LUGGAGE 7 KGS</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ElStat="A" ServiceSubCode="P01" Key="/k+AdB8CuDKAzjKHZcAAAA==" Chargeable="Included in the brand" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>CHECKED BAG ALLOWANCE</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ElStat="A" ServiceSubCode="057" Key="/k+AdB8CuDKA0jKHZcAAAA==" SecondaryType="FR" Chargeable="Included in the brand" Tag="Mileage Accrual" DisplayOrder="8">
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>MILEAGE ACCRUAL</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+              <common_v51_0:Commission Level="Fare" Type="Flat" Amount="SAR0.00"/>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="W" CabinClass="Economy" FareInfoRef="/k+AdB8CuDKAvjKHZcAAAA==" SegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+            <air:TaxInfo Category="E3" Amount="SAR8.00" Key="/k+AdB8CuDKApjKHZcAAAA=="/>
+            <air:TaxInfo Category="IO" Amount="SAR130.00" Key="/k+AdB8CuDKAqjKHZcAAAA=="/>
+            <air:TaxInfo Category="T2" Amount="SAR5.00" Key="/k+AdB8CuDKArjKHZcAAAA=="/>
+            <air:TaxInfo Category="O7" Amount="SAR10.00" Key="/k+AdB8CuDKAsjKHZcAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR22.00" Key="/k+AdB8CuDKAtjKHZcAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="SAR51.00" Key="/k+AdB8CuDKAujKHZcAAAA=="/>
+            <air:FareCalc>RUH RJ AMM 46.13WBBSPSA1 NUC46.13END ROE3.75</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="51" BookingTravelerRef="ijX/cBuAuDKAZlRKZcAAAA==">
+              <air:FareGuaranteeInfo GuaranteeDate="2024-07-06" GuaranteeType="GuaranteedUsingAirlinePrivateFare"/>
+            </air:PassengerType>
+            <common_v51_0:BookingTravelerRef Key="ijX/cBuAuDKAZlRKZcAAAA=="/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR130.00</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="After Departure">
+              <air:Percentage>100.00</air:Percentage>
+            </air:CancelPenalty>
+            <air:TicketingModifiersRef Key="ijX/cBuAuDKAgGxKZcAAAA=="/>
+          </air:AirPricingInfo>
+          <air:TicketingModifiers PlatingCarrier="RJ" Key="ijX/cBuAuDKAgGxKZcAAAA==" ElStat="A">
+            <air:DocumentSelect IssueElectronicTicket="true"/>
+          </air:TicketingModifiers>
+        </air:AirReservation>
+        <common_v51_0:GeneralRemark Key="ijX/cBuAuDKA6GxKZcAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="ijX/cBuAuDKA5ExKZcAAAA==" SupplierCode="RJ" Direction="Incoming" CreateDate="2024-07-06T16:37:00.000+00:00" ElStat="A">
+          <common_v51_0:RemarkData>MISSING SSR CTCM MOBILE OR SSR CTCE EMAIL OR SSR CTCR NON-CONSENT FOR RJ</common_v51_0:RemarkData>
+        </common_v51_0:GeneralRemark>
+        <common_v51_0:AgencyInfo>
+          <common_v51_0:AgentAction ActionType="Created" AgentCode="uAPI5876662770-8d052977" BranchCode="P3763969" AgencyCode="S3763962" EventTime="2024-07-06T16:37:27.022+00:00"/>
+        </common_v51_0:AgencyInfo>
+        <common_v51_0:FormOfPayment Key="ijX/cBuAuDKAjlRKZcAAAA==" Type="Cash" Reusable="false" ProfileKey="RXmBTLJSRC6HX4X1c+g04g==" ElStat="A">
+          <common_v51_0:ProviderReservationInfoRef Key="ijX/cBuAuDKA5ExKZcAAAA=="/>
+        </common_v51_0:FormOfPayment>
+      </universal:UniversalRecord>
+    </universal:AirCreateReservationRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

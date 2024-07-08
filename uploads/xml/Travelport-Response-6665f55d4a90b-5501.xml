@@ -1,0 +1,1210 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <air:AirPriceRsp xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" TraceId="6fd70b43e2d6ede092b9256aac7143a5" TransactionId="FE4671CE0A0EE16C454B3C0D02184847" ResponseTime="651">
+      <common_v51_0:ResponseMessage Code="710401" Type="Warning" ProviderCode="1G">Taxes returned at the FareInfo level are for informational purposes only, and may differ from those returned at the Itinerary/Passenger Type levels.</common_v51_0:ResponseMessage>
+      <air:AirItinerary>
+        <air:AirSegment Key="P9wzL/sFuDKAA8XW3hAAAA==" Group="0" Carrier="MS" FlightNumber="734" ProviderCode="1G" Origin="DUS" Destination="CAI" DepartureTime="2024-06-22T15:15:00.000+02:00" ArrivalTime="2024-06-22T20:35:00.000+03:00" FlightTime="260" TravelTime="260" Distance="1932" ClassOfService="W" Equipment="738" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="MS">Egyptair</air:CodeshareInfo>
+          <air:FlightDetails Key="P9wzL/sFuDKAB8XW3hAAAA==" Origin="DUS" Destination="CAI" DepartureTime="2024-06-22T15:15:00.000+02:00" ArrivalTime="2024-06-22T20:35:00.000+03:00" FlightTime="260" TravelTime="260" Distance="1932"/>
+        </air:AirSegment>
+        <air:AirSegment Key="P9wzL/sFuDKAC8XW3hAAAA==" Group="1" Carrier="MS" FlightNumber="733" ProviderCode="1G" Origin="CAI" Destination="DUS" DepartureTime="2024-07-23T10:40:00.000+03:00" ArrivalTime="2024-07-23T14:15:00.000+02:00" FlightTime="275" TravelTime="275" Distance="1932" ClassOfService="T" Equipment="321" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="MS">Egyptair</air:CodeshareInfo>
+          <air:FlightDetails Key="P9wzL/sFuDKAD8XW3hAAAA==" Origin="CAI" Destination="DUS" DepartureTime="2024-07-23T10:40:00.000+03:00" ArrivalTime="2024-07-23T14:15:00.000+02:00" FlightTime="275" TravelTime="275" Distance="1932"/>
+        </air:AirSegment>
+      </air:AirItinerary>
+      <air:AirPriceResult>
+        <air:AirPricingSolution Key="P9wzL/sFuDKAE8XW3hAAAA==" TotalPrice="SAR3670.00" BasePrice="EUR228.00" ApproximateTotalPrice="SAR3670.00" ApproximateBasePrice="SAR932.00" EquivalentBasePrice="SAR932.00" Taxes="SAR2738.00" Fees="SAR0.00" ApproximateTaxes="SAR2738.00" QuoteDate="2024-06-09">
+          <air:AirSegmentRef Key="P9wzL/sFuDKAA8XW3hAAAA=="/>
+          <air:AirSegmentRef Key="P9wzL/sFuDKAC8XW3hAAAA=="/>
+          <air:AirPricingInfo Key="P9wzL/sFuDKAJ8XW3hAAAA==" TotalPrice="SAR1835.00" BasePrice="EUR114.00" ApproximateTotalPrice="SAR1835.00" ApproximateBasePrice="SAR466.00" EquivalentBasePrice="SAR466.00" ApproximateTaxes="SAR1369.00" Taxes="SAR1369.00" LatestTicketingTime="2024-06-22T23:59:00.000+03:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="MS" ProviderCode="1G" TotalNetPrice="SAR1835.00">
+            <air:FareInfo Key="P9wzL/sFuDKAV8XW3hAAAA==" FareBasis="WRIMS" PassengerTypeCode="ADT" Origin="DUS" Destination="CAI" EffectiveDate="2024-06-09T21:33:00.000+03:00" DepartureDate="2024-06-22" Amount="SAR264.00" PrivateFare="AirlinePrivateFare" NegotiatedFare="true" TourCode="DE00PROM" NotValidBefore="2024-06-22" NotValidAfter="2024-06-22" PseudoCityCode="36X1" TaxAmount="SAR771.00">
+              <air:FareTicketDesignator Value="PV"/>
+              <common_v51_0:Endorsement Value="BAG. BUSINESS 32KG/158CM"/>
+              <common_v51_0:Endorsement Value="BAG. ECONOMY 23KG/158CM"/>
+              <common_v51_0:Endorsement Value="HAVE A NICE TRIP"/>
+              <air:FareRuleKey FareInfoRef="P9wzL/sFuDKAV8XW3hAAAA==" ProviderCode="1G">6UUVoSldxwh4oG+UbsxDQMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMjJs02vwFm2eLbI4+cPVKQoEqLp/SBmG5eFbFt3DvUGd9QyqotAVNswJtgoUJ8hHFfiwB0NqM9S2Jz/NBgJRXyxC/YIEuJEelrNc8r7RF9gnjNaC/f6esL6UnU3lSw2Rtnm8Koq+Sqo0Ma6tCI917JXz8HgKc5/iFAxaLpXgnhYOR7oW6eLAqETFZrW5qojnmTdpKS+GnbJt2CZQefLmmjL950NEHoG8TeBzSIAHdYoyg/LHd59FhzSynyDz0p4WfQ7j9azJ9GONwIhtGoxMlyE70CJW3hmugEL9ggS4kR6WxQUPhIRTtNfo3nK4paTqzElPIHnH21hJAtaG2ExveOWN7CTKTxrAxH8LbSZAu36IIDjgD6E+ZNeXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Db5Ao8hZpG+rqjETVQv3jgONpK17tPh10OU3uZMyD02EDDNWhGDk0LUjxju1cFpEyB7QvyltxaTJWRCTpuERy6Q==</air:FareRuleKey>
+              <air:Brand Key="P9wzL/sFuDKAV8XW3hAAAA==" BrandID="1391979" UpSellBrandID="1391978" Name="ECONOMY BEST OFFER" Carrier="MS" BrandTier="0002">
+                <air:Title Type="External" LanguageCode="EN">Economy Best Offer</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">BO</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Best Offer</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Best Offer</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy Best Offer</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="136">https://cdn.travelport.com/egyptair/MS_general_medium_2648.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="136">https://cdn.travelport.com/egyptair/MS_general_medium_2648.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAZ8XW3hAAAA==" Chargeable="Not offered" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Checked Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAa8XW3hAAAA==" SecondaryType="CY" Chargeable="Not offered" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Carry On Hand Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAb8XW3hAAAA==" SecondaryType="RF" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refund</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAc8XW3hAAAA==" SecondaryType="VC" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Rebooking</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0B5" Key="P9wzL/sFuDKAd8XW3hAAAA==" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pre Reserved Seat Assignment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pre Reserved Seat Assignment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pre Reserved Seat Assignment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAe8XW3hAAAA==" Chargeable="Not offered" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meals and Beverages</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAf8XW3hAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BX" Key="P9wzL/sFuDKAg8XW3hAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge Access</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Lounge Access</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge Access</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="03P" Key="P9wzL/sFuDKAh8XW3hAAAA==" SecondaryType="PO" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Check In</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Check In</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Check In</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0G6" Key="P9wzL/sFuDKAi8XW3hAAAA==" SecondaryType="PR" Chargeable="Not offered" Tag="Priority Boarding" DisplayOrder="17">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Boarding</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Boarding</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Boarding</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Upgrades" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BJ" Key="P9wzL/sFuDKAj8XW3hAAAA==" Chargeable="Available for a charge" Tag="Upgrade" DisplayOrder="9">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upgrade</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upgrade</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upgrade</air:Title>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:FareInfo Key="P9wzL/sFuDKAk8XW3hAAAA==" FareBasis="TRIMS" PassengerTypeCode="ADT" Origin="CAI" Destination="DUS" EffectiveDate="2024-06-09T21:33:00.000+03:00" DepartureDate="2024-07-23" Amount="SAR202.00" PrivateFare="AirlinePrivateFare" NegotiatedFare="true" TourCode="DE00PROM" NotValidBefore="2024-07-23" NotValidAfter="2024-07-23" PseudoCityCode="36X1" TaxAmount="SAR598.00">
+              <air:FareTicketDesignator Value="PV"/>
+              <common_v51_0:Endorsement Value="BAG. BUSINESS 32KG/158CM"/>
+              <common_v51_0:Endorsement Value="BAG. ECONOMY 23KG/158CM"/>
+              <common_v51_0:Endorsement Value="HAVE A NICE TRIP"/>
+              <air:FareRuleKey FareInfoRef="P9wzL/sFuDKAk8XW3hAAAA==" ProviderCode="1G">6UUVoSldxwh4oG+UbsxDQMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMjJs02vwFm2eLbI4+cPVKQoEqLp/SBmG5RRTPY+LUXr49QyqotAVNswJtgoUJ8hHFfiwB0NqM9S2Jz/NBgJRXyxC/YIEuJEelrNc8r7RF9gnjNaC/f6esL6UnU3lSw2RtoVREFsGMW53Ma6tCI917JXz8HgKc5/iFAxaLpXgnhYOR7oW6eLAqETFZrW5qojnmTdpKS+GnbJtdk4t5MYnBVbuCgyMSOHvMeBzSIAHdYoytyTX/8z1tIaynyDz0p4WfULd0zvgsBxGwIhtGoxMlyE70CJW3hmugEL9ggS4kR6WxQUPhIRTtNfo3nK4paTqzJb8ty9BRDC4AtaG2ExveOVlB2mkgTgnszvr811L00/rYrWj+wgLt9qXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Db5Ao8hZpG+rqjETVQv3jgONpK17tPh10OU3uZMyD02EDDNWhGDk0LUjxju1cFpEyB7QvyltxaTJWRCTpuERy6Q==</air:FareRuleKey>
+              <air:Brand Key="P9wzL/sFuDKAk8XW3hAAAA==" BrandID="1391980" UpSellBrandID="1391979" Name="ECONOMY BEST BUY" Carrier="MS" BrandTier="0001">
+                <air:Title Type="External" LanguageCode="EN">Economy Best Buy</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">BB</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Best Buy</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Best Buy</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy Best Buy</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="149" ImageHeight="150">https://cdn.travelport.com/egyptair/MS_general_medium_2650.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/egyptair/MS_general_medium_2651.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAo8XW3hAAAA==" Chargeable="Not offered" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Checked Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAp8XW3hAAAA==" SecondaryType="CY" Chargeable="Not offered" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Carry On Hand Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAq8XW3hAAAA==" SecondaryType="RF" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refund</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAr8XW3hAAAA==" SecondaryType="VC" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Rebooking</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0B5" Key="P9wzL/sFuDKAs8XW3hAAAA==" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pre Reserved Seat Assignment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pre Reserved Seat Assignment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pre Reserved Seat Assignment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAt8XW3hAAAA==" Chargeable="Not offered" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meals and Beverages</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAu8XW3hAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BX" Key="P9wzL/sFuDKAv8XW3hAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge Access</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Lounge Access</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge Access</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="03P" Key="P9wzL/sFuDKAw8XW3hAAAA==" SecondaryType="PO" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Check In</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Check In</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Check In</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0G6" Key="P9wzL/sFuDKAx8XW3hAAAA==" SecondaryType="PR" Chargeable="Not offered" Tag="Priority Boarding" DisplayOrder="17">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Boarding</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Boarding</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Boarding</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Upgrades" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BJ" Key="P9wzL/sFuDKAy8XW3hAAAA==" Chargeable="Available for a charge" Tag="Upgrade" DisplayOrder="9">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upgrade</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upgrade</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upgrade</air:Title>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="W" CabinClass="Economy" FareInfoRef="P9wzL/sFuDKAV8XW3hAAAA==" SegmentRef="P9wzL/sFuDKAA8XW3hAAAA==" HostTokenRef="P9wzL/sFuDKAF8XW3hAAAA=="/>
+            <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="P9wzL/sFuDKAk8XW3hAAAA==" SegmentRef="P9wzL/sFuDKAC8XW3hAAAA==" HostTokenRef="P9wzL/sFuDKAG8XW3hAAAA=="/>
+            <air:TaxInfo Category="DE" Amount="SAR41.00" Key="P9wzL/sFuDKAK8XW3hAAAA=="/>
+            <air:TaxInfo Category="OY" Amount="SAR161.00" Key="P9wzL/sFuDKAL8XW3hAAAA=="/>
+            <air:TaxInfo Category="RA" Amount="SAR87.00" Key="P9wzL/sFuDKAM8XW3hAAAA=="/>
+            <air:TaxInfo Category="EQ" Amount="SAR8.00" Key="P9wzL/sFuDKAN8XW3hAAAA=="/>
+            <air:TaxInfo Category="JK" Amount="SAR8.00" Key="P9wzL/sFuDKAO8XW3hAAAA=="/>
+            <air:TaxInfo Category="O2" Amount="SAR2.00" Key="P9wzL/sFuDKAP8XW3hAAAA=="/>
+            <air:TaxInfo Category="O9" Amount="SAR4.00" Key="P9wzL/sFuDKAQ8XW3hAAAA=="/>
+            <air:TaxInfo Category="QH" Amount="SAR94.00" Key="P9wzL/sFuDKAR8XW3hAAAA=="/>
+            <air:TaxInfo Category="S4" Amount="SAR16.00" Key="P9wzL/sFuDKAS8XW3hAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR170.00" Key="P9wzL/sFuDKAT8XW3hAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="SAR778.00" Key="P9wzL/sFuDKAU8XW3hAAAA=="/>
+            <air:FareCalc>DUS MS CAI 69.39WRIMS/PV MS DUS 53.26TRIMS/PV NUC122.65END ROE0.929425</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="46"/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR327.00</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR490.00</air:Amount>
+            </air:CancelPenalty>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="DUS" Destination="CAI" Carrier="MS">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MS</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>2P</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="CAI" Destination="DUS" Carrier="MS">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MS</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="EGP3093.00" ApproximateBasePrice="SAR244.16" TotalPrice="EGP3093.00" ApproximateTotalPrice="SAR244.16">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG AND OVER62LI/158LCM</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="DUS" Destination="CAI" Carrier="MS">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="CAI" Destination="DUS" Carrier="MS">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+          <air:AirPricingInfo Key="P9wzL/sFuDKA18XW3hAAAA==" TotalPrice="SAR1835.00" BasePrice="EUR114.00" ApproximateTotalPrice="SAR1835.00" ApproximateBasePrice="SAR466.00" EquivalentBasePrice="SAR466.00" ApproximateTaxes="SAR1369.00" Taxes="SAR1369.00" LatestTicketingTime="2024-06-22T23:59:00.000+03:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="MS" ProviderCode="1G" TotalNetPrice="SAR1835.00">
+            <air:FareInfo Key="P9wzL/sFuDKAB9XW3hAAAA==" FareBasis="WRIMS" PassengerTypeCode="ADT" Origin="DUS" Destination="CAI" EffectiveDate="2024-06-09T21:33:00.000+03:00" DepartureDate="2024-06-22" Amount="SAR264.00" PrivateFare="AirlinePrivateFare" NegotiatedFare="true" TourCode="DE00PROM" NotValidBefore="2024-06-22" NotValidAfter="2024-06-22" PseudoCityCode="36X1" TaxAmount="SAR771.00">
+              <air:FareTicketDesignator Value="PV"/>
+              <common_v51_0:Endorsement Value="BAG. BUSINESS 32KG/158CM"/>
+              <common_v51_0:Endorsement Value="BAG. ECONOMY 23KG/158CM"/>
+              <common_v51_0:Endorsement Value="HAVE A NICE TRIP"/>
+              <air:FareRuleKey FareInfoRef="P9wzL/sFuDKAB9XW3hAAAA==" ProviderCode="1G">6UUVoSldxwh4oG+UbsxDQMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMjJs02vwFm2eLbI4+cPVKQoEqLp/SBmG5eFbFt3DvUGd9QyqotAVNswJtgoUJ8hHFfiwB0NqM9S2Jz/NBgJRXyxaeijkgxpswrNc8r7RF9gnjNaC/f6esL6UnU3lSw2Rtnm8Koq+Sqo0Ma6tCI917JXz8HgKc5/iFAxaLpXgnhYOn591/mI+kg3FZrW5qojnmTdpKS+GnbJt2CZQefLmmjL950NEHoG8TeBzSIAHdYoyg/LHd59FhzSynyDz0p4WfQ7j9azJ9GONwIhtGoxMlyE70CJW3hmugFp6KOSDGmzCxQUPhIRTtNfo3nK4paTqzElPIHnH21hJAtaG2ExveOWN7CTKTxrAxH8LbSZAu36IvXPK4bb25mGXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Db5Ao8hZpG+rqjETVQv3jgONpK17tPh10OU3uZMyD02EDDNWhGDk0LUjxju1cFpEyB7QvyltxaTJWRCTpuERy6Q==</air:FareRuleKey>
+              <air:Brand Key="P9wzL/sFuDKAB9XW3hAAAA==" BrandID="1391979" UpSellBrandID="1391978" Name="ECONOMY BEST OFFER" Carrier="MS" BrandTier="0002">
+                <air:Title Type="External" LanguageCode="EN">Economy Best Offer</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">BO</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Best Offer</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Best Offer</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy Best Offer</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="136">https://cdn.travelport.com/egyptair/MS_general_medium_2648.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="136">https://cdn.travelport.com/egyptair/MS_general_medium_2648.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAF9XW3hAAAA==" Chargeable="Not offered" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Checked Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAG9XW3hAAAA==" SecondaryType="CY" Chargeable="Not offered" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Carry On Hand Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAH9XW3hAAAA==" SecondaryType="RF" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refund</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAI9XW3hAAAA==" SecondaryType="VC" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Rebooking</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0B5" Key="P9wzL/sFuDKAJ9XW3hAAAA==" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pre Reserved Seat Assignment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pre Reserved Seat Assignment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pre Reserved Seat Assignment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAK9XW3hAAAA==" Chargeable="Not offered" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meals and Beverages</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAL9XW3hAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BX" Key="P9wzL/sFuDKAM9XW3hAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge Access</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Lounge Access</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge Access</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="03P" Key="P9wzL/sFuDKAN9XW3hAAAA==" SecondaryType="PO" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Check In</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Check In</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Check In</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0G6" Key="P9wzL/sFuDKAO9XW3hAAAA==" SecondaryType="PR" Chargeable="Not offered" Tag="Priority Boarding" DisplayOrder="17">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Boarding</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Boarding</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Boarding</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Upgrades" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BJ" Key="P9wzL/sFuDKAP9XW3hAAAA==" Chargeable="Available for a charge" Tag="Upgrade" DisplayOrder="9">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upgrade</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upgrade</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upgrade</air:Title>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:FareInfo Key="P9wzL/sFuDKAQ9XW3hAAAA==" FareBasis="TRIMS" PassengerTypeCode="ADT" Origin="CAI" Destination="DUS" EffectiveDate="2024-06-09T21:33:00.000+03:00" DepartureDate="2024-07-23" Amount="SAR202.00" PrivateFare="AirlinePrivateFare" NegotiatedFare="true" TourCode="DE00PROM" NotValidBefore="2024-07-23" NotValidAfter="2024-07-23" PseudoCityCode="36X1" TaxAmount="SAR598.00">
+              <air:FareTicketDesignator Value="PV"/>
+              <common_v51_0:Endorsement Value="BAG. BUSINESS 32KG/158CM"/>
+              <common_v51_0:Endorsement Value="BAG. ECONOMY 23KG/158CM"/>
+              <common_v51_0:Endorsement Value="HAVE A NICE TRIP"/>
+              <air:FareRuleKey FareInfoRef="P9wzL/sFuDKAQ9XW3hAAAA==" ProviderCode="1G">6UUVoSldxwh4oG+UbsxDQMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMjJs02vwFm2eLbI4+cPVKQoEqLp/SBmG5RRTPY+LUXr49QyqotAVNswJtgoUJ8hHFfiwB0NqM9S2Jz/NBgJRXyxaeijkgxpswrNc8r7RF9gnjNaC/f6esL6UnU3lSw2RtoVREFsGMW53Ma6tCI917JXz8HgKc5/iFAxaLpXgnhYOn591/mI+kg3FZrW5qojnmTdpKS+GnbJtdk4t5MYnBVbuCgyMSOHvMeBzSIAHdYoytyTX/8z1tIaynyDz0p4WfULd0zvgsBxGwIhtGoxMlyE70CJW3hmugFp6KOSDGmzCxQUPhIRTtNfo3nK4paTqzJb8ty9BRDC4AtaG2ExveOVlB2mkgTgnszvr811L00/r3OatOVuwSjeXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Db5Ao8hZpG+rqjETVQv3jgONpK17tPh10OU3uZMyD02EDDNWhGDk0LUjxju1cFpEyB7QvyltxaTJWRCTpuERy6Q==</air:FareRuleKey>
+              <air:Brand Key="P9wzL/sFuDKAQ9XW3hAAAA==" BrandID="1391980" UpSellBrandID="1391979" Name="ECONOMY BEST BUY" Carrier="MS" BrandTier="0001">
+                <air:Title Type="External" LanguageCode="EN">Economy Best Buy</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">BB</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Best Buy</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Best Buy</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy Best Buy</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="149" ImageHeight="150">https://cdn.travelport.com/egyptair/MS_general_medium_2650.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/egyptair/MS_general_medium_2651.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAU9XW3hAAAA==" Chargeable="Not offered" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Checked Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAV9XW3hAAAA==" SecondaryType="CY" Chargeable="Not offered" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Carry On Hand Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAW9XW3hAAAA==" SecondaryType="RF" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refund</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAX9XW3hAAAA==" SecondaryType="VC" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Rebooking</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0B5" Key="P9wzL/sFuDKAY9XW3hAAAA==" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pre Reserved Seat Assignment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pre Reserved Seat Assignment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pre Reserved Seat Assignment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAZ9XW3hAAAA==" Chargeable="Not offered" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meals and Beverages</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAa9XW3hAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BX" Key="P9wzL/sFuDKAb9XW3hAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge Access</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Lounge Access</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge Access</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="03P" Key="P9wzL/sFuDKAc9XW3hAAAA==" SecondaryType="PO" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Check In</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Check In</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Check In</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0G6" Key="P9wzL/sFuDKAd9XW3hAAAA==" SecondaryType="PR" Chargeable="Not offered" Tag="Priority Boarding" DisplayOrder="17">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Boarding</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Boarding</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Boarding</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Upgrades" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BJ" Key="P9wzL/sFuDKAe9XW3hAAAA==" Chargeable="Available for a charge" Tag="Upgrade" DisplayOrder="9">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upgrade</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upgrade</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upgrade</air:Title>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="W" CabinClass="Economy" FareInfoRef="P9wzL/sFuDKAB9XW3hAAAA==" SegmentRef="P9wzL/sFuDKAA8XW3hAAAA==" HostTokenRef="P9wzL/sFuDKAH8XW3hAAAA=="/>
+            <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="P9wzL/sFuDKAQ9XW3hAAAA==" SegmentRef="P9wzL/sFuDKAC8XW3hAAAA==" HostTokenRef="P9wzL/sFuDKAI8XW3hAAAA=="/>
+            <air:TaxInfo Category="DE" Amount="SAR41.00" Key="P9wzL/sFuDKA28XW3hAAAA=="/>
+            <air:TaxInfo Category="OY" Amount="SAR161.00" Key="P9wzL/sFuDKA38XW3hAAAA=="/>
+            <air:TaxInfo Category="RA" Amount="SAR87.00" Key="P9wzL/sFuDKA48XW3hAAAA=="/>
+            <air:TaxInfo Category="EQ" Amount="SAR8.00" Key="P9wzL/sFuDKA58XW3hAAAA=="/>
+            <air:TaxInfo Category="JK" Amount="SAR8.00" Key="P9wzL/sFuDKA68XW3hAAAA=="/>
+            <air:TaxInfo Category="O2" Amount="SAR2.00" Key="P9wzL/sFuDKA78XW3hAAAA=="/>
+            <air:TaxInfo Category="O9" Amount="SAR4.00" Key="P9wzL/sFuDKA88XW3hAAAA=="/>
+            <air:TaxInfo Category="QH" Amount="SAR94.00" Key="P9wzL/sFuDKA98XW3hAAAA=="/>
+            <air:TaxInfo Category="S4" Amount="SAR16.00" Key="P9wzL/sFuDKA+8XW3hAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR170.00" Key="P9wzL/sFuDKA/8XW3hAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="SAR778.00" Key="P9wzL/sFuDKAA9XW3hAAAA=="/>
+            <air:FareCalc>DUS MS CAI 69.39WRIMS/PV MS DUS 53.26TRIMS/PV NUC122.65END ROE0.929425</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="55"/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR327.00</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR490.00</air:Amount>
+            </air:CancelPenalty>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="DUS" Destination="CAI" Carrier="MS">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MS</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>2P</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="CAI" Destination="DUS" Carrier="MS">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MS</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="EGP3093.00" ApproximateBasePrice="SAR244.16" TotalPrice="EGP3093.00" ApproximateTotalPrice="SAR244.16">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG AND OVER62LI/158LCM</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="DUS" Destination="CAI" Carrier="MS">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="CAI" Destination="DUS" Carrier="MS">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+          <air:FareNote Key="P9wzL/sFuDKAh9XW3hAAAA==">RATE USED IN EQU TOTAL IS BSR 1EUR - 4.08852123SAR</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAi9XW3hAAAA==">TOUR CODE: DE00PROM</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAj9XW3hAAAA==">LAST DATE TO PURCHASE TICKET: 22JUN24</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAk9XW3hAAAA==">TICKETING AGENCY 36X1</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAl9XW3hAAAA==">DEFAULT PLATING CARRIER MS</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAm9XW3hAAAA==">FARE HAS A PLATING CARRIER RESTRICTION</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAn9XW3hAAAA==">E-TKT REQUIRED</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAo9XW3hAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAp9XW3hAAAA==">RATE USED IN EQU TOTAL IS BSR 1EUR - 4.08852123SAR</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAq9XW3hAAAA==">TOUR CODE: DE00PROM</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAr9XW3hAAAA==">LAST DATE TO PURCHASE TICKET: 22JUN24</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAs9XW3hAAAA==">TICKETING AGENCY 36X1</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAt9XW3hAAAA==">DEFAULT PLATING CARRIER MS</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAu9XW3hAAAA==">FARE HAS A PLATING CARRIER RESTRICTION</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAv9XW3hAAAA==">E-TKT REQUIRED</air:FareNote>
+          <air:FareNote Key="P9wzL/sFuDKAw9XW3hAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+          <common_v51_0:HostToken Key="P9wzL/sFuDKAF8XW3hAAAA==">GFB10101ADT00  01WRIMS          PV                     010001#GFB200010101NADTV3903DE0000100009997473345137EEH#GFMCXPX903YDE00FMS ADTWRIMS</common_v51_0:HostToken>
+          <common_v51_0:HostToken Key="P9wzL/sFuDKAG8XW3hAAAA==">GFB10101ADT00  02TRIMS          PV                     010002#GFB200010102NADTV3903DE0000100014997473345137EEH#GFMCXPX903YDE00FMS ADTTRIMS</common_v51_0:HostToken>
+          <common_v51_0:HostToken Key="P9wzL/sFuDKAH8XW3hAAAA==">GFB10202ADT00  01WRIMS          PV                     010001#GFB200020201NADTV3903DE0000100009997473345137EEH#GFMCXPX903YDE00FMS ADTWRIMS</common_v51_0:HostToken>
+          <common_v51_0:HostToken Key="P9wzL/sFuDKAI8XW3hAAAA==">GFB10202ADT00  02TRIMS          PV                     010002#GFB200020202NADTV3903DE0000100014997473345137EEH#GFMCXPX903YDE00FMS ADTTRIMS</common_v51_0:HostToken>
+        </air:AirPricingSolution>
+        <air:AirPricingSolution Key="P9wzL/sFuDKAx9XW3hAAAA==" TotalPrice="SAR5322.00" BasePrice="EUR632.00" ApproximateTotalPrice="SAR5322.00" ApproximateBasePrice="SAR2584.00" EquivalentBasePrice="SAR2584.00" Taxes="SAR2738.00" Fees="SAR0.00" ApproximateTaxes="SAR2738.00" QuoteDate="2024-06-09">
+          <air:AirSegmentRef Key="P9wzL/sFuDKAA8XW3hAAAA=="/>
+          <air:AirSegmentRef Key="P9wzL/sFuDKAC8XW3hAAAA=="/>
+          <air:AirPricingInfo Key="P9wzL/sFuDKA29XW3hAAAA==" TotalPrice="SAR2661.00" BasePrice="EUR316.00" ApproximateTotalPrice="SAR2661.00" ApproximateBasePrice="SAR1292.00" EquivalentBasePrice="SAR1292.00" ApproximateTaxes="SAR1369.00" Taxes="SAR1369.00" LatestTicketingTime="2024-06-22T23:59:00.000+03:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="MS" ProviderCode="1G" TotalNetPrice="SAR1835.00">
+            <air:FareInfo Key="P9wzL/sFuDKAC+XW3hAAAA==" FareBasis="KREMS" PassengerTypeCode="ADT" Origin="DUS" Destination="CAI" EffectiveDate="2024-06-09T21:33:00.000+03:00" DepartureDate="2024-06-22" Amount="SAR1027.00" PrivateFare="AirlinePrivateFare" NegotiatedFare="true" TourCode="DE00PROM" NotValidBefore="2024-06-22" NotValidAfter="2024-06-22" PseudoCityCode="36X1" TaxAmount="SAR771.00">
+              <air:FareRuleKey FareInfoRef="P9wzL/sFuDKAC+XW3hAAAA==" ProviderCode="1G">6UUVoSldxwh4oG+UbsxDQMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMjJs02vwFm2eLbI4+cPVKQoEqLp/SBmG5eFbFt3DvUGd9QyqotAVNswJtgoUJ8hHFfiwB0NqM9S2Jz/NBgJRXyxC/YIEuJEelrNc8r7RF9gnjNaC/f6esL6UnU3lSw2RtndDCEHoPo71nmyZ2oG6uYPz8HgKc5/iFAxaLpXgnhYOR7oW6eLAqETFZrW5qojnmTdpKS+GnbJtA1sM25Jw7XWTglbGckpwosDIaqHwkhqoAP+Zgkg0C3elJhUCp8QLlgoVxSdviq1qO9AiVt4ZroCF/oTXxxF6Maa8/WhFKAleH8HHNTDnEHgzZWeczFpqZFby9IE1rxlSbALTZRTMyyd6IfKnwsp5a9jGTkKz4/nA+E01Kxi8vRu/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfNBqkNsIAyv9NQZaU8MqPq/RowEWWMO4/00Tk5BgBtDFM+OI7gRfnPc52+0DP/xqm3Be071rWsQ9mi55DcWQThg==</air:FareRuleKey>
+              <air:Brand Key="P9wzL/sFuDKAC+XW3hAAAA==" BrandID="1391978" Name="ECONOMY GOOD DEAL" UpSellBrandFound="false" Carrier="MS" BrandTier="0003">
+                <air:Title Type="External" LanguageCode="EN">Economy Good Deal</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">GD</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Good Deal</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Good Deal</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy Good Deal</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/egyptair/MS_general_medium_2651.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/egyptair/MS_general_medium_2651.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAD+XW3hAAAA==" Chargeable="Not offered" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Checked Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAE+XW3hAAAA==" SecondaryType="CY" Chargeable="Not offered" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Carry On Hand Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAF+XW3hAAAA==" SecondaryType="RF" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refund</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAG+XW3hAAAA==" SecondaryType="VC" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Rebooking</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0B5" Key="P9wzL/sFuDKAH+XW3hAAAA==" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pre Reserved Seat Assignment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pre Reserved Seat Assignment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pre Reserved Seat Assignment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAI+XW3hAAAA==" Chargeable="Not offered" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meals and Beverages</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAJ+XW3hAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BX" Key="P9wzL/sFuDKAK+XW3hAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge Access</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Lounge Access</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge Access</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="03P" Key="P9wzL/sFuDKAL+XW3hAAAA==" SecondaryType="PO" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Check In</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Check In</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Check In</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0G6" Key="P9wzL/sFuDKAM+XW3hAAAA==" SecondaryType="PR" Chargeable="Not offered" Tag="Priority Boarding" DisplayOrder="17">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Boarding</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Boarding</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Boarding</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Upgrades" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BJ" Key="P9wzL/sFuDKAN+XW3hAAAA==" Chargeable="Available for a charge" Tag="Upgrade" DisplayOrder="9">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upgrade</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upgrade</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upgrade</air:Title>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:FareInfo Key="P9wzL/sFuDKAO+XW3hAAAA==" FareBasis="WRIMS" PassengerTypeCode="ADT" Origin="CAI" Destination="DUS" EffectiveDate="2024-06-09T21:33:00.000+03:00" DepartureDate="2024-07-23" Amount="SAR265.00" PrivateFare="AirlinePrivateFare" NegotiatedFare="true" TourCode="DE00PROM" NotValidBefore="2024-07-23" NotValidAfter="2024-07-23" PseudoCityCode="36X1" TaxAmount="SAR598.00">
+              <air:FareTicketDesignator Value="PV"/>
+              <air:FareRuleKey FareInfoRef="P9wzL/sFuDKAO+XW3hAAAA==" ProviderCode="1G">6UUVoSldxwh4oG+UbsxDQMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMjJs02vwFm2eLbI4+cPVKQoEqLp/SBmG5RRTPY+LUXr49QyqotAVNswJtgoUJ8hHFfiwB0NqM9S2Jz/NBgJRXyxC/YIEuJEelrNc8r7RF9gnjNaC/f6esL6UnU3lSw2Rtnm8Koq+Sqo0Ma6tCI917JXz8HgKc5/iFAxaLpXgnhYOR7oW6eLAqETFZrW5qojnmTdpKS+GnbJtYk5enSHRt5j7Gv4iXAT8G+BzSIAHdYoyg/LHd59FhzSynyDz0p4WfULd0zvgsBxGwIhtGoxMlyE70CJW3hmugEL9ggS4kR6WxQUPhIRTtNfo3nK4paTqzJb8ty9BRDC4AtaG2ExveOVlB2mkgTgns38LbSZAu36IIDjgD6E+ZNeXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Db5Ao8hZpG+rqjETVQv3jgONpK17tPh10OU3uZMyD02EDDNWhGDk0LUjxju1cFpEyB7QvyltxaTJWRCTpuERy6Q==</air:FareRuleKey>
+              <air:Brand Key="P9wzL/sFuDKAO+XW3hAAAA==" BrandID="1391979" Name="ECONOMY BEST OFFER" UpSellBrandFound="false" Carrier="MS" BrandTier="0002">
+                <air:Title Type="External" LanguageCode="EN">Economy Best Offer</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">BO</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Best Offer</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Best Offer</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy Best Offer</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="136">https://cdn.travelport.com/egyptair/MS_general_medium_2648.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="136">https://cdn.travelport.com/egyptair/MS_general_medium_2648.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAP+XW3hAAAA==" Chargeable="Not offered" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Checked Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAQ+XW3hAAAA==" SecondaryType="CY" Chargeable="Not offered" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Carry On Hand Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAR+XW3hAAAA==" SecondaryType="RF" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refund</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAS+XW3hAAAA==" SecondaryType="VC" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Rebooking</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0B5" Key="P9wzL/sFuDKAT+XW3hAAAA==" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pre Reserved Seat Assignment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pre Reserved Seat Assignment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pre Reserved Seat Assignment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAU+XW3hAAAA==" Chargeable="Not offered" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meals and Beverages</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAV+XW3hAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BX" Key="P9wzL/sFuDKAW+XW3hAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge Access</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Lounge Access</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge Access</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="03P" Key="P9wzL/sFuDKAX+XW3hAAAA==" SecondaryType="PO" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Check In</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Check In</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Check In</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0G6" Key="P9wzL/sFuDKAY+XW3hAAAA==" SecondaryType="PR" Chargeable="Not offered" Tag="Priority Boarding" DisplayOrder="17">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Boarding</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Boarding</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Boarding</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Upgrades" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BJ" Key="P9wzL/sFuDKAZ+XW3hAAAA==" Chargeable="Available for a charge" Tag="Upgrade" DisplayOrder="9">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upgrade</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upgrade</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upgrade</air:Title>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="K" CabinClass="Economy" FareInfoRef="P9wzL/sFuDKAC+XW3hAAAA==" SegmentRef="P9wzL/sFuDKAA8XW3hAAAA==" HostTokenRef="P9wzL/sFuDKAy9XW3hAAAA=="/>
+            <air:BookingInfo BookingCode="W" CabinClass="Economy" FareInfoRef="P9wzL/sFuDKAO+XW3hAAAA==" SegmentRef="P9wzL/sFuDKAC8XW3hAAAA==" HostTokenRef="P9wzL/sFuDKAz9XW3hAAAA=="/>
+            <air:TaxInfo Category="DE" Amount="SAR41.00" Key="P9wzL/sFuDKA39XW3hAAAA=="/>
+            <air:TaxInfo Category="OY" Amount="SAR161.00" Key="P9wzL/sFuDKA49XW3hAAAA=="/>
+            <air:TaxInfo Category="RA" Amount="SAR87.00" Key="P9wzL/sFuDKA59XW3hAAAA=="/>
+            <air:TaxInfo Category="EQ" Amount="SAR8.00" Key="P9wzL/sFuDKA69XW3hAAAA=="/>
+            <air:TaxInfo Category="JK" Amount="SAR8.00" Key="P9wzL/sFuDKA79XW3hAAAA=="/>
+            <air:TaxInfo Category="O2" Amount="SAR2.00" Key="P9wzL/sFuDKA89XW3hAAAA=="/>
+            <air:TaxInfo Category="O9" Amount="SAR4.00" Key="P9wzL/sFuDKA99XW3hAAAA=="/>
+            <air:TaxInfo Category="QH" Amount="SAR94.00" Key="P9wzL/sFuDKA+9XW3hAAAA=="/>
+            <air:TaxInfo Category="S4" Amount="SAR16.00" Key="P9wzL/sFuDKA/9XW3hAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR170.00" Key="P9wzL/sFuDKAA+XW3hAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="SAR778.00" Key="P9wzL/sFuDKAB+XW3hAAAA=="/>
+            <air:FareCalc>DUS MS CAI 270.05KREMS MS DUS 69.40WRIMS/PV NUC339.45END ROE0.929425</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="46"/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR286.00</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR408.00</air:Amount>
+            </air:CancelPenalty>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="DUS" Destination="CAI" Carrier="MS">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MS</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>2P</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="CAI" Destination="DUS" Carrier="MS">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MS</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>2P</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="DUS" Destination="CAI" Carrier="MS">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="CAI" Destination="DUS" Carrier="MS">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+          <air:AirPricingInfo Key="P9wzL/sFuDKAc+XW3hAAAA==" TotalPrice="SAR2661.00" BasePrice="EUR316.00" ApproximateTotalPrice="SAR2661.00" ApproximateBasePrice="SAR1292.00" EquivalentBasePrice="SAR1292.00" ApproximateTaxes="SAR1369.00" Taxes="SAR1369.00" LatestTicketingTime="2024-06-22T23:59:00.000+03:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="MS" ProviderCode="1G" TotalNetPrice="SAR1835.00">
+            <air:FareInfo Key="P9wzL/sFuDKAo+XW3hAAAA==" FareBasis="KREMS" PassengerTypeCode="ADT" Origin="DUS" Destination="CAI" EffectiveDate="2024-06-09T21:33:00.000+03:00" DepartureDate="2024-06-22" Amount="SAR1027.00" PrivateFare="AirlinePrivateFare" NegotiatedFare="true" TourCode="DE00PROM" NotValidBefore="2024-06-22" NotValidAfter="2024-06-22" PseudoCityCode="36X1" TaxAmount="SAR771.00">
+              <air:FareRuleKey FareInfoRef="P9wzL/sFuDKAo+XW3hAAAA==" ProviderCode="1G">6UUVoSldxwh4oG+UbsxDQMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMjJs02vwFm2eLbI4+cPVKQoEqLp/SBmG5eFbFt3DvUGd9QyqotAVNswJtgoUJ8hHFfiwB0NqM9S2Jz/NBgJRXyxaeijkgxpswrNc8r7RF9gnjNaC/f6esL6UnU3lSw2RtndDCEHoPo71nmyZ2oG6uYPz8HgKc5/iFAxaLpXgnhYOn591/mI+kg3FZrW5qojnmTdpKS+GnbJtA1sM25Jw7XWTglbGckpwosDIaqHwkhqoAP+Zgkg0C3elJhUCp8QLlgoVxSdviq1qO9AiVt4ZroCF/oTXxxF6MRHoMfQF5q9UH8HHNTDnEHgzZWeczFpqZFby9IE1rxlSbALTZRTMyyd6IfKnwsp5a9jGTkKz4/nAffXKN1LwGOi/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfNBqkNsIAyv9NQZaU8MqPq/RowEWWMO4/00Tk5BgBtDFM+OI7gRfnPc52+0DP/xqm3Be071rWsQ9mi55DcWQThg==</air:FareRuleKey>
+              <air:Brand Key="P9wzL/sFuDKAo+XW3hAAAA==" BrandID="1391978" Name="ECONOMY GOOD DEAL" UpSellBrandFound="false" Carrier="MS" BrandTier="0003">
+                <air:Title Type="External" LanguageCode="EN">Economy Good Deal</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">GD</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Good Deal</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Good Deal</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy Good Deal</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/egyptair/MS_general_medium_2651.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/egyptair/MS_general_medium_2651.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAp+XW3hAAAA==" Chargeable="Not offered" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Checked Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAq+XW3hAAAA==" SecondaryType="CY" Chargeable="Not offered" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Carry On Hand Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAr+XW3hAAAA==" SecondaryType="RF" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refund</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAs+XW3hAAAA==" SecondaryType="VC" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Rebooking</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0B5" Key="P9wzL/sFuDKAt+XW3hAAAA==" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pre Reserved Seat Assignment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pre Reserved Seat Assignment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pre Reserved Seat Assignment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAu+XW3hAAAA==" Chargeable="Not offered" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meals and Beverages</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKAv+XW3hAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BX" Key="P9wzL/sFuDKAw+XW3hAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge Access</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Lounge Access</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge Access</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="03P" Key="P9wzL/sFuDKAx+XW3hAAAA==" SecondaryType="PO" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Check In</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Check In</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Check In</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0G6" Key="P9wzL/sFuDKAy+XW3hAAAA==" SecondaryType="PR" Chargeable="Not offered" Tag="Priority Boarding" DisplayOrder="17">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Boarding</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Boarding</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Boarding</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Upgrades" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BJ" Key="P9wzL/sFuDKAz+XW3hAAAA==" Chargeable="Available for a charge" Tag="Upgrade" DisplayOrder="9">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAA8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upgrade</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upgrade</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upgrade</air:Title>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:FareInfo Key="P9wzL/sFuDKA0+XW3hAAAA==" FareBasis="WRIMS" PassengerTypeCode="ADT" Origin="CAI" Destination="DUS" EffectiveDate="2024-06-09T21:33:00.000+03:00" DepartureDate="2024-07-23" Amount="SAR265.00" PrivateFare="AirlinePrivateFare" NegotiatedFare="true" TourCode="DE00PROM" NotValidBefore="2024-07-23" NotValidAfter="2024-07-23" PseudoCityCode="36X1" TaxAmount="SAR598.00">
+              <air:FareTicketDesignator Value="PV"/>
+              <air:FareRuleKey FareInfoRef="P9wzL/sFuDKA0+XW3hAAAA==" ProviderCode="1G">6UUVoSldxwh4oG+UbsxDQMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMjJs02vwFm2eLbI4+cPVKQoEqLp/SBmG5RRTPY+LUXr49QyqotAVNswJtgoUJ8hHFfiwB0NqM9S2Jz/NBgJRXyxaeijkgxpswrNc8r7RF9gnjNaC/f6esL6UnU3lSw2Rtnm8Koq+Sqo0Ma6tCI917JXz8HgKc5/iFAxaLpXgnhYOn591/mI+kg3FZrW5qojnmTdpKS+GnbJtYk5enSHRt5j7Gv4iXAT8G+BzSIAHdYoyg/LHd59FhzSynyDz0p4WfULd0zvgsBxGwIhtGoxMlyE70CJW3hmugFp6KOSDGmzCxQUPhIRTtNfo3nK4paTqzJb8ty9BRDC4AtaG2ExveOVlB2mkgTgns38LbSZAu36IvXPK4bb25mGXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Db5Ao8hZpG+rqjETVQv3jgONpK17tPh10OU3uZMyD02EDDNWhGDk0LUjxju1cFpEyB7QvyltxaTJWRCTpuERy6Q==</air:FareRuleKey>
+              <air:Brand Key="P9wzL/sFuDKA0+XW3hAAAA==" BrandID="1391979" Name="ECONOMY BEST OFFER" UpSellBrandFound="false" Carrier="MS" BrandTier="0002">
+                <air:Title Type="External" LanguageCode="EN">Economy Best Offer</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">BO</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Best Offer</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Best Offer</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy Best Offer</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="136">https://cdn.travelport.com/egyptair/MS_general_medium_2648.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="136">https://cdn.travelport.com/egyptair/MS_general_medium_2648.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKA1+XW3hAAAA==" Chargeable="Not offered" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Checked Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKA2+XW3hAAAA==" SecondaryType="CY" Chargeable="Not offered" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Carry On Hand Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKA3+XW3hAAAA==" SecondaryType="RF" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refund</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKA4+XW3hAAAA==" SecondaryType="VC" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Rebooking</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0B5" Key="P9wzL/sFuDKA5+XW3hAAAA==" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pre Reserved Seat Assignment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pre Reserved Seat Assignment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pre Reserved Seat Assignment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKA6+XW3hAAAA==" Chargeable="Not offered" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meals and Beverages</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-09T18:33:01.271+00:00" Key="P9wzL/sFuDKA7+XW3hAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BX" Key="P9wzL/sFuDKA8+XW3hAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge Access</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Lounge Access</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge Access</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="03P" Key="P9wzL/sFuDKA9+XW3hAAAA==" SecondaryType="PO" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Check In</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Check In</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Check In</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0G6" Key="P9wzL/sFuDKA++XW3hAAAA==" SecondaryType="PR" Chargeable="Not offered" Tag="Priority Boarding" DisplayOrder="17">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Boarding</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Boarding</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Boarding</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Upgrades" CreateDate="2024-06-09T18:33:01.271+00:00" ServiceSubCode="0BJ" Key="P9wzL/sFuDKA/+XW3hAAAA==" Chargeable="Available for a charge" Tag="Upgrade" DisplayOrder="9">
+                    <common_v51_0:ServiceData AirSegmentRef="P9wzL/sFuDKAC8XW3hAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upgrade</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upgrade</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upgrade</air:Title>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="K" CabinClass="Economy" FareInfoRef="P9wzL/sFuDKAo+XW3hAAAA==" SegmentRef="P9wzL/sFuDKAA8XW3hAAAA==" HostTokenRef="P9wzL/sFuDKA09XW3hAAAA=="/>
+            <air:BookingInfo BookingCode="W" CabinClass="Economy" FareInfoRef="P9wzL/sFuDKA0+XW3hAAAA==" SegmentRef="P9wzL/sFuDKAC8XW3hAAAA==" HostTokenRef="P9wzL/sFuDKA19XW3hAAAA=="/>
+            <air:TaxInfo Category="DE" Amount="SAR41.00" Key="P9wzL/sFuDKAd+XW3hAAAA=="/>
+            <air:TaxInfo Category="OY" Amount="SAR161.00" Key="P9wzL/sFuDKAe+XW3hAAAA=="/>
+            <air:TaxInfo Category="RA" Amount="SAR87.00" Key="P9wzL/sFuDKAf+XW3hAAAA=="/>
+            <air:TaxInfo Category="EQ" Amount="SAR8.00" Key="P9wzL/sFuDKAg+XW3hAAAA=="/>
+            <air:TaxInfo Category="JK" Amount="SAR8.00" Key="P9wzL/sFuDKAh+XW3hAAAA=="/>
+            <air:TaxInfo Category="O2" Amount="SAR2.00" Key="P9wzL/sFuDKAi+XW3hAAAA=="/>
+            <air:TaxInfo Category="O9" Amount="SAR4.00" Key="P9wzL/sFuDKAj+XW3hAAAA=="/>
+            <air:TaxInfo Category="QH" Amount="SAR94.00" Key="P9wzL/sFuDKAk+XW3hAAAA=="/>
+            <air:TaxInfo Category="S4" Amount="SAR16.00" Key="P9wzL/sFuDKAl+XW3hAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR170.00" Key="P9wzL/sFuDKAm+XW3hAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="SAR778.00" Key="P9wzL/sFuDKAn+XW3hAAAA=="/>
+            <air:FareCalc>DUS MS CAI 270.05KREMS MS DUS 69.40WRIMS/PV NUC339.45END ROE0.929425</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="55"/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR286.00</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR408.00</air:Amount>
+            </air:CancelPenalty>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="DUS" Destination="CAI" Carrier="MS">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MS</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>2P</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="CAI" Destination="DUS" Carrier="MS">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MS</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>2P</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="DUS" Destination="CAI" Carrier="MS">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="CAI" Destination="DUS" Carrier="MS">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+          <common_v51_0:HostToken Key="P9wzL/sFuDKAy9XW3hAAAA==">GFB10101ADT00  01KREMS                                 010001#GFB200010101NADTV3903DE0000100015997571941387EEH#GFMCXPX903YDE00FMS ADTKREMS</common_v51_0:HostToken>
+          <common_v51_0:HostToken Key="P9wzL/sFuDKAz9XW3hAAAA==">GFB10101ADT00  02WRIMS          PV                     010002#GFB200010102NADTV3903DE0000100009997473345137EEH#GFMCXPX903YDE00FMS ADTWRIMS</common_v51_0:HostToken>
+          <common_v51_0:HostToken Key="P9wzL/sFuDKA09XW3hAAAA==">GFB10202ADT00  01KREMS                                 010001#GFB200020201NADTV3903DE0000100015997571941387EEH#GFMCXPX903YDE00FMS ADTKREMS</common_v51_0:HostToken>
+          <common_v51_0:HostToken Key="P9wzL/sFuDKA19XW3hAAAA==">GFB10202ADT00  02WRIMS          PV                     010002#GFB200020202NADTV3903DE0000100009997473345137EEH#GFMCXPX903YDE00FMS ADTWRIMS</common_v51_0:HostToken>
+        </air:AirPricingSolution>
+      </air:AirPriceResult>
+    </air:AirPriceRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

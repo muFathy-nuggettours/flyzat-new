@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <air:AirPriceRsp xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" TraceId="ae84e5a33cf9f5319306fab5405cd081" TransactionId="88E84F8F0A0EE0BC01FE30A217792E98" ResponseTime="537">
+      <common_v51_0:ResponseMessage Code="710401" Type="Warning" ProviderCode="1G">Taxes returned at the FareInfo level are for informational purposes only, and may differ from those returned at the Itinerary/Passenger Type levels.</common_v51_0:ResponseMessage>
+      <air:AirItinerary>
+        <air:AirSegment Key="/k+AdB8CuDKAkjKHZcAAAA==" Group="0" Carrier="RJ" FlightNumber="735" ProviderCode="1G" Origin="RUH" Destination="AMM" DepartureTime="2024-07-21T06:40:00.000+03:00" ArrivalTime="2024-07-21T09:10:00.000+03:00" FlightTime="150" TravelTime="150" Distance="801" ClassOfService="W" Equipment="321" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="RJ">ROYAL JORDANIAN</air:CodeshareInfo>
+          <air:FlightDetails Key="/k+AdB8CuDKAljKHZcAAAA==" Origin="RUH" Destination="AMM" DepartureTime="2024-07-21T06:40:00.000+03:00" ArrivalTime="2024-07-21T09:10:00.000+03:00" FlightTime="150" TravelTime="150" Distance="801"/>
+        </air:AirSegment>
+      </air:AirItinerary>
+      <air:AirPriceResult>
+        <air:AirPricingSolution Key="/k+AdB8CuDKAmjKHZcAAAA==" TotalPrice="SAR399.00" BasePrice="SAR173.00" ApproximateTotalPrice="SAR399.00" ApproximateBasePrice="SAR173.00" Taxes="SAR226.00" Fees="SAR0.00" ApproximateTaxes="SAR226.00" QuoteDate="2024-07-06">
+          <air:AirSegmentRef Key="/k+AdB8CuDKAkjKHZcAAAA=="/>
+          <air:AirPricingInfo Key="/k+AdB8CuDKAojKHZcAAAA==" TotalPrice="SAR399.00" BasePrice="SAR173.00" ApproximateTotalPrice="SAR399.00" ApproximateBasePrice="SAR173.00" ApproximateTaxes="SAR226.00" Taxes="SAR226.00" LatestTicketingTime="2024-07-10T23:59:00.000+03:00" PricingMethod="Manual" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="RJ" ProviderCode="1G" TotalNetPrice="SAR399.00">
+            <air:FareInfo Key="/k+AdB8CuDKAvjKHZcAAAA==" FareBasis="WBBSPSA1" PassengerTypeCode="ADT" Origin="RUH" Destination="AMM" EffectiveDate="2024-07-06T19:37:00.000+03:00" DepartureDate="2024-07-21" Amount="SAR173.00" PrivateFare="AirlinePrivateFare" NegotiatedFare="true" TourCode="PVRUHAMMXY0823" NotValidBefore="2024-07-21" NotValidAfter="2024-07-21" PseudoCityCode="36X1" TaxAmount="SAR226.00">
+              <common_v51_0:Endorsement Value="NNEND/CHANGE RES FEE APPLY"/>
+              <air:FareRuleKey FareInfoRef="/k+AdB8CuDKAvjKHZcAAAA==" ProviderCode="1G">6UUVoSldxwj36XCS3Ea+4MbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMjJs02vwFm2eLbI4+cPVKQoEqLp/SBmG5eFbFt3DvUGd9QyqotAVNswJtgoUJ8hHFfiwB0NqM9S2fMiDPbbRoRFFzHslRyor8HH6HXeGSfUaGHdai80UviP2/RT1MyaSakmAKChKcihQu1AKdw68vG6T6UaaTYyzR+hM3WsmhX/y9kY7J0WSfnzgu7qA4bqn+YfIYcQY4qGsQu0ZscBMSQ4Em5TOIOG+HxiX7zO75ENDiC3bcV+IT/huzkEjy9LP2MCIbRqMTJchO9AiVt4ZroBC/YIEuJEelp10CZUr2tRvd0M9KCV0d8JJTyB5x9tYSQLWhthMb3jlb5xUXFssNeuQXEngwOfYm+aoyaIUYH00ly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA2+QKPIWaRvq6oxE1UL944DjaSte7T4ddDlN7mTMg9Nh9gNl5H8YguS6jw/SweOTvDdktfI3c45W8aWAs8/FZag=</air:FareRuleKey>
+              <air:Brand Key="/k+AdB8CuDKAvjKHZcAAAA==" BrandID="1434285" UpSellBrandID="1434284" Name="ECONOMY PLUS" Carrier="RJ" BrandTier="0003">
+                <air:Title Type="External" LanguageCode="EN">Economy Plus</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">ECPLUS</air:Title>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy Plus</air:Text>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-07-06T16:37:25.032+00:00" Key="/k+AdB8CuDKAxjKHZcAAAA==" SecondaryType="CY" Chargeable="Not offered" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Carry On Hand Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ServiceSubCode="P02" Key="/k+AdB8CuDKAyjKHZcAAAA==" Chargeable="Included in the brand" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>CARRYON LUGGAGE 7 KGS</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ServiceSubCode="P01" Key="/k+AdB8CuDKAzjKHZcAAAA==" Chargeable="Included in the brand" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>CHECKED BAG ALLOWANCE</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ServiceSubCode="057" Key="/k+AdB8CuDKA0jKHZcAAAA==" SecondaryType="FR" Chargeable="Included in the brand" Tag="Mileage Accrual" DisplayOrder="8">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>MILEAGE ACCRUAL</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ServiceSubCode="059" Key="/k+AdB8CuDKA1jKHZcAAAA==" SecondaryType="VC" Chargeable="Available for a charge" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>CHANGEABLE TICKET</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ServiceSubCode="06K" Key="/k+AdB8CuDKA2jKHZcAAAA==" SecondaryType="VR" Chargeable="Available for a charge" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>REFUND BEFORE DEPARTURE</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ServiceSubCode="06L" Key="/k+AdB8CuDKA3jKHZcAAAA==" SecondaryType="VR" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>REFUND AFTER DEPARTURE</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-07-06T16:37:25.032+00:00" ServiceSubCode="0B5" Key="/k+AdB8CuDKA4jKHZcAAAA==" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>PRE RESERVED SEAT ASSIGNMENT</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-07-06T16:37:25.032+00:00" Key="/k+AdB8CuDKA5jKHZcAAAA==" Chargeable="Not offered" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meals and Beverages</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-07-06T16:37:25.032+00:00" Key="/k+AdB8CuDKA6jKHZcAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="W" CabinClass="Economy" FareInfoRef="/k+AdB8CuDKAvjKHZcAAAA==" SegmentRef="/k+AdB8CuDKAkjKHZcAAAA==" HostTokenRef="/k+AdB8CuDKAnjKHZcAAAA=="/>
+            <air:TaxInfo Category="E3" Amount="SAR8.00" Key="/k+AdB8CuDKApjKHZcAAAA=="/>
+            <air:TaxInfo Category="IO" Amount="SAR130.00" Key="/k+AdB8CuDKAqjKHZcAAAA=="/>
+            <air:TaxInfo Category="T2" Amount="SAR5.00" Key="/k+AdB8CuDKArjKHZcAAAA=="/>
+            <air:TaxInfo Category="O7" Amount="SAR10.00" Key="/k+AdB8CuDKAsjKHZcAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR22.00" Key="/k+AdB8CuDKAtjKHZcAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="SAR51.00" Key="/k+AdB8CuDKAujKHZcAAAA=="/>
+            <air:FareCalc>RUH RJ AMM 46.13WBBSPSA1 NUC46.13END ROE3.75</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="51"/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR130.00</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="After Departure">
+              <air:Percentage>100.00</air:Percentage>
+            </air:CancelPenalty>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="RUH" Destination="AMM" Carrier="RJ">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/RJ</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked" BasePrice="SAR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="SAR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO66LB/30KG AND UPTO62LI/158LCM</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="SAR226.00" ApproximateBasePrice="SAR226.00" TotalPrice="SAR226.00" ApproximateTotalPrice="SAR226.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>EXCESS SIZE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="RUH" Destination="AMM" Carrier="RJ">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="SAR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="SAR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+          <air:FareNote Key="/k+AdB8CuDKA8jKHZcAAAA==">TOUR CODE: PVRUHAMMXY0823</air:FareNote>
+          <air:FareNote Key="/k+AdB8CuDKA9jKHZcAAAA==">LAST DATE TO PURCHASE TICKET: 10JUL24</air:FareNote>
+          <air:FareNote Key="/k+AdB8CuDKA+jKHZcAAAA==">TICKETING AGENCY 36X1</air:FareNote>
+          <air:FareNote Key="/k+AdB8CuDKA/jKHZcAAAA==">DEFAULT PLATING CARRIER RJ</air:FareNote>
+          <air:FareNote Key="/k+AdB8CuDKAAkKHZcAAAA==">FARE HAS A PLATING CARRIER RESTRICTION</air:FareNote>
+          <air:FareNote Key="/k+AdB8CuDKABkKHZcAAAA==">E-TKT REQUIRED</air:FareNote>
+          <air:FareNote Key="/k+AdB8CuDKACkKHZcAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+          <common_v51_0:HostToken Key="/k+AdB8CuDKAnjKHZcAAAA==">GFB10101ADT00  01WBBSPSA1                              010001#GFB200010101NADTV3458PLUS0020000499C9#GFMCXAB458YPLUSSRJ ADTWBBSPSA1</common_v51_0:HostToken>
+        </air:AirPricingSolution>
+        <air:AirPricingSolution Key="/k+AdB8CuDKADkKHZcAAAA==" TotalPrice="SAR974.00" BasePrice="SAR662.00" ApproximateTotalPrice="SAR974.00" ApproximateBasePrice="SAR662.00" Taxes="SAR312.00" Fees="SAR0.00" ApproximateTaxes="SAR312.00" QuoteDate="2024-07-06">
+          <air:AirSegmentRef Key="/k+AdB8CuDKAkjKHZcAAAA=="/>
+          <air:AirPricingInfo Key="/k+AdB8CuDKAFkKHZcAAAA==" TotalPrice="SAR974.00" BasePrice="SAR662.00" ApproximateTotalPrice="SAR974.00" ApproximateBasePrice="SAR662.00" ApproximateTaxes="SAR312.00" Taxes="SAR312.00" LatestTicketingTime="2024-07-21T23:59:00.000+03:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="RJ" ProviderCode="1G" TotalNetPrice="SAR399.00">
+            <air:FareInfo Key="/k+AdB8CuDKAMkKHZcAAAA==" FareBasis="QLSFSA1" PassengerTypeCode="ADT" Origin="RUH" Destination="AMM" EffectiveDate="2024-07-06T19:37:00.000+03:00" DepartureDate="2024-07-21" Amount="SAR662.00" NegotiatedFare="true" NotValidBefore="2024-07-21" NotValidAfter="2024-07-21" TaxAmount="SAR312.00">
+              <air:FareRuleKey FareInfoRef="/k+AdB8CuDKAMkKHZcAAAA==" ProviderCode="1G">6UUVoSldxwj36XCS3Ea+4MbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAwhFh0oVvzhexWa1uaqI55k3aSkvhp2ybcQJeLkI4MnencatDxR3azfAyGqh8JIaqBPW69lEXXNWyj995Uq/CSYw8uBHD0+dpWLgFn3B9sPdSU8gecfbWEnMU535bvD9TLUBMC8OFQ+sID9vOp72z1wC/ag9J5eb6kPFc7ZmQhP+mpBH9wehGMEk1BJck+4YQ53GrQ8Ud2s3/AFKEXb03hK/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHxDGJun84l6GmjYuszn207WOnxkQ2WPPHvaVUAnec78/jfZS3bbjYs9ed734YgWle9wXtO9a1rEPsS7OFGE4bTI=</air:FareRuleKey>
+              <air:Brand Key="/k+AdB8CuDKAMkKHZcAAAA==" BrandID="1434284" Name="ECONOMY FLEX" UpSellBrandFound="false" Carrier="RJ" BrandTier="0004">
+                <air:Title Type="External" LanguageCode="EN">Economy Flex</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">ECFLEX</air:Title>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy Flex</air:Text>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-07-06T16:37:25.032+00:00" Key="/k+AdB8CuDKANkKHZcAAAA==" SecondaryType="CY" Chargeable="Not offered" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Carry On Hand Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ServiceSubCode="P02" Key="/k+AdB8CuDKAOkKHZcAAAA==" Chargeable="Included in the brand" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>CARRYON LUGGAGE 7 KGS</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ServiceSubCode="P01" Key="/k+AdB8CuDKAPkKHZcAAAA==" Chargeable="Included in the brand" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>CHECKED BAG ALLOWANCE</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ServiceSubCode="057" Key="/k+AdB8CuDKAQkKHZcAAAA==" SecondaryType="FR" Chargeable="Included in the brand" Tag="Mileage Accrual" DisplayOrder="8">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>MILEAGE ACCRUAL</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ServiceSubCode="059" Key="/k+AdB8CuDKARkKHZcAAAA==" SecondaryType="VC" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>CHANGEABLE TICKET</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ServiceSubCode="06L" Key="/k+AdB8CuDKASkKHZcAAAA==" SecondaryType="VR" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>REFUND AFTER DEPARTURE</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-07-06T16:37:25.032+00:00" ServiceSubCode="06K" Key="/k+AdB8CuDKATkKHZcAAAA==" SecondaryType="VR" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>REFUND BEFORE DEPARTURE</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-07-06T16:37:25.032+00:00" ServiceSubCode="0B5" Key="/k+AdB8CuDKAUkKHZcAAAA==" Chargeable="Included in the brand" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>PRE RESERVED SEAT ASSIGNMENT</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-07-06T16:37:25.032+00:00" Key="/k+AdB8CuDKAVkKHZcAAAA==" Chargeable="Not offered" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meals and Beverages</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-07-06T16:37:25.032+00:00" Key="/k+AdB8CuDKAWkKHZcAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="/k+AdB8CuDKAkjKHZcAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="Q" CabinClass="Economy" FareInfoRef="/k+AdB8CuDKAMkKHZcAAAA==" SegmentRef="/k+AdB8CuDKAkjKHZcAAAA==" HostTokenRef="/k+AdB8CuDKAEkKHZcAAAA=="/>
+            <air:TaxInfo Category="E3" Amount="SAR8.00" Key="/k+AdB8CuDKAGkKHZcAAAA=="/>
+            <air:TaxInfo Category="IO" Amount="SAR130.00" Key="/k+AdB8CuDKAHkKHZcAAAA=="/>
+            <air:TaxInfo Category="T2" Amount="SAR5.00" Key="/k+AdB8CuDKAIkKHZcAAAA=="/>
+            <air:TaxInfo Category="O7" Amount="SAR10.00" Key="/k+AdB8CuDKAJkKHZcAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR22.00" Key="/k+AdB8CuDKAKkKHZcAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="SAR137.00" Key="/k+AdB8CuDKALkKHZcAAAA=="/>
+            <air:FareCalc>RUH RJ AMM 176.53QLSFSA1 NUC176.53END ROE3.75</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="51"/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Percentage>0.00</air:Percentage>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+              <air:Percentage>0.00</air:Percentage>
+            </air:CancelPenalty>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="RUH" Destination="AMM" Carrier="RJ">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/RJ</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>2P</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked" BasePrice="SAR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="SAR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="SAR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="SAR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="RUH" Destination="AMM" Carrier="RJ">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="SAR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="SAR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+          <common_v51_0:HostToken Key="/k+AdB8CuDKAEkKHZcAAAA==">GFB10101ADT00  01QLSFSA1                               010001#GFB200010101NADTV3026FLEX0010000599#GFMCXAP026NFLEX RJ ADTQLSFSA1</common_v51_0:HostToken>
+        </air:AirPricingSolution>
+      </air:AirPriceResult>
+    </air:AirPriceRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

@@ -1,5 +1,5 @@
 <?
-error_reporting(0);
+error_reporting(1);
 date_default_timezone_set("Africa/Cairo");
 
 //PHP Settings

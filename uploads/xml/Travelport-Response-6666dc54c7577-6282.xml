@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <air:AirPriceRsp xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" TraceId="0b41711e086764c13948744562c235da" TransactionId="01CCA9000A0EE16D2807C59D4B974DD2" ResponseTime="576">
+      <common_v51_0:ResponseMessage Code="710401" Type="Warning" ProviderCode="1G">Taxes returned at the FareInfo level are for informational purposes only, and may differ from those returned at the Itinerary/Passenger Type levels.</common_v51_0:ResponseMessage>
+      <air:AirItinerary>
+        <air:AirSegment Key="Ex4zL/tFuDKAUCOtHkAAAA==" Group="0" Carrier="NP" FlightNumber="351" ProviderCode="1G" Origin="CAI" Destination="RUH" DepartureTime="2024-06-10T17:45:00.000+03:00" ArrivalTime="2024-06-10T20:30:00.000+03:00" FlightTime="165" TravelTime="165" Distance="1003" ClassOfService="O" Equipment="320" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="L" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="NP">Nile Air</air:CodeshareInfo>
+          <air:FlightDetails Key="Ex4zL/tFuDKAVCOtHkAAAA==" Origin="CAI" Destination="RUH" DepartureTime="2024-06-10T17:45:00.000+03:00" ArrivalTime="2024-06-10T20:30:00.000+03:00" FlightTime="165" TravelTime="165" Distance="1003"/>
+        </air:AirSegment>
+      </air:AirItinerary>
+      <air:AirPriceResult>
+        <air:AirPricingSolution Key="Ex4zL/tFuDKAWCOtHkAAAA==" TotalPrice="SAR337.00" BasePrice="EGP25.00" ApproximateTotalPrice="SAR337.00" ApproximateBasePrice="SAR2.00" EquivalentBasePrice="SAR2.00" Taxes="SAR335.00" Fees="SAR0.00" ApproximateTaxes="SAR335.00" QuoteDate="2024-06-10">
+          <air:AirSegmentRef Key="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+          <air:AirPricingInfo Key="Ex4zL/tFuDKAYCOtHkAAAA==" TotalPrice="SAR337.00" BasePrice="EGP25.00" ApproximateTotalPrice="SAR337.00" ApproximateBasePrice="SAR2.00" EquivalentBasePrice="SAR2.00" ApproximateTaxes="SAR335.00" Taxes="SAR335.00" LatestTicketingTime="2024-06-10T23:59:00.000+03:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="NP" ProviderCode="1G">
+            <air:FareInfo Key="Ex4zL/tFuDKAkCOtHkAAAA==" FareBasis="ONPXESOW" PassengerTypeCode="ADT" Origin="CAI" Destination="RUH" EffectiveDate="2024-06-10T13:58:00.000+03:00" DepartureDate="2024-06-10" Amount="SAR2.00" NegotiatedFare="false" NotValidBefore="2024-06-10" NotValidAfter="2024-06-10" TaxAmount="SAR335.00">
+              <common_v51_0:Endorsement Value="NONENDORSABLE REBOOKING"/>
+              <common_v51_0:Endorsement Value="REFUND SUBJECT TO PENALTY"/>
+              <common_v51_0:Endorsement Value="NOT VLD FOR HAJJ AND UMRA"/>
+              <common_v51_0:Endorsement Value="ID MAY BE REQUIRED/"/>
+              <common_v51_0:Endorsement Value="MAX WEIGHT PER PIECE 32KG"/>
+              <common_v51_0:Endorsement Value="VOID TKTS IS NOT PERMITTED"/>
+              <air:FareRuleKey FareInfoRef="Ex4zL/tFuDKAkCOtHkAAAA==" ProviderCode="1G">6UUVoSldxwgXcCYKNHa9wMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA8Z2F8ypWGinxWa1uaqI55k3aSkvhp2ybYbzyqDJISLJFfkVLC76RWV1VeG87QjE1SdfQXwcezhojgm7U6E/9oZBxM3FoWvnBjvQIlbeGa6Ahf6E18cRejF6+WRr8tqYPPAD/iRWcxz1VV+Tgkk1kmlW8vSBNa8ZUmwC02UUzMsnU1gpjPEuhqwsp4fkltGlCq6fqixikUMmv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6vKODdELR9CU8BAkLPMThzJODAO/9Oo49AZVsugQ/zhGcRg/Q8i+RudKwGSJBwpAe/kbAXySpCKIA==</air:FareRuleKey>
+              <air:Brand Key="Ex4zL/tFuDKAkCOtHkAAAA==" BrandID="1248403" UpSellBrandID="1248405" Name="Economy Promo" Carrier="NP" BrandTier="0001">
+                <air:Title Type="External" LanguageCode="EN">Economy Promo</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">EcoPromo</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Promo includes:
+
+&#x2022; Checked baggage allowance of 30 kg per passenger
+&#x2022; Hand baggage allowance of 7 kg (50 x 37 x 25 cm)
+&#x2022; Date changes at a fee
+&#x2022; Refunds permitted at a fee
+&#x2022; No Show fee is applicable
+
+&#x2022; Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Promo includes:
+
+&#x2022; Checked baggage allowance of 30 kg per passenger
+&#x2022; Hand baggage allowance of 7 kg (50 x 37 x 25 cm)
+&#x2022; Date changes at a fee
+&#x2022; Refunds permitted at a fee
+&#x2022; No Show fee is applicable
+
+&#x2022; Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">The best deals</air:Text>
+                <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/nileair/NP_general_large_45792.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/nileair/NP_general_medium_3449.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-10T10:58:28.799+00:00" Key="Ex4zL/tFuDKArCOtHkAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="Ex4zL/tFuDKAsCOtHkAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Checked Baggage 30kg</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115511.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115511.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Check in your bags for extra convenience</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Economy passengers can take up to 30kgs  checked baggage
+
+Business customers can take up to 40kgs checked baggage</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy passengers can take up to 30kgs  checked baggage
+
+Business customers can take up to 40kgs checked baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kg</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">HoldBags</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-10T10:58:28.799+00:00" Key="Ex4zL/tFuDKAtCOtHkAAAA==" SecondaryType="CY" Chargeable="Included in the brand" OptionalServicesRuleRef="Ex4zL/tFuDKAuCOtHkAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Hand Baggage</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115513.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115513.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">&#xB7; Hand baggage allowance - One piece at 7kgs</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">&#xB7; Hand baggage allowance - One piece at 7kgs</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Hand Baggage</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">CarryBag</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-10T10:58:28.799+00:00" ServiceSubCode="" Key="Ex4zL/tFuDKAvCOtHkAAAA==" SecondaryType="RF" Chargeable="Available for a charge" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refund</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115517.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115517.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Cancelling your reservation</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Refund</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-10T10:58:28.799+00:00" ServiceSubCode="" Key="Ex4zL/tFuDKAwCOtHkAAAA==" SecondaryType="VC" Chargeable="Available for a charge" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Rebooking</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115516.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115516.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Making changes to your reservation</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Rebooking</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Rebooking</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="RuleOverride" CreateDate="2024-06-10T10:58:28.799+00:00" Key="Ex4zL/tFuDKAxCOtHkAAAA==" Chargeable="Not offered" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>No Show</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">No Show</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Not permitted with Economy Promo Fares
+
+Chargeable for all other fare brands
+
+Please refer to fare rules</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Not permitted with Economy Promo Fares
+
+Chargeable for all other fare brands
+
+Please refer to fare rules</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">No Show</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">No Show</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-06-10T10:58:28.799+00:00" Key="Ex4zL/tFuDKAyCOtHkAAAA==" Chargeable="Included in the brand" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Seating</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_4912.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_4912.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Your preferred seat</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Seats assigned at check in.
+
+Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Seats assigned at check in.
+
+Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Seating</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Seating</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-10T10:58:28.799+00:00" Key="Ex4zL/tFuDKAzCOtHkAAAA==" SecondaryType="SN" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Economy Meal</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_4910.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_4910.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Snacks on board</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Cold snacks and drinks available in Economy</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Cold snacks and drinks available in Economy</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Economy Meal</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">EM</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-10T10:58:28.799+00:00" ServiceSubCode="" Key="Ex4zL/tFuDKA0COtHkAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115514.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115514.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Staying connected on board</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">WiFi</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">WiFi</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-06-10T10:58:28.799+00:00" Key="Ex4zL/tFuDKA1COtHkAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_4909.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_4909.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Sit back and relax</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Book your business class with us and enjoy a truly premium experience. At the airport you will have access to the business lounge where you can choose to work, dine or simply relax in style and comfort before boarding your flight</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Book your business class with us and enjoy a truly premium experience. At the airport you will have access to the business lounge where you can choose to work, dine or simply relax in style and comfort before boarding your flight</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Lounge</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalServiceRules Key="Ex4zL/tFuDKAsCOtHkAAAA==">
+                    <common_v51_0:Remarks>Y,X,KG,30,BAG</common_v51_0:Remarks>
+                  </air:OptionalServiceRules>
+                  <air:OptionalServiceRules Key="Ex4zL/tFuDKAuCOtHkAAAA==">
+                    <common_v51_0:Remarks>Y,1,KG,7,CY - W23,H36,L56,CM</common_v51_0:Remarks>
+                  </air:OptionalServiceRules>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="O" CabinClass="Economy" FareInfoRef="Ex4zL/tFuDKAkCOtHkAAAA==" SegmentRef="Ex4zL/tFuDKAUCOtHkAAAA==" HostTokenRef="Ex4zL/tFuDKAXCOtHkAAAA=="/>
+            <air:TaxInfo Category="E3" Amount="SAR8.00" Key="Ex4zL/tFuDKAZCOtHkAAAA=="/>
+            <air:TaxInfo Category="EG" Amount="SAR12.00" Key="Ex4zL/tFuDKAaCOtHkAAAA=="/>
+            <air:TaxInfo Category="EQ" Amount="SAR8.00" Key="Ex4zL/tFuDKAbCOtHkAAAA=="/>
+            <air:TaxInfo Category="JK" Amount="SAR8.00" Key="Ex4zL/tFuDKAcCOtHkAAAA=="/>
+            <air:TaxInfo Category="O2" Amount="SAR2.00" Key="Ex4zL/tFuDKAdCOtHkAAAA=="/>
+            <air:TaxInfo Category="O9" Amount="SAR4.00" Key="Ex4zL/tFuDKAeCOtHkAAAA=="/>
+            <air:TaxInfo Category="QH" Amount="SAR94.00" Key="Ex4zL/tFuDKAfCOtHkAAAA=="/>
+            <air:TaxInfo Category="S4" Amount="SAR8.00" Key="Ex4zL/tFuDKAgCOtHkAAAA=="/>
+            <air:TaxInfo Category="XK" Amount="SAR12.00" Key="Ex4zL/tFuDKAhCOtHkAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR38.00" Key="Ex4zL/tFuDKAiCOtHkAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="SAR141.00" Key="Ex4zL/tFuDKAjCOtHkAAAA=="/>
+            <air:FareCalc>CAI NP RUH 0.52ONPXESOW NUC0.52END ROE47.754</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="19"/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR187.00</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR225.00</air:Amount>
+            </air:CancelPenalty>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="CAI" Destination="RUH" Carrier="NP">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/NP</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>30K</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="CAI" Destination="RUH" Carrier="NP">
+                <air:TextInfo>
+                  <air:Text>7K</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+                <air:CarryOnDetails ApplicableCarryOnBags="2">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+          <air:FareNote Key="Ex4zL/tFuDKA3COtHkAAAA==">RATE USED IN EQU TOTAL IS BSR 1EGP - 0.07894073SAR</air:FareNote>
+          <air:FareNote Key="Ex4zL/tFuDKA4COtHkAAAA==">LAST DATE TO PURCHASE TICKET: 10JUN24</air:FareNote>
+          <air:FareNote Key="Ex4zL/tFuDKA5COtHkAAAA==">TICKETING AGENCY 36X1</air:FareNote>
+          <air:FareNote Key="Ex4zL/tFuDKA6COtHkAAAA==">DEFAULT PLATING CARRIER NP</air:FareNote>
+          <air:FareNote Key="Ex4zL/tFuDKA7COtHkAAAA==">FARE HAS A PLATING CARRIER RESTRICTION</air:FareNote>
+          <air:FareNote Key="Ex4zL/tFuDKA8COtHkAAAA==">E-TKT REQUIRED</air:FareNote>
+          <air:FareNote Key="Ex4zL/tFuDKA9COtHkAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+          <common_v51_0:HostToken Key="Ex4zL/tFuDKAXCOtHkAAAA==">GFB10101ADT00  01ONPXESOW                              010001#GFB200010101NADTV302602600010000899#GFMCER 026N0260 NP ADTONPXESOW</common_v51_0:HostToken>
+        </air:AirPricingSolution>
+        <air:AirPricingSolution Key="Ex4zL/tFuDKA+COtHkAAAA==" TotalPrice="SAR527.00" BasePrice="EGP660.00" ApproximateTotalPrice="SAR527.00" ApproximateBasePrice="SAR53.00" EquivalentBasePrice="SAR53.00" Taxes="SAR474.00" Fees="SAR0.00" ApproximateTaxes="SAR474.00" QuoteDate="2024-06-10">
+          <air:AirSegmentRef Key="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+          <air:AirPricingInfo Key="Ex4zL/tFuDKAADOtHkAAAA==" TotalPrice="SAR527.00" BasePrice="EGP660.00" ApproximateTotalPrice="SAR527.00" ApproximateBasePrice="SAR53.00" EquivalentBasePrice="SAR53.00" ApproximateTaxes="SAR474.00" Taxes="SAR474.00" LatestTicketingTime="2024-06-10T23:59:00.000+03:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="NP" ProviderCode="1G">
+            <air:FareInfo Key="Ex4zL/tFuDKAMDOtHkAAAA==" FareBasis="ENPXESOW" PassengerTypeCode="ADT" Origin="CAI" Destination="RUH" EffectiveDate="2024-06-10T13:58:00.000+03:00" DepartureDate="2024-06-10" Amount="SAR53.00" NegotiatedFare="false" NotValidBefore="2024-06-10" NotValidAfter="2024-06-10" TaxAmount="SAR474.00">
+              <air:FareRuleKey FareInfoRef="Ex4zL/tFuDKAMDOtHkAAAA==" ProviderCode="1G">6UUVoSldxwgXcCYKNHa9wMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA8Z2F8ypWGinxWa1uaqI55k3aSkvhp2ybYfy4Gxj03fhrDd8po4AeoxN3J3NyYpz6XQwMfqFCUevs8AGhglygq3xQh76v7ovTmLgFn3B9sPdSU8gecfbWEnMU535bvD9TOEmOr1WQEsXEKwxbI8WAKpIjfJHYVxkk0PFc7ZmQhP+mpBH9wehGMEn6V7c0rHrrXF9QM5zVw74/AFKEXb03hK/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHxDGJun84l6GmjYuszn207UCfIU5NmTKEMG7QqYRnGeJU0Vf/g3ZFOCzerBdHQwKu1hHGW5NfrUv4yYZSOWvl7HlbhtG7Cus8A==</air:FareRuleKey>
+              <air:Brand Key="Ex4zL/tFuDKAMDOtHkAAAA==" BrandID="1248405" Name="Economy Saver" UpSellBrandFound="false" Carrier="NP" BrandTier="0002">
+                <air:Title Type="External" LanguageCode="EN">Economy Saver</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">EcoSaver</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Saver includes:
+
+&#x2022; Checked baggage allowance of 30 kg per passenger
+&#x2022; Hand baggage allowance of 7 kg (50 x 37 x 25 cm)
+&#x2022; Date changes at a fee
+&#x2022; Refunds permitted at a fee
+&#x2022; No Show fee is applicable
+
+&#x2022; Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+                <air:Text Type="Upsell" LanguageCode="EN">Upgrade to Economy Saver for the benefit of refunding your ticket</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Saver includes:
+
+&#x2022; Checked baggage allowance of 30 kg per passenger
+&#x2022; Hand baggage allowance of 7 kg (50 x 37 x 25 cm)
+&#x2022; Date changes at a fee
+&#x2022; Refunds permitted at a fee
+&#x2022; No Show fee is applicable
+
+&#x2022; Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Includes the option to refund your ticket against a fee</air:Text>
+                <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/nileair/NP_general_large_45792.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/nileair/NP_general_medium_3449.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-10T10:58:28.800+00:00" Key="Ex4zL/tFuDKANDOtHkAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="Ex4zL/tFuDKAODOtHkAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Checked Baggage 30kg</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115511.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115511.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Check in your bags for extra convenience</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Economy passengers can take up to 30kgs  checked baggage
+
+Business customers can take up to 40kgs checked baggage</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy passengers can take up to 30kgs  checked baggage
+
+Business customers can take up to 40kgs checked baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kg</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">HoldBags</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-10T10:58:28.800+00:00" Key="Ex4zL/tFuDKAPDOtHkAAAA==" SecondaryType="CY" Chargeable="Included in the brand" OptionalServicesRuleRef="Ex4zL/tFuDKAQDOtHkAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Hand Baggage</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115513.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115513.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">&#xB7; Hand baggage allowance - One piece at 7kgs</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">&#xB7; Hand baggage allowance - One piece at 7kgs</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Hand Baggage</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">CarryBag</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-10T10:58:28.800+00:00" ServiceSubCode="" Key="Ex4zL/tFuDKARDOtHkAAAA==" SecondaryType="RF" Chargeable="Available for a charge" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refund</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115517.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115517.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Cancelling your reservation</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Refund</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-10T10:58:28.800+00:00" ServiceSubCode="" Key="Ex4zL/tFuDKASDOtHkAAAA==" SecondaryType="VC" Chargeable="Available for a charge" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Rebooking</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115516.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_115516.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Making changes to your reservation</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Rebooking</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Rebooking</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="RuleOverride" CreateDate="2024-06-10T10:58:28.800+00:00" Key="Ex4zL/tFuDKATDOtHkAAAA==" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>No Show</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">No Show</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Not permitted with Economy Promo Fares
+
+Chargeable for all other fare brands
+
+Please refer to fare rules</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Not permitted with Economy Promo Fares
+
+Chargeable for all other fare brands
+
+Please refer to fare rules</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">No Show</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">No Show</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-06-10T10:58:28.800+00:00" Key="Ex4zL/tFuDKAUDOtHkAAAA==" Chargeable="Included in the brand" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Seating</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_4912.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_4912.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Your preferred seat</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Seats assigned at check in.
+
+Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Seats assigned at check in.
+
+Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Seating</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Seating</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-10T10:58:28.800+00:00" Key="Ex4zL/tFuDKAVDOtHkAAAA==" SecondaryType="SN" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Economy Meal</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_4910.jpg"/>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_4910.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Snacks on board</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Cold snacks and drinks available in Economy</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Cold snacks and drinks available in Economy</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Economy Meal</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">EM</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-10T10:58:28.800+00:00" Key="Ex4zL/tFuDKAWDOtHkAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-06-10T10:58:28.800+00:00" Key="Ex4zL/tFuDKAXDOtHkAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="Ex4zL/tFuDKAUCOtHkAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge</common_v51_0:Description>
+                      <common_v51_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_4909.jpg"/>
+                      <common_v51_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/nileair/NP_general_medium_4909.jpg"/>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Sit back and relax</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Book your business class with us and enjoy a truly premium experience. At the airport you will have access to the business lounge where you can choose to work, dine or simply relax in style and comfort before boarding your flight</air:Text>
+                    <air:Text Type="MarketingConsumer" LanguageCode="EN">Book your business class with us and enjoy a truly premium experience. At the airport you will have access to the business lounge where you can choose to work, dine or simply relax in style and comfort before boarding your flight</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Lounge</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalServiceRules Key="Ex4zL/tFuDKAODOtHkAAAA==">
+                    <common_v51_0:Remarks>Y,X,KG,30,BAG</common_v51_0:Remarks>
+                  </air:OptionalServiceRules>
+                  <air:OptionalServiceRules Key="Ex4zL/tFuDKAQDOtHkAAAA==">
+                    <common_v51_0:Remarks>Y,1,KG,7,CY - W23,H36,L56,CM</common_v51_0:Remarks>
+                  </air:OptionalServiceRules>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="E" CabinClass="Economy" FareInfoRef="Ex4zL/tFuDKAMDOtHkAAAA==" SegmentRef="Ex4zL/tFuDKAUCOtHkAAAA==" HostTokenRef="Ex4zL/tFuDKA/COtHkAAAA=="/>
+            <air:TaxInfo Category="E3" Amount="SAR8.00" Key="Ex4zL/tFuDKABDOtHkAAAA=="/>
+            <air:TaxInfo Category="EG" Amount="SAR12.00" Key="Ex4zL/tFuDKACDOtHkAAAA=="/>
+            <air:TaxInfo Category="EQ" Amount="SAR8.00" Key="Ex4zL/tFuDKADDOtHkAAAA=="/>
+            <air:TaxInfo Category="JK" Amount="SAR8.00" Key="Ex4zL/tFuDKAEDOtHkAAAA=="/>
+            <air:TaxInfo Category="O2" Amount="SAR2.00" Key="Ex4zL/tFuDKAFDOtHkAAAA=="/>
+            <air:TaxInfo Category="O9" Amount="SAR4.00" Key="Ex4zL/tFuDKAGDOtHkAAAA=="/>
+            <air:TaxInfo Category="QH" Amount="SAR94.00" Key="Ex4zL/tFuDKAHDOtHkAAAA=="/>
+            <air:TaxInfo Category="S4" Amount="SAR8.00" Key="Ex4zL/tFuDKAIDOtHkAAAA=="/>
+            <air:TaxInfo Category="XK" Amount="SAR12.00" Key="Ex4zL/tFuDKAJDOtHkAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR38.00" Key="Ex4zL/tFuDKAKDOtHkAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="SAR280.00" Key="Ex4zL/tFuDKALDOtHkAAAA=="/>
+            <air:FareCalc>CAI NP RUH 13.82ENPXESOW NUC13.82END ROE47.754</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="19"/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR187.00</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+              <air:Amount>SAR225.00</air:Amount>
+            </air:CancelPenalty>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="CAI" Destination="RUH" Carrier="NP">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/NP</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>30K</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="CAI" Destination="RUH" Carrier="NP">
+                <air:TextInfo>
+                  <air:Text>7K</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+                <air:CarryOnDetails ApplicableCarryOnBags="2">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+          <common_v51_0:HostToken Key="Ex4zL/tFuDKA/COtHkAAAA==">GFB10101ADT00  01ENPXESOW                              010001#GFB200010101NADTV302602600010000599#GFMCSIP026N0260 NP ADTENPXESOW</common_v51_0:HostToken>
+        </air:AirPricingSolution>
+      </air:AirPriceResult>
+    </air:AirPriceRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

@@ -1,0 +1,1946 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <air:AirPriceRsp xmlns:air="http://www.travelport.com/schema/air_v51_0" xmlns:common_v51_0="http://www.travelport.com/schema/common_v51_0" TraceId="8f1c149884183f876cef3049e3742844" TransactionId="45C24DE70A0EE0AB0FCF6C17D2300C6B" ResponseTime="698">
+      <common_v51_0:ResponseMessage Code="710401" Type="Warning" ProviderCode="1G">Taxes returned at the FareInfo level are for informational purposes only, and may differ from those returned at the Itinerary/Passenger Type levels.</common_v51_0:ResponseMessage>
+      <air:AirItinerary>
+        <air:AirSegment Key="INdf8ArCuDKAIoATNGAAAA==" Group="0" Carrier="MS" FlightNumber="768" ProviderCode="1G" Origin="BCN" Destination="CAI" DepartureTime="2024-06-29T16:25:00.000+02:00" ArrivalTime="2024-06-29T21:35:00.000+03:00" FlightTime="250" TravelTime="250" Distance="1806" ClassOfService="Y" Equipment="738" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="MS">Egyptair</air:CodeshareInfo>
+          <air:FlightDetails Key="INdf8ArCuDKAJoATNGAAAA==" Origin="BCN" Destination="CAI" DepartureTime="2024-06-29T16:25:00.000+02:00" ArrivalTime="2024-06-29T21:35:00.000+03:00" FlightTime="250" TravelTime="250" Distance="1806"/>
+        </air:AirSegment>
+        <air:AirSegment Key="INdf8ArCuDKAKoATNGAAAA==" Group="1" Carrier="MS" FlightNumber="829" ProviderCode="1G" Origin="CAI" Destination="BEN" DepartureTime="2024-06-30T09:10:00.000+03:00" ArrivalTime="2024-06-30T10:25:00.000+02:00" FlightTime="135" TravelTime="135" Distance="672" ClassOfService="Y" Equipment="738" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="MS">Egyptair</air:CodeshareInfo>
+          <air:FlightDetails Key="INdf8ArCuDKALoATNGAAAA==" Origin="CAI" Destination="BEN" DepartureTime="2024-06-30T09:10:00.000+03:00" ArrivalTime="2024-06-30T10:25:00.000+02:00" FlightTime="135" TravelTime="135" Distance="672"/>
+        </air:AirSegment>
+      </air:AirItinerary>
+      <air:AirPriceResult>
+        <air:AirPricingSolution Key="INdf8ArCuDKAMoATNGAAAA==" TotalPrice="SAR2735.00" BasePrice="EUR513.00" ApproximateTotalPrice="SAR2735.00" ApproximateBasePrice="SAR2067.00" EquivalentBasePrice="SAR2067.00" Taxes="SAR668.00" Fees="SAR0.00" ApproximateTaxes="SAR668.00" QuoteDate="2024-06-23">
+          <air:AirSegmentRef Key="INdf8ArCuDKAIoATNGAAAA=="/>
+          <air:AirSegmentRef Key="INdf8ArCuDKAKoATNGAAAA=="/>
+          <air:AirPricingInfo Key="INdf8ArCuDKAPoATNGAAAA==" TotalPrice="SAR2735.00" BasePrice="EUR513.00" ApproximateTotalPrice="SAR2735.00" ApproximateBasePrice="SAR2067.00" EquivalentBasePrice="SAR2067.00" ApproximateTaxes="SAR668.00" Taxes="SAR668.00" LatestTicketingTime="2024-06-29T23:59:00.000+03:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="MS" ProviderCode="1G">
+            <air:FareInfo Key="INdf8ArCuDKAZoATNGAAAA==" FareBasis="YWRSMS" PassengerTypeCode="ADT" Origin="BCN" Destination="CAI" EffectiveDate="2024-06-23T18:41:00.000+03:00" DepartureDate="2024-06-29" Amount="SAR1475.00" NegotiatedFare="false" TaxAmount="SAR561.00">
+              <common_v51_0:Endorsement Value="BAG. BUSINESS 32KG/158CM"/>
+              <common_v51_0:Endorsement Value="BAG. ECONOMY 23KG/158CM"/>
+              <common_v51_0:Endorsement Value="HAVE A NICE TRIP"/>
+              <air:FareRuleKey FareInfoRef="INdf8ArCuDKAZoATNGAAAA==" ProviderCode="1G">6UUVoSldxwjCDkhSxcHFdcbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxlpMnOssuF4xWa1uaqI55k3aSkvhp2ybZaJIeHn+/rHewGDrXBRFMnAyGqh8JIaqKW1Vpea78mSHSp3ZjxsrcWjfUUdfv2U9oX+hNfHEXoxUV3b2b+cmv9gFHVWNccKgT/9+1PBdevmdyzzG4V6n+YsOQz7OsbbGYMN1QPqv5KjsitAlf43Zzl4flxXm6I7veuxphJejl+Ky5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdFMmRbUmkVelPm9EqY/IuJU6/9N9YpL4LVPZFj/Xmi36mIM0+p8YFnVed9f0hQfUeJWRCTpuERy6Q==</air:FareRuleKey>
+              <air:Brand Key="INdf8ArCuDKAZoATNGAAAA==" BrandID="1456978" UpSellBrandID="1456975" Name="ECONOMY FULLY FLEX" Carrier="MS" BrandTier="0004">
+                <air:Title Type="External" LanguageCode="EN">Economy Fully Flex</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">FF</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Fully Flex</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Fully Flex</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy Fully Flex</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="149" ImageHeight="150">https://cdn.travelport.com/egyptair/MS_general_medium_2650.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/egyptair/MS_general_medium_2651.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0F4" Key="INdf8ArCuDKAdoATNGAAAA==" SecondaryType="IN" Chargeable="Included in the brand" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Stroller Or Pushchair</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Stroller Or Pushchair</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Stroller Or Pushchair</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0IJ" Key="INdf8ArCuDKAeoATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Piece</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Piece</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Piece</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0ID" Key="INdf8ArCuDKAfoATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0IK" Key="INdf8ArCuDKAgoATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Weight</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Weight</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Weight</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0IG" Key="INdf8ArCuDKAhoATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Weight And Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Weight And Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Weight And Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0FJ" Key="INdf8ArCuDKAioATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Heavy And Bigger Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Heavy And Bigger Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Heavy And Bigger Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0FM" Key="INdf8ArCuDKAjoATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Heavy And Standard Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Heavy And Standard Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Heavy And Standard Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0ES" Key="INdf8ArCuDKAkoATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Over70lb 32Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Over70lb 32Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Over70lb 32Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0AA" Key="INdf8ArCuDKAloATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Prepaid Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Prepaid Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Prepaid Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0FA" Key="INdf8ArCuDKAmoATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Standard Weight Biggersize</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Standard Weight Biggersize</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Standard Weight Biggersize</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0CZ" Key="INdf8ArCuDKAnoATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto22lb 10Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto22lb 10Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto22lb 10Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0GO" Key="INdf8ArCuDKAooATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto50lb 23Kg And62li 158Lcm</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto50lb 23Kg And62li 158Lcm</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto50lb 23Kg And62li 158Lcm</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0C3" Key="INdf8ArCuDKApoATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto50lb 23Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto50lb 23Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto50lb 23Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0C6" Key="INdf8ArCuDKAqoATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto70lb 32Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto70lb 32Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto70lb 32Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0IP" Key="INdf8ArCuDKAroATNGAAAA==" SecondaryType="SI" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Media Equipment Upto50 Lb 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Media Equipment Upto50 Lb 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Media Equipment Upto50 Lb 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0O0" Key="INdf8ArCuDKAsoATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Alpinist Eqpmt Up To 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Alpinist Eqpmt Up To 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Alpinist Eqpmt Up To 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="028" Key="INdf8ArCuDKAtoATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Ammunition</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Ammunition</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Ammunition</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0OF" Key="INdf8ArCuDKAuoATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Archery Eqpmt Up To 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Archery Eqpmt Up To 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Archery Eqpmt Up To 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0EC" Key="INdf8ArCuDKAvoATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Bicycle</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Bicycle</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Bicycle</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="05S" Key="INdf8ArCuDKAwoATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Fencing Eqpmt Upto 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Fencing Eqpmt Upto 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Fencing Eqpmt Upto 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0FW" Key="INdf8ArCuDKAxoATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Fishing Equipment Up To 15 Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Fishing Equipment Up To 15 Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Fishing Equipment Up To 15 Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0D4" Key="INdf8ArCuDKAyoATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Golf Equipment Up To 15 Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Golf Equipment Up To 15 Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Golf Equipment Up To 15 Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0O7" Key="INdf8ArCuDKAzoATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Horse Riding Eqpmt Up To 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Horse Riding Eqpmt Up To 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Horse Riding Eqpmt Up To 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0F1" Key="INdf8ArCuDKA0oATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Javelin</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Javelin</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Javelin</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0LY" Key="INdf8ArCuDKA1oATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Kite Surfboard Up To 22Lb 10Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Kite Surfboard Up To 22Lb 10Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Kite Surfboard Up To 22Lb 10Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0L3" Key="INdf8ArCuDKA2oATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Oars</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Oars</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Oars</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0LZ" Key="INdf8ArCuDKA3oATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Scuba Equipment Upto44lb 20 Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Scuba Equipment Upto44lb 20 Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Scuba Equipment Upto44lb 20 Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0DD" Key="INdf8ArCuDKA4oATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Ski Equipment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Ski Equipment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Ski Equipment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0I1" Key="INdf8ArCuDKA5oATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Sporteqpupto50 23And81li 208Cm</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Sporteqpupto50 23And81li 208Cm</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Sporteqpupto50 23And81li 208Cm</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0ED" Key="INdf8ArCuDKA6oATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Sporting Firearms</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Sporting Firearms</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Sporting Firearms</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0IL" Key="INdf8ArCuDKA7oATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Surfboard Up To 59In 150Cm</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Surfboard Up To 59In 150Cm</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Surfboard Up To 59In 150Cm</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-23T15:41:20.925+00:00" Key="INdf8ArCuDKA8oATNGAAAA==" SecondaryType="RF" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refund</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-23T15:41:20.925+00:00" Key="INdf8ArCuDKA9oATNGAAAA==" SecondaryType="VC" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Rebooking</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0B5" Key="INdf8ArCuDKA+oATNGAAAA==" Chargeable="Included in the brand" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pre Reserved Seat Assignment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pre Reserved Seat Assignment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pre Reserved Seat Assignment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0B3" Key="INdf8ArCuDKA/oATNGAAAA==" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meal 1</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Meal 1</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Meal 1</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0AO" Key="INdf8ArCuDKAApATNGAAAA==" SecondaryType="DI" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Kosher Dinner</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Kosher Dinner</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Kosher Dinner</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0AN" Key="INdf8ArCuDKABpATNGAAAA==" SecondaryType="DI" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Vegetarian Dinner</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Vegetarian Dinner</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Vegetarian Dinner</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-23T15:41:20.925+00:00" Key="INdf8ArCuDKACpATNGAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0BX" Key="INdf8ArCuDKADpATNGAAAA==" Chargeable="Included in the brand" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge Access</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Lounge Access</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge Access</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Medical" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0B4" Key="INdf8ArCuDKAEpATNGAAAA==" SecondaryType="OX" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Oxygen</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Oxygen</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Oxygen</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0BT" Key="INdf8ArCuDKAFpATNGAAAA==" SecondaryType="PC" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Cabin</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Cabin</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Cabin</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0BS" Key="INdf8ArCuDKAGpATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0A1" Key="INdf8ArCuDKAHpATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold Extra Large</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold Extra Large</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold Extra Large</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0A0" Key="INdf8ArCuDKAIpATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold Large</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold Large</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold Large</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0AZ" Key="INdf8ArCuDKAJpATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold Medium</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold Medium</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold Medium</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="03P" Key="INdf8ArCuDKAKpATNGAAAA==" SecondaryType="PO" Chargeable="Included in the brand" Tag="Priority CheckIn" DisplayOrder="14">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Check In</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Check In</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Check In</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0G6" Key="INdf8ArCuDKALpATNGAAAA==" SecondaryType="PR" Chargeable="Included in the brand" Tag="Priority Boarding" DisplayOrder="17">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Boarding</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Boarding</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Boarding</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Upgrades" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0BJ" Key="INdf8ArCuDKAMpATNGAAAA==" Chargeable="Available for a charge" Tag="Upgrade" DisplayOrder="9">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upgrade</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upgrade</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upgrade</air:Title>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:FareInfo Key="INdf8ArCuDKANpATNGAAAA==" FareBasis="YRSEG" PassengerTypeCode="ADT" Origin="CAI" Destination="BEN" EffectiveDate="2024-06-23T18:41:00.000+03:00" DepartureDate="2024-06-30" Amount="SAR592.00" NegotiatedFare="false" TaxAmount="SAR107.00">
+              <common_v51_0:Endorsement Value="BAG. BUSINESS 32KG/158CM"/>
+              <common_v51_0:Endorsement Value="BAG. ECONOMY 23KG/158CM"/>
+              <common_v51_0:Endorsement Value="HAVE A NICE TRIP"/>
+              <air:FareRuleKey FareInfoRef="INdf8ArCuDKANpATNGAAAA==" ProviderCode="1G">6UUVoSldxwjCDkhSxcHFdcbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxlpMnOssuF4xWa1uaqI55k3aSkvhp2ybdcPJJfZxtx4ZSybFEWlA9rAyGqh8JIaqJj3gC75hhXus0662YUM7E0qD657XeERmzvQIlbeGa6Ahf6E18cRejF6+WRr8tqYPNGbQofq4hFXyR2l4i+MqSNW8vSBNa8ZUmwC02UUzMsnU1gpjPEuhqxMjcf4l8EpisvXgaM/e0K7v4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6vncjaihPQ52PaVUAnec78/Lvx3pncVp/LreQd5pMPZr7+j9g/DXpTdbW4v0xRlUDQ=</air:FareRuleKey>
+              <air:Brand Key="INdf8ArCuDKANpATNGAAAA==" BrandID="1456978" UpSellBrandID="1456975" Name="ECONOMY FULLY FLEX" Carrier="MS" BrandTier="0004">
+                <air:Title Type="External" LanguageCode="EN">Economy Fully Flex</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">FF</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Fully Flex</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Fully Flex</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Economy Fully Flex</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="149" ImageHeight="150">https://cdn.travelport.com/egyptair/MS_general_medium_2650.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/egyptair/MS_general_medium_2651.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0F4" Key="INdf8ArCuDKARpATNGAAAA==" SecondaryType="IN" Chargeable="Included in the brand" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Stroller Or Pushchair</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Stroller Or Pushchair</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Stroller Or Pushchair</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0IJ" Key="INdf8ArCuDKASpATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Piece</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Piece</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Piece</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0ID" Key="INdf8ArCuDKATpATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0IK" Key="INdf8ArCuDKAUpATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Weight</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Weight</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Weight</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0IG" Key="INdf8ArCuDKAVpATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Weight And Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Weight And Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Weight And Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0FJ" Key="INdf8ArCuDKAWpATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Heavy And Bigger Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Heavy And Bigger Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Heavy And Bigger Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0FM" Key="INdf8ArCuDKAXpATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Heavy And Standard Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Heavy And Standard Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Heavy And Standard Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0ES" Key="INdf8ArCuDKAYpATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Over70lb 32Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Over70lb 32Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Over70lb 32Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0AA" Key="INdf8ArCuDKAZpATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Prepaid Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Prepaid Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Prepaid Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0FA" Key="INdf8ArCuDKAapATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Standard Weight Biggersize</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Standard Weight Biggersize</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Standard Weight Biggersize</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0CZ" Key="INdf8ArCuDKAbpATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto22lb 10Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto22lb 10Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto22lb 10Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0GO" Key="INdf8ArCuDKAcpATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto50lb 23Kg And62li 158Lcm</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto50lb 23Kg And62li 158Lcm</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto50lb 23Kg And62li 158Lcm</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0C3" Key="INdf8ArCuDKAdpATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto50lb 23Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto50lb 23Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto50lb 23Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0C6" Key="INdf8ArCuDKAepATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto70lb 32Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto70lb 32Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto70lb 32Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0IP" Key="INdf8ArCuDKAfpATNGAAAA==" SecondaryType="SI" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Media Equipment Upto50 Lb 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Media Equipment Upto50 Lb 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Media Equipment Upto50 Lb 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0O0" Key="INdf8ArCuDKAgpATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Alpinist Eqpmt Up To 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Alpinist Eqpmt Up To 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Alpinist Eqpmt Up To 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="028" Key="INdf8ArCuDKAhpATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Ammunition</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Ammunition</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Ammunition</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0OF" Key="INdf8ArCuDKAipATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Archery Eqpmt Up To 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Archery Eqpmt Up To 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Archery Eqpmt Up To 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0EC" Key="INdf8ArCuDKAjpATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Bicycle</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Bicycle</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Bicycle</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="05S" Key="INdf8ArCuDKAkpATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Fencing Eqpmt Upto 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Fencing Eqpmt Upto 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Fencing Eqpmt Upto 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0FW" Key="INdf8ArCuDKAlpATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Fishing Equipment Up To 15 Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Fishing Equipment Up To 15 Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Fishing Equipment Up To 15 Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0D4" Key="INdf8ArCuDKAmpATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Golf Equipment Up To 15 Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Golf Equipment Up To 15 Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Golf Equipment Up To 15 Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0O7" Key="INdf8ArCuDKAnpATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Horse Riding Eqpmt Up To 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Horse Riding Eqpmt Up To 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Horse Riding Eqpmt Up To 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0F1" Key="INdf8ArCuDKAopATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Javelin</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Javelin</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Javelin</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0LY" Key="INdf8ArCuDKAppATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Kite Surfboard Up To 22Lb 10Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Kite Surfboard Up To 22Lb 10Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Kite Surfboard Up To 22Lb 10Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0L3" Key="INdf8ArCuDKAqpATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Oars</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Oars</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Oars</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0LZ" Key="INdf8ArCuDKArpATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Scuba Equipment Upto44lb 20 Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Scuba Equipment Upto44lb 20 Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Scuba Equipment Upto44lb 20 Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0DD" Key="INdf8ArCuDKAspATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Ski Equipment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Ski Equipment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Ski Equipment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0I1" Key="INdf8ArCuDKAtpATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Sporteqpupto50 23And81li 208Cm</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Sporteqpupto50 23And81li 208Cm</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Sporteqpupto50 23And81li 208Cm</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0ED" Key="INdf8ArCuDKAupATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Sporting Firearms</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Sporting Firearms</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Sporting Firearms</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0IL" Key="INdf8ArCuDKAvpATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Surfboard Up To 59In 150Cm</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Surfboard Up To 59In 150Cm</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Surfboard Up To 59In 150Cm</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-23T15:41:20.925+00:00" Key="INdf8ArCuDKAwpATNGAAAA==" SecondaryType="RF" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refund</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-23T15:41:20.925+00:00" Key="INdf8ArCuDKAxpATNGAAAA==" SecondaryType="VC" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Rebooking</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0B5" Key="INdf8ArCuDKAypATNGAAAA==" Chargeable="Included in the brand" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pre Reserved Seat Assignment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pre Reserved Seat Assignment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pre Reserved Seat Assignment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0B3" Key="INdf8ArCuDKAzpATNGAAAA==" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meal 1</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Meal 1</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Meal 1</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0AO" Key="INdf8ArCuDKA0pATNGAAAA==" SecondaryType="DI" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Kosher Dinner</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Kosher Dinner</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Kosher Dinner</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0AN" Key="INdf8ArCuDKA1pATNGAAAA==" SecondaryType="DI" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Vegetarian Dinner</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Vegetarian Dinner</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Vegetarian Dinner</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-23T15:41:20.925+00:00" Key="INdf8ArCuDKA2pATNGAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0BX" Key="INdf8ArCuDKA3pATNGAAAA==" Chargeable="Included in the brand" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge Access</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Lounge Access</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge Access</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Medical" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0B4" Key="INdf8ArCuDKA4pATNGAAAA==" SecondaryType="OX" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Oxygen</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Oxygen</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Oxygen</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0BT" Key="INdf8ArCuDKA5pATNGAAAA==" SecondaryType="PC" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Cabin</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Cabin</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Cabin</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0BS" Key="INdf8ArCuDKA6pATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0A1" Key="INdf8ArCuDKA7pATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold Extra Large</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold Extra Large</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold Extra Large</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0A0" Key="INdf8ArCuDKA8pATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold Large</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold Large</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold Large</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0AZ" Key="INdf8ArCuDKA9pATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold Medium</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold Medium</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold Medium</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="03P" Key="INdf8ArCuDKA+pATNGAAAA==" SecondaryType="PO" Chargeable="Included in the brand" Tag="Priority CheckIn" DisplayOrder="14">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Check In</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Check In</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Check In</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0G6" Key="INdf8ArCuDKA/pATNGAAAA==" SecondaryType="PR" Chargeable="Included in the brand" Tag="Priority Boarding" DisplayOrder="17">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Boarding</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Boarding</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Boarding</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Upgrades" CreateDate="2024-06-23T15:41:20.925+00:00" ServiceSubCode="0BJ" Key="INdf8ArCuDKAAqATNGAAAA==" Chargeable="Available for a charge" Tag="Upgrade" DisplayOrder="9">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upgrade</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upgrade</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upgrade</air:Title>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="Y" CabinClass="Economy" FareInfoRef="INdf8ArCuDKAZoATNGAAAA==" SegmentRef="INdf8ArCuDKAIoATNGAAAA==" HostTokenRef="INdf8ArCuDKANoATNGAAAA=="/>
+            <air:BookingInfo BookingCode="Y" CabinClass="Economy" FareInfoRef="INdf8ArCuDKANpATNGAAAA==" SegmentRef="INdf8ArCuDKAKoATNGAAAA==" HostTokenRef="INdf8ArCuDKAOoATNGAAAA=="/>
+            <air:TaxInfo Category="JD" Amount="SAR67.00" Key="INdf8ArCuDKAQoATNGAAAA=="/>
+            <air:TaxInfo Category="OG" Amount="SAR3.00" Key="INdf8ArCuDKARoATNGAAAA=="/>
+            <air:TaxInfo Category="QV" Amount="SAR15.00" Key="INdf8ArCuDKASoATNGAAAA=="/>
+            <air:TaxInfo Category="EQ" Amount="SAR8.00" Key="INdf8ArCuDKAToATNGAAAA=="/>
+            <air:TaxInfo Category="O2" Amount="SAR2.00" Key="INdf8ArCuDKAUoATNGAAAA=="/>
+            <air:TaxInfo Category="O9" Amount="SAR4.00" Key="INdf8ArCuDKAVoATNGAAAA=="/>
+            <air:TaxInfo Category="S4" Amount="SAR16.00" Key="INdf8ArCuDKAWoATNGAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR170.00" Key="INdf8ArCuDKAXoATNGAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="SAR383.00" Key="INdf8ArCuDKAYoATNGAAAA=="/>
+            <air:FareCalc>BCN MS CAI 393.79YWRSMS MS BEN 157.43YRSEG NUC551.22END ROE0.929425</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="23"/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Percentage>0.00</air:Percentage>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+              <air:Percentage>0.00</air:Percentage>
+            </air:CancelPenalty>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="BCN" Destination="BEN" Carrier="MS">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MS</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>2P</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="BCN" Destination="CAI" Carrier="MS">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="CAI" Destination="BEN" Carrier="MS">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+          <air:FareNote Key="INdf8ArCuDKADqATNGAAAA==">RATE USED IN EQU TOTAL IS BSR 1EUR - 4.02788035SAR</air:FareNote>
+          <air:FareNote Key="INdf8ArCuDKAEqATNGAAAA==">LAST DATE TO PURCHASE TICKET: 29JUN24</air:FareNote>
+          <air:FareNote Key="INdf8ArCuDKAFqATNGAAAA==">TICKETING AGENCY 36X1</air:FareNote>
+          <air:FareNote Key="INdf8ArCuDKAGqATNGAAAA==">DEFAULT PLATING CARRIER MS</air:FareNote>
+          <air:FareNote Key="INdf8ArCuDKAHqATNGAAAA==">E-TKT REQUIRED</air:FareNote>
+          <air:FareNote Key="INdf8ArCuDKAIqATNGAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+          <common_v51_0:HostToken Key="INdf8ArCuDKANoATNGAAAA==">GFB10101ADT00  01YWRSMS                                010001#GFB200010101NADTV3022EGRY00100006998B#GFMCER 022NEGRY MS ADTYWRSMS</common_v51_0:HostToken>
+          <common_v51_0:HostToken Key="INdf8ArCuDKAOoATNGAAAA==">GFB10101ADT00  02YRSEG                                 010002#GFB200010102NADTV3034AFYR0010002999#GFMCER 034NAFYR MS ADTYRSEG</common_v51_0:HostToken>
+        </air:AirPricingSolution>
+        <air:AirPricingSolution Key="INdf8ArCuDKAJqATNGAAAA==" TotalPrice="SAR4698.00" BasePrice="EUR941.00" ApproximateTotalPrice="SAR4698.00" ApproximateBasePrice="SAR3791.00" EquivalentBasePrice="SAR3791.00" Taxes="SAR907.00" Fees="SAR0.00" ApproximateTaxes="SAR907.00" QuoteDate="2024-06-23">
+          <air:AirSegmentRef Key="INdf8ArCuDKAIoATNGAAAA=="/>
+          <air:AirSegmentRef Key="INdf8ArCuDKAKoATNGAAAA=="/>
+          <air:AirPricingInfo Key="INdf8ArCuDKAMqATNGAAAA==" TotalPrice="SAR4698.00" BasePrice="EUR941.00" ApproximateTotalPrice="SAR4698.00" ApproximateBasePrice="SAR3791.00" EquivalentBasePrice="SAR3791.00" ApproximateTaxes="SAR907.00" Taxes="SAR907.00" LatestTicketingTime="2024-06-29T23:59:00.000+03:00" PricingMethod="Manual" Refundable="true" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="MS" ProviderCode="1G">
+            <air:FareInfo Key="INdf8ArCuDKAWqATNGAAAA==" FareBasis="CWRSMS" PassengerTypeCode="ADT" Origin="BCN" Destination="CAI" EffectiveDate="2024-06-23T18:41:00.000+03:00" DepartureDate="2024-06-29" Amount="SAR3045.00" NegotiatedFare="false" TaxAmount="SAR743.00">
+              <air:FareRuleKey FareInfoRef="INdf8ArCuDKAWqATNGAAAA==" ProviderCode="1G">6UUVoSldxwjCDkhSxcHFdcbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxlpMnOssuF4xWa1uaqI55k3aSkvhp2ybZtTsMZS38T6/lKZrmZZIVvAyGqh8JIaqG1ZXpySnz/mHSp3ZjxsrcWjfUUdfv2U9oX+hNfHEXoxUV3b2b+cmv9gFHVWNccKgT/9+1PBdevm4dIRHH43HFnjCWHL4kjH8YMN1QPqv5KjsitAlf43ZzkQBeEKZNoplD5g979w/RMyy5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdFMmRbUmkVelPm9EqY/IuJU6/9N9YpL4LVyi8YofCDUx2IM0+p8YFnVed9f0hQfUeJWRCTpuERy6Q==</air:FareRuleKey>
+              <air:Brand Key="INdf8ArCuDKAWqATNGAAAA==" BrandID="1456975" Name="BUSINESS PLATINUM" UpSellBrandFound="false" Carrier="MS" BrandTier="0007">
+                <air:Title Type="External" LanguageCode="EN">Business Platinum</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">BP</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Business Platinum</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Business Platinum</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Business Platinum</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/egyptair/MS_general_medium_2652.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/egyptair/MS_general_medium_2652.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0F4" Key="INdf8ArCuDKAXqATNGAAAA==" SecondaryType="IN" Chargeable="Included in the brand" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Stroller Or Pushchair</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Stroller Or Pushchair</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Stroller Or Pushchair</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0IJ" Key="INdf8ArCuDKAYqATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Piece</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Piece</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Piece</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0ID" Key="INdf8ArCuDKAZqATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0IK" Key="INdf8ArCuDKAaqATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Weight</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Weight</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Weight</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0IG" Key="INdf8ArCuDKAbqATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Weight And Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Weight And Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Weight And Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0FJ" Key="INdf8ArCuDKAcqATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Heavy And Bigger Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Heavy And Bigger Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Heavy And Bigger Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0FM" Key="INdf8ArCuDKAdqATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Heavy And Standard Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Heavy And Standard Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Heavy And Standard Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0ES" Key="INdf8ArCuDKAeqATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Over70lb 32Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Over70lb 32Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Over70lb 32Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0AA" Key="INdf8ArCuDKAfqATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Prepaid Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Prepaid Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Prepaid Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0FA" Key="INdf8ArCuDKAgqATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Standard Weight Biggersize</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Standard Weight Biggersize</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Standard Weight Biggersize</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0CZ" Key="INdf8ArCuDKAhqATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto22lb 10Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto22lb 10Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto22lb 10Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0GO" Key="INdf8ArCuDKAiqATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto50lb 23Kg And62li 158Lcm</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto50lb 23Kg And62li 158Lcm</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto50lb 23Kg And62li 158Lcm</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0C3" Key="INdf8ArCuDKAjqATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto50lb 23Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto50lb 23Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto50lb 23Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0C6" Key="INdf8ArCuDKAkqATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto70lb 32Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto70lb 32Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto70lb 32Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0IP" Key="INdf8ArCuDKAlqATNGAAAA==" SecondaryType="SI" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Media Equipment Upto50 Lb 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Media Equipment Upto50 Lb 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Media Equipment Upto50 Lb 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0O0" Key="INdf8ArCuDKAmqATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Alpinist Eqpmt Up To 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Alpinist Eqpmt Up To 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Alpinist Eqpmt Up To 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="028" Key="INdf8ArCuDKAnqATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Ammunition</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Ammunition</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Ammunition</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0OF" Key="INdf8ArCuDKAoqATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Archery Eqpmt Up To 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Archery Eqpmt Up To 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Archery Eqpmt Up To 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0EC" Key="INdf8ArCuDKApqATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Bicycle</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Bicycle</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Bicycle</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="05S" Key="INdf8ArCuDKAqqATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Fencing Eqpmt Upto 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Fencing Eqpmt Upto 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Fencing Eqpmt Upto 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0FW" Key="INdf8ArCuDKArqATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Fishing Equipment Up To 15 Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Fishing Equipment Up To 15 Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Fishing Equipment Up To 15 Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0D4" Key="INdf8ArCuDKAsqATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Golf Equipment Up To 15 Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Golf Equipment Up To 15 Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Golf Equipment Up To 15 Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0O7" Key="INdf8ArCuDKAtqATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Horse Riding Eqpmt Up To 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Horse Riding Eqpmt Up To 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Horse Riding Eqpmt Up To 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0F1" Key="INdf8ArCuDKAuqATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Javelin</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Javelin</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Javelin</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0LY" Key="INdf8ArCuDKAvqATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Kite Surfboard Up To 22Lb 10Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Kite Surfboard Up To 22Lb 10Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Kite Surfboard Up To 22Lb 10Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0L3" Key="INdf8ArCuDKAwqATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Oars</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Oars</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Oars</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0LZ" Key="INdf8ArCuDKAxqATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Scuba Equipment Upto44lb 20 Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Scuba Equipment Upto44lb 20 Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Scuba Equipment Upto44lb 20 Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0DD" Key="INdf8ArCuDKAyqATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Ski Equipment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Ski Equipment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Ski Equipment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0I1" Key="INdf8ArCuDKAzqATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Sporteqpupto50 23And81li 208Cm</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Sporteqpupto50 23And81li 208Cm</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Sporteqpupto50 23And81li 208Cm</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0ED" Key="INdf8ArCuDKA0qATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Sporting Firearms</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Sporting Firearms</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Sporting Firearms</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0IL" Key="INdf8ArCuDKA1qATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Surfboard Up To 59In 150Cm</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Surfboard Up To 59In 150Cm</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Surfboard Up To 59In 150Cm</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-23T15:41:20.926+00:00" Key="INdf8ArCuDKA2qATNGAAAA==" SecondaryType="RF" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refund</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-23T15:41:20.926+00:00" Key="INdf8ArCuDKA3qATNGAAAA==" SecondaryType="VC" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Rebooking</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0B5" Key="INdf8ArCuDKA4qATNGAAAA==" Chargeable="Not offered" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pre Reserved Seat Assignment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pre Reserved Seat Assignment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pre Reserved Seat Assignment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0AO" Key="INdf8ArCuDKA5qATNGAAAA==" SecondaryType="DI" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Kosher Dinner</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Kosher Dinner</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Kosher Dinner</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0AN" Key="INdf8ArCuDKA6qATNGAAAA==" SecondaryType="DI" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Vegetarian Dinner</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Vegetarian Dinner</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Vegetarian Dinner</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0B3" Key="INdf8ArCuDKA7qATNGAAAA==" Chargeable="Not offered" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meal 1</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Meal 1</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Meal 1</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-23T15:41:20.926+00:00" Key="INdf8ArCuDKA8qATNGAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0BX" Key="INdf8ArCuDKA9qATNGAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge Access</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Lounge Access</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge Access</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Medical" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0B4" Key="INdf8ArCuDKA+qATNGAAAA==" SecondaryType="OX" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Oxygen</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Oxygen</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Oxygen</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0BT" Key="INdf8ArCuDKA/qATNGAAAA==" SecondaryType="PC" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Cabin</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Cabin</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Cabin</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0BS" Key="INdf8ArCuDKAArATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0A1" Key="INdf8ArCuDKABrATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold Extra Large</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold Extra Large</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold Extra Large</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0A0" Key="INdf8ArCuDKACrATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold Large</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold Large</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold Large</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0AZ" Key="INdf8ArCuDKADrATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold Medium</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold Medium</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold Medium</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="03P" Key="INdf8ArCuDKAErATNGAAAA==" SecondaryType="PO" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Check In</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Check In</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Check In</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0G6" Key="INdf8ArCuDKAFrATNGAAAA==" SecondaryType="PR" Chargeable="Not offered" Tag="Priority Boarding" DisplayOrder="17">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Boarding</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Boarding</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Boarding</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Upgrades" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0BJ" Key="INdf8ArCuDKAGrATNGAAAA==" Chargeable="Not offered" Tag="Upgrade" DisplayOrder="9">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAIoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upgrade</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upgrade</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upgrade</air:Title>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:FareInfo Key="INdf8ArCuDKAHrATNGAAAA==" FareBasis="CRSEG" PassengerTypeCode="ADT" Origin="CAI" Destination="BEN" EffectiveDate="2024-06-23T18:41:00.000+03:00" DepartureDate="2024-06-30" Amount="SAR746.00" NegotiatedFare="false" TaxAmount="SAR164.00">
+              <air:FareRuleKey FareInfoRef="INdf8ArCuDKAHrATNGAAAA==" ProviderCode="1G">6UUVoSldxwjCDkhSxcHFdcbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxlpMnOssuF4xWa1uaqI55k3aSkvhp2ybdcPJJfZxtx4TK39XyYaea/AyGqh8JIaqB4Zxw7k/5hds0662YUM7E0qD657XeERmzvQIlbeGa6Ahf6E18cRejF6+WRr8tqYPNGbQofq4hFXH+vsqugJyTlW8vSBNa8ZUmwC02UUzMsnU1gpjPEuhqxykOGbiJHLuYOlYAr+/XTUv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6vncjaihPQ52PaVUAnec78/juoTf3teHE7reQd5pMPZr7+j9g/DXpTdbW4v0xRlUDQ=</air:FareRuleKey>
+              <air:Brand Key="INdf8ArCuDKAHrATNGAAAA==" BrandID="1456975" Name="BUSINESS PLATINUM" UpSellBrandFound="false" Carrier="MS" BrandTier="0007">
+                <air:Title Type="External" LanguageCode="EN">Business Platinum</air:Title>
+                <air:Title Type="Short" LanguageCode="EN">BP</air:Title>
+                <air:Text Type="MarketingConsumer" LanguageCode="EN">Business Platinum</air:Text>
+                <air:Text Type="MarketingAgent" LanguageCode="EN">Business Platinum</air:Text>
+                <air:Text Type="Strapline" LanguageCode="EN">Business Platinum</air:Text>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/egyptair/MS_general_medium_2652.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/egyptair/MS_general_medium_2652.jpg</air:ImageLocation>
+                <air:OptionalServices>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0F4" Key="INdf8ArCuDKAIrATNGAAAA==" SecondaryType="IN" Chargeable="Included in the brand" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Stroller Or Pushchair</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Stroller Or Pushchair</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Stroller Or Pushchair</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0IJ" Key="INdf8ArCuDKAJrATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Piece</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Piece</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Piece</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0ID" Key="INdf8ArCuDKAKrATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0IK" Key="INdf8ArCuDKALrATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Weight</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Weight</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Weight</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0IG" Key="INdf8ArCuDKAMrATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Excess Weight And Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Excess Weight And Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Excess Weight And Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0FJ" Key="INdf8ArCuDKANrATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Heavy And Bigger Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Heavy And Bigger Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Heavy And Bigger Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0FM" Key="INdf8ArCuDKAOrATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Heavy And Standard Size</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Heavy And Standard Size</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Heavy And Standard Size</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0ES" Key="INdf8ArCuDKAPrATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Over70lb 32Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Over70lb 32Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Over70lb 32Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0AA" Key="INdf8ArCuDKAQrATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Prepaid Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Prepaid Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Prepaid Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0FA" Key="INdf8ArCuDKARrATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Standard Weight Biggersize</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Standard Weight Biggersize</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Standard Weight Biggersize</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0CZ" Key="INdf8ArCuDKASrATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto22lb 10Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto22lb 10Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto22lb 10Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0GO" Key="INdf8ArCuDKATrATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto50lb 23Kg And62li 158Lcm</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto50lb 23Kg And62li 158Lcm</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto50lb 23Kg And62li 158Lcm</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0C3" Key="INdf8ArCuDKAUrATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto50lb 23Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto50lb 23Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto50lb 23Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0C6" Key="INdf8ArCuDKAVrATNGAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upto70lb 32Kg Baggage</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upto70lb 32Kg Baggage</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upto70lb 32Kg Baggage</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0IP" Key="INdf8ArCuDKAWrATNGAAAA==" SecondaryType="SI" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Media Equipment Upto50 Lb 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Media Equipment Upto50 Lb 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Media Equipment Upto50 Lb 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0O0" Key="INdf8ArCuDKAXrATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Alpinist Eqpmt Up To 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Alpinist Eqpmt Up To 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Alpinist Eqpmt Up To 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="028" Key="INdf8ArCuDKAYrATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Ammunition</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Ammunition</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Ammunition</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0OF" Key="INdf8ArCuDKAZrATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Archery Eqpmt Up To 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Archery Eqpmt Up To 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Archery Eqpmt Up To 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0EC" Key="INdf8ArCuDKAarATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Bicycle</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Bicycle</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Bicycle</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="05S" Key="INdf8ArCuDKAbrATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Fencing Eqpmt Upto 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Fencing Eqpmt Upto 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Fencing Eqpmt Upto 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0FW" Key="INdf8ArCuDKAcrATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Fishing Equipment Up To 15 Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Fishing Equipment Up To 15 Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Fishing Equipment Up To 15 Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0D4" Key="INdf8ArCuDKAdrATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Golf Equipment Up To 15 Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Golf Equipment Up To 15 Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Golf Equipment Up To 15 Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0O7" Key="INdf8ArCuDKAerATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Horse Riding Eqpmt Up To 23Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Horse Riding Eqpmt Up To 23Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Horse Riding Eqpmt Up To 23Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0F1" Key="INdf8ArCuDKAfrATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Javelin</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Javelin</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Javelin</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0LY" Key="INdf8ArCuDKAgrATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Kite Surfboard Up To 22Lb 10Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Kite Surfboard Up To 22Lb 10Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Kite Surfboard Up To 22Lb 10Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0L3" Key="INdf8ArCuDKAhrATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Oars</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Oars</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Oars</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0LZ" Key="INdf8ArCuDKAirATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Scuba Equipment Upto44lb 20 Kg</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Scuba Equipment Upto44lb 20 Kg</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Scuba Equipment Upto44lb 20 Kg</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0DD" Key="INdf8ArCuDKAjrATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Ski Equipment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Ski Equipment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Ski Equipment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0I1" Key="INdf8ArCuDKAkrATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Sporteqpupto50 23And81li 208Cm</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Sporteqpupto50 23And81li 208Cm</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Sporteqpupto50 23And81li 208Cm</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0ED" Key="INdf8ArCuDKAlrATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Sporting Firearms</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Sporting Firearms</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Sporting Firearms</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Baggage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0IL" Key="INdf8ArCuDKAmrATNGAAAA==" SecondaryType="SP" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Surfboard Up To 59In 150Cm</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Surfboard Up To 59In 150Cm</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Surfboard Up To 59In 150Cm</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-23T15:41:20.926+00:00" Key="INdf8ArCuDKAnrATNGAAAA==" SecondaryType="RF" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Refund</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Branded Fares" CreateDate="2024-06-23T15:41:20.926+00:00" Key="INdf8ArCuDKAorATNGAAAA==" SecondaryType="VC" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Rebooking</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0B5" Key="INdf8ArCuDKAprATNGAAAA==" Chargeable="Not offered" Tag="Seat Assignment" DisplayOrder="5">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pre Reserved Seat Assignment</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pre Reserved Seat Assignment</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pre Reserved Seat Assignment</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0AO" Key="INdf8ArCuDKAqrATNGAAAA==" SecondaryType="DI" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Kosher Dinner</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Kosher Dinner</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Kosher Dinner</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0AN" Key="INdf8ArCuDKArrATNGAAAA==" SecondaryType="DI" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Vegetarian Dinner</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Vegetarian Dinner</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Vegetarian Dinner</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="MealOrBeverage" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0B3" Key="INdf8ArCuDKAsrATNGAAAA==" Chargeable="Not offered" Tag="Meals and Beverages" DisplayOrder="6">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Meal 1</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Meal 1</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Meal 1</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-06-23T15:41:20.926+00:00" Key="INdf8ArCuDKAtrATNGAAAA==" SecondaryType="IT" Chargeable="Not offered" Tag="WiFi" DisplayOrder="7">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>WiFi</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Lounge" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0BX" Key="INdf8ArCuDKAurATNGAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Lounge Access</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Lounge Access</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Lounge Access</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Medical" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0B4" Key="INdf8ArCuDKAvrATNGAAAA==" SecondaryType="OX" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Oxygen</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Oxygen</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Oxygen</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0BT" Key="INdf8ArCuDKAwrATNGAAAA==" SecondaryType="PC" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Cabin</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Cabin</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Cabin</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0BS" Key="INdf8ArCuDKAxrATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0A1" Key="INdf8ArCuDKAyrATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold Extra Large</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold Extra Large</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold Extra Large</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0A0" Key="INdf8ArCuDKAzrATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold Large</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold Large</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold Large</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Pets" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0AZ" Key="INdf8ArCuDKA0rATNGAAAA==" SecondaryType="PH" Chargeable="Available for a charge" Tag="Other" DisplayOrder="999">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Pet In Hold Medium</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Pet In Hold Medium</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Pet In Hold Medium</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="03P" Key="INdf8ArCuDKA1rATNGAAAA==" SecondaryType="PO" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Check In</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Check In</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Check In</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="TravelServices" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0G6" Key="INdf8ArCuDKA2rATNGAAAA==" SecondaryType="PR" Chargeable="Not offered" Tag="Priority Boarding" DisplayOrder="17">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Priority Boarding</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Priority Boarding</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Priority Boarding</air:Title>
+                  </air:OptionalService>
+                  <air:OptionalService Type="Upgrades" CreateDate="2024-06-23T15:41:20.926+00:00" ServiceSubCode="0BJ" Key="INdf8ArCuDKA3rATNGAAAA==" Chargeable="Not offered" Tag="Upgrade" DisplayOrder="9">
+                    <common_v51_0:ServiceData AirSegmentRef="INdf8ArCuDKAKoATNGAAAA=="/>
+                    <common_v51_0:ServiceInfo>
+                      <common_v51_0:Description>Upgrade</common_v51_0:Description>
+                    </common_v51_0:ServiceInfo>
+                    <air:EMD AssociatedItem="Flight"/>
+                    <air:Text Type="Strapline" LanguageCode="EN">Upgrade</air:Text>
+                    <air:Title Type="External" LanguageCode="EN">Upgrade</air:Title>
+                  </air:OptionalService>
+                </air:OptionalServices>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="C" CabinClass="Business" FareInfoRef="INdf8ArCuDKAWqATNGAAAA==" SegmentRef="INdf8ArCuDKAIoATNGAAAA==" HostTokenRef="INdf8ArCuDKAKqATNGAAAA=="/>
+            <air:BookingInfo BookingCode="C" CabinClass="Business" FareInfoRef="INdf8ArCuDKAHrATNGAAAA==" SegmentRef="INdf8ArCuDKAKoATNGAAAA==" HostTokenRef="INdf8ArCuDKALqATNGAAAA=="/>
+            <air:TaxInfo Category="JD" Amount="SAR67.00" Key="INdf8ArCuDKANqATNGAAAA=="/>
+            <air:TaxInfo Category="OG" Amount="SAR3.00" Key="INdf8ArCuDKAOqATNGAAAA=="/>
+            <air:TaxInfo Category="QV" Amount="SAR15.00" Key="INdf8ArCuDKAPqATNGAAAA=="/>
+            <air:TaxInfo Category="EQ" Amount="SAR8.00" Key="INdf8ArCuDKAQqATNGAAAA=="/>
+            <air:TaxInfo Category="O2" Amount="SAR2.00" Key="INdf8ArCuDKARqATNGAAAA=="/>
+            <air:TaxInfo Category="O9" Amount="SAR4.00" Key="INdf8ArCuDKASqATNGAAAA=="/>
+            <air:TaxInfo Category="S4" Amount="SAR16.00" Key="INdf8ArCuDKATqATNGAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="SAR284.00" Key="INdf8ArCuDKAUqATNGAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="SAR508.00" Key="INdf8ArCuDKAVqATNGAAAA=="/>
+            <air:FareCalc>BCN MS CAI 813.40CWRSMS MS BEN 198.13CRSEG NUC1011.53END ROE0.929425</air:FareCalc>
+            <air:PassengerType Code="ADT" Age="23"/>
+            <air:ChangePenalty PenaltyApplies="Anytime">
+              <air:Percentage>0.00</air:Percentage>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+              <air:Percentage>0.00</air:Percentage>
+            </air:CancelPenalty>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="BCN" Destination="BEN" Carrier="MS">
+                <air:URLInfo>
+                  <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MS</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>2P</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO70LB/32KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="EUR0.00" ApproximateBasePrice="SAR0.00" TotalPrice="EUR0.00" ApproximateTotalPrice="SAR0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO70LB/32KG</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="BCN" Destination="CAI" Carrier="MS">
+                <air:TextInfo>
+                  <air:Text>2P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+                <air:CarryOnDetails ApplicableCarryOnBags="2" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="CAI" Destination="BEN" Carrier="MS">
+                <air:TextInfo>
+                  <air:Text>2P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+                <air:CarryOnDetails ApplicableCarryOnBags="2" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+          <common_v51_0:HostToken Key="INdf8ArCuDKAKqATNGAAAA==">GFB10101ADT00  01CWRSMS                                010001#GFB200010101NADTV3022EGRC00100006998B#GFMCBR 022NEGRC MS ADTCWRSMS</common_v51_0:HostToken>
+          <common_v51_0:HostToken Key="INdf8ArCuDKALqATNGAAAA==">GFB10101ADT00  02CRSEG                                 010002#GFB200010102NADTV3034AFCR0010001799#GFMCBR 034NAFCR MS ADTCRSEG</common_v51_0:HostToken>
+        </air:AirPricingSolution>
+      </air:AirPriceResult>
+    </air:AirPriceRsp>
+  </SOAP:Body>
+</SOAP:Envelope>
