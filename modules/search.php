@@ -223,6 +223,7 @@
 		minDate: moment(),
 		maxDate: moment().add(1, "year"),
 		hideOutOfRange: false,
+		isRTL: isRTL
 
 		//Linked parameters
 		startEmpty: $("[data-input=departure]").val() === "",
@@ -285,6 +286,7 @@
 		minDate: moment(),
 		maxDate: moment().add(1, "year"),
 		hideOutOfRange: false,
+		isRTL: isRTL
 
 		//Linked parameters
 		startEmpty: $("[data-input=arrival]").val() === "",
