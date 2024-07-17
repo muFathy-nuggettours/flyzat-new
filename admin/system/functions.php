@@ -819,6 +819,7 @@ function travelportAirPrice($id)
 		}
 
 		//Build air segment array (By replacing the flight details reference as well)
+        $segmentKey = "";
 		foreach ($selection["AirSegmentList"] as $xml) {
 			$xpath = parseXMLObject($xml);
 			$segment = $xpath->query("//AirSegment")[0];
@@ -874,17 +875,21 @@ function travelportAirPrice($id)
 		</air:AirItinerary>
 		$pricingXML
 		$PassengerTypes
-		<air:AirPricingCommand/>
+        <air:AirPricingCommand>
+            <air:AirSegmentPricingModifiers CabinClass='$cabin_class' AirSegmentRef='$segmentKey'></air:AirSegmentPricingModifiers>
+            </air:AirPricingCommand>
 		</air:AirPriceReq>
 	</soapenv:Body></soapenv:Envelope>";
 
 	//Replace needed contents
 	$request = str_replace("PassengerType", "com:SearchPassenger xmlns:com='http://www.travelport.com/schema/common_v51_0'", $request);
-	$request = str_replace("AirSegment", "air:AirSegment", $request);
-	$request = str_replace("<air:AirSegment", '<air:AirSegment ProviderCode="1G"', $request);
+	$request = str_replace("AirSegment ", "air:AirSegment ", $request);
+	$request = str_replace("/AirSegment", "/air:AirSegment", $request);
+	$request = str_replace("<air:AirSegment ", '<air:AirSegment ProviderCode="1G" ', $request);
 
 	//Execute request
 	$request_result = travelportCURL($request, true);
+	$aps = "";
 	if ($request_result[0]) {
 		$result_object = $request_result[1];
 		try {
