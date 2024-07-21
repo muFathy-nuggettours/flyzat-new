@@ -1,4 +1,5 @@
 <? include "system/_handler.php";
+requireLogin(true); 
 
 //Validate Booking Session
 $booking_session = mysqlFetch(mysqlQuery("SELECT * FROM flights_reqeusts WHERE session='" . $get["id"] . "'"));
