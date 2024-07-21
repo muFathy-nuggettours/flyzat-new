@@ -242,7 +242,7 @@ include "website/section_header.php"; ?>
         <div class=page_container>
             <div id="container" class="container justify-content-center row" style="border: 5px solid #2073ba; margin-bottom: 10px; padding: 10px; display: flex; align-items: center; justify-content: center;">
                 <strong>متبقي:&nbsp;&nbsp;&nbsp;</strong>
-                <strong id="display">05:00</strong>
+                <strong id="display">10:00</strong>
             </div>
 
             <style>
@@ -383,8 +383,8 @@ include "website/section_header.php"; ?>
 include "system/footer.php"; ?>
 <script>
     let timer;
-    let minutes = 19;
-    let seconds = 5;
+    let minutes = 10;
+    let seconds = 0;
     let display = document.getElementById('display');
     let container = document.getElementById('container');
 
