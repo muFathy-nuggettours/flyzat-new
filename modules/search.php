@@ -31,6 +31,10 @@
 	.caleran-rtl .caleran-next-month {
 		order: 1;
 	}
+
+    .caleran-prev, .caleran-next {
+        display: none !important;
+    }
 </style>
 
 <!-- Set default search values from history -->
@@ -212,6 +216,14 @@
 	//Departure
 	var websiteLanguage = '<?= $website_language ?>';
 	var isRTL = websiteLanguage === 'ar';
+    if(isRTL) {
+        var cancel = 'إلغاء';
+        var apply = 'تأكيد';
+    } else {
+        var cancel = 'Cancel';
+        var apply = 'Apply';
+    }
+
 	$("[date-picker-departure]").caleran({
 		//Primary parameters
 		target: $("[data-input=departure]"),
@@ -222,8 +234,10 @@
 		showFooter: false,
 		minDate: moment(),
 		maxDate: moment().add(1, "year"),
-		hideOutOfRange: false,
+		hideOutOfRange: true,
 		isRTL: isRTL,
+        cancelLabel: cancel, 
+        applyLabel: apply,
 
 		//Linked parameters
 		startEmpty: $("[data-input=departure]").val() === "",
@@ -275,6 +289,13 @@
 	//Arrival
 	var websiteLanguage = '<?= $website_language ?>';
 	var isRTL = websiteLanguage === 'ar';
+    if(isRTL) {
+        var cancel = 'إلغاء';
+        var apply = 'تأكيد';
+    } else {
+        var cancel = 'Cancel';
+        var apply = 'Apply';
+    }
 	$("[date-picker-arrival]").caleran({
 		//Primary parameters
 		target: $("[data-input=arrival]"),
@@ -285,8 +306,10 @@
 		showFooter: false,
 		minDate: moment(),
 		maxDate: moment().add(1, "year"),
-		hideOutOfRange: false,
+		hideOutOfRange: true,
 		isRTL: isRTL,
+        cancelLabel: cancel, 
+        applyLabel: apply,
 
 		//Linked parameters
 		startEmpty: $("[data-input=arrival]").val() === "",
@@ -335,6 +358,14 @@
 		var websiteLanguage = '<?= $website_language ?>';
 		var isRTL = websiteLanguage === 'ar';
 
+        if(isRTL) {
+            var cancel = 'إلغاء';
+            var apply = 'تأكيد';
+        } else {
+            var cancel = 'Cancel';
+            var apply = 'Apply';
+        }
+    
 		source.caleran({
 			// Primary parameters
 			target: target,
@@ -345,9 +376,12 @@
 			showFooter: false,
 			minDate: minimum,
 			maxDate: moment().add(1, "year"),
-			hideOutOfRange: false,
+			hideOutOfRange: true,
 			singleDate: true,
 			isRTL: isRTL,
+            cancelLabel: cancel, 
+            applyLabel: apply,
+        
 
 			// Linked parameters
 			startEmpty: target.val() === "",
