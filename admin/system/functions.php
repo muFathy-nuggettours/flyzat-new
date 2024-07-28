@@ -705,7 +705,6 @@ function travelportBook($id)
 	$passengers_keys["INF"] = array();
 	$passengers_parameters = array();
 	$passengers = explode(",", $reservation["passengers"]);
-	$passengers_xml = "";
 	foreach ($passengers as $id) {
 		$passenger = getID($id, "users_passengers");
 		$passenger_type = $data_map_travelport_passenger_types[$passenger["type"]];
@@ -1096,10 +1095,12 @@ function renderFlightDetails($flight, $penalties = null)
 function calculateComission($price, $currency, $origins, $destinations)
 {
 	global $logged_user;
-	$agent = mysqlFetch(mysqlQuery("SELECT * FROM users_agents WHERE user_id=" . $logged_user["id"]));
-
+    if(isset($logged_user["id"])) {
+        $agent = mysqlFetch(mysqlQuery("SELECT * FROM users_agents WHERE user_id=" . $logged_user["id"]));
+    }
+        
 	//Load agent pricing matrix
-	if ($agent) {
+	if (isset($agent)) {
 		$pricing_matrix["fixed"] = json_decode($agent["fixed"], true);
 		$pricing_matrix["percentage"] = $agent["percentage"];
 
@@ -1416,7 +1417,7 @@ function getReservationPricing($search_object)
 //Manage reservation
 function reservationManage($data)
 {
-	$button = "<i class='fas fa-cogs'></i>&nbsp;&nbsp;" . readLanguage(operations, manage);
+	$button = "<i class='fas fa-cogs'></i>&nbsp;&nbsp;" . readLanguage('operations', 'manage');
 
 	$list["pay"] = "<li><a class='d-flex align-items-center' onclick='reservationPay(" . $data["id"] . ")'><i class='fas fa-wallet fa-fw'></i>&nbsp;&nbsp;تأكيد الدفع</a></li>";
 	$list["pnr"] = "<li><a class='d-flex align-items-center' onclick='reservationPNR(" . $data["id"] . ")'><i class='fas fa-plane fa-fw'></i>&nbsp;&nbsp;إدخال كود الحجز</a></li>";
@@ -1540,11 +1541,11 @@ function readRecordData($data, $page, $title = null)
 		case "channel_requests":
 		case "channel_requests_custom":
 			$message = "<span>
-			<div class=data-item><b>" . readLanguage(users, name) . "</b><div class=data>" . $data["name"] . "</div></div>
-			<div class=data-item><b>" . readLanguage(users, email) . "</b><div class=data>" . $data["email"] . "</div></div>
-			<div class=data-item><b>" . readLanguage(users, mobile) . "</b><div class=data>" . $data["mobile"] . "</div></div>
-			<div class=data-item><b>" . readLanguage(channels, subject) . "</b><div class=data>" . $data["subject"] . "</div></div>
-			<div class=data-item><b>" . readLanguage(channels, message) . "</b><div class=data>" . nl2br($data["message"]) . "</div></div>
+			<div class=data-item><b>" . readLanguage('users', 'name') . "</b><div class=data>" . $data["name"] . "</div></div>
+			<div class=data-item><b>" . readLanguage('users', 'email') . "</b><div class=data>" . $data["email"] . "</div></div>
+			<div class=data-item><b>" . readLanguage('users', 'mobile') . "</b><div class=data>" . $data["mobile"] . "</div></div>
+			<div class=data-item><b>" . readLanguage('channels', 'subject') . "</b><div class=data>" . $data["subject"] . "</div></div>
+			<div class=data-item><b>" . readLanguage('channels', 'message') . "</b><div class=data>" . nl2br($data["message"]) . "</div></div>
 		</span>";
 			break;
 
@@ -1565,10 +1566,10 @@ function readRecordData($data, $page, $title = null)
 			break;
 	}
 
-	$title = ($title ? $title : readLanguage(operations, view));
+	$title = ($title ? $title : readLanguage('operations', 'view'));
 	$message = cleanString($message);
 
-	$return = "<button class='btn btn-primary btn-sm btn-block' onclick=\"bootbox.alert({title:'$title', message:'$message'})\"><i class='fas fa-search'></i>&nbsp;&nbsp;" . readLanguage(operations, view) . "</button>";
+	$return = "<button class='btn btn-primary btn-sm btn-block' onclick=\"bootbox.alert({title:'$title', message:'$message'})\"><i class='fas fa-search'></i>&nbsp;&nbsp;" . readLanguage('operations', 'view') . "</button>";
 	return $return;
 }
 
@@ -1612,16 +1613,23 @@ function crudDropdown($data, $form)
 
 	switch ($form) {
 		case "channel_requests":
-			$button = "<i class='fas fa-cogs'></i>&nbsp;&nbsp;" . readLanguage(operations, manage);
-			$list = "<li><a onclick=\"comReplyModal(" . $data["id"] . ",'" . $data["name"] . "','" . $data["email"] . "')\"><i class='fas fa-reply'></i> " . readLanguage(channels, reply) . "</a></li>
+			$button = "<i class='fas fa-cogs'></i>&nbsp;&nbsp;" . readLanguage('operations', 'manage');
+			$list = "<li><a onclick=\"comReplyModal(" . $data["id"] . ",'" . $data["name"] . "','" . $data["email"] . "')\"><i class='fas fa-reply'></i> " . readLanguage('channels', 'reply') . "</a></li>
 			<li class=divider></li>
-			<li class=title>" . readLanguage(records, update) . "</li>
+			<li class=title>" . readLanguage('records', 'update') . "</li>
 			<li><a onclick=\"comUpdateStatus(" . $data["id"] . ",0)\"><i class='fas fa-check-circle'></i> " . $data_new_closed[0] . "</a></li>
 			<li><a onclick=\"comUpdateStatus(" . $data["id"] . ",1)\"><i class='fas fa-times-circle'></i> " . $data_new_closed[1] . "</a></li>";
 			break;
 	}
 
 	return "<div class='crud-dropdown-container'><button type=button class='dropdown-toggle btn btn-success btn-sm btn-block' data-toggle=dropdown aria-haspopup=true aria-expanded=false>" . $button . "&nbsp;&nbsp;<i class='fas fa-angle-down'></i></button><ul class='dropdown-menu animate'>" . $list . "</ul></div>";
+}
+
+function activeUser($data)
+{
+	$list = "<a class=\"btn btn-success\" href=\"_active_user.php?id=$data \"><i class='fas fa-check'></i> تفعيل </a>";
+
+	return $list;
 }
 
 //========== Communication Channels Functions ==========

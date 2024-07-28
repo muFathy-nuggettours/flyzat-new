@@ -33,19 +33,30 @@ function userLogin($user_hash, $write_cookie){
 }
 
 //Pages that require login
-function requireLogin($val){
+function requireLogin($val, $logout = false){
 	global $user_hash;
 	global $base_url;
 	if ($val){
-		if (!$user_hash){
-			header("Location:" . $base_url . ($get["language"] ? $get["language"] . "/" : "") . "login/");
+		if (!$user_hash){ 
+			header("Location:" . $base_url . (isset($_GET['language']) ? $_GET['language'] : "") . "login/");
 			exit();
-		}	
+        }
+
+        if (!is_user_active($user_hash) && $logout == false) {
+			header("Location:" . $base_url . (isset($_GET['language']) ? $_GET['language'] : "") . "not_active/");
+			exit();
+		}
 	} else {
 		if ($user_hash){
-			header("Location:" . $base_url . ($get["language"] ? $get["language"] . "/" : "") . "user/");
+			header("Location:" . $base_url . (isset($_GET['language']) ? $_GET['language'] : "") . "user/");
 			exit();
 		}	
 	}
 }
+
+function is_user_active($user_hash) {
+	$user = mysqlFetch(mysqlQuery("SELECT * FROM users_database WHERE hash='$user_hash'"));
+	return $user && $user['is_active'];
+}
+
 ?>

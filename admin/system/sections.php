@@ -73,7 +73,8 @@ $panel_section["المحتوي المخصص"] = array(
 );
 
 $panel_section["إدارة المستخدمين"] = array(
-	"users_management" => "إدارة حسابات المستخدمين",
+	"users_activation" => "إدارة حسابات المستخدمين",
+	"users_activation" => "تفعيل المستخدمين الجدد",
 	"users_database" => "قاعدة بيانات المستخدمين",
 	"users_passengers" => "قاعدة بيانات المسافرين",
 	"users_agents" => "إدارة حسابات الوكلاء",
