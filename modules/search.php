@@ -31,10 +31,6 @@
 	.caleran-rtl .caleran-next-month {
 		order: 1;
 	}
-
-    .caleran-prev, .caleran-next {
-        display: none !important;
-    }
 </style>
 
 <!-- Set default search values from history -->
@@ -234,7 +230,7 @@
 		showFooter: false,
 		minDate: moment(),
 		maxDate: moment().add(1, "year"),
-		hideOutOfRange: true,
+		hideOutOfRange: false,
 		isRTL: isRTL,
         cancelLabel: cancel, 
         applyLabel: apply,
@@ -306,7 +302,7 @@
 		showFooter: false,
 		minDate: moment(),
 		maxDate: moment().add(1, "year"),
-		hideOutOfRange: true,
+		hideOutOfRange: false,
 		isRTL: isRTL,
         cancelLabel: cancel, 
         applyLabel: apply,
@@ -376,7 +372,7 @@
 			showFooter: false,
 			minDate: minimum,
 			maxDate: moment().add(1, "year"),
-			hideOutOfRange: true,
+			hideOutOfRange: false,
 			singleDate: true,
 			isRTL: isRTL,
             cancelLabel: cancel, 
