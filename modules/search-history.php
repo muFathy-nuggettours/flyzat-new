@@ -46,7 +46,7 @@
 if (window.innerWidth > 767) {
     var history_swiper = new Swiper("#swiper-container-history", {
         slidesPerView: 4,
-        spaceBetween: 20,
+        spaceBetween: 10,
         breakpoints: {
             0: { slidesPerView: 1, direction: 'vertical' },
             768: { slidesPerView: 2, direction: 'horizontal' },
