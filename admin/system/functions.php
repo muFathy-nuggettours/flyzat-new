@@ -737,7 +737,7 @@ function travelportBook($id)
 		$passengers_xml
 		<com:FormOfPayment xmlns:com='http://www.travelport.com/schema/common_v51_0' Type='Cash'/>
 		$AirPricingSolutions
-		<com:ActionStatus xmlns:com='http://www.travelport.com/schema/common_v51_0' ProviderCode='1G' Type='TTL' $pcc/>
+		<com:ActionStatus xmlns:com='http://www.travelport.com/schema/common_v42_0' ProviderCode='1G' Type='TTL' $pcc/>
 		</univ:AirCreateReservationReq>
 	</soapenv:Body></soapenv:Envelope>";
 
