@@ -1,4 +1,3 @@
-@ -1,37 +1,59 @@
 <? if (count($search_history)){ ?>
 <div class=module_search_history>
 	<h3><?=readLanguage(search,search_again)?></h3>
