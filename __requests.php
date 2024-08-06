@@ -177,15 +177,15 @@ if ($post["action"]=="search_destinations"){
 		$country = getCountry($airport["country"]);
 		$region = getID($airport["region"], "system_database_regions");
 		$block_text = $airport[$suffix . "name"] . "، " . $country[$suffix . "name"];
-		$block_html = "<div class=search_destinations>
-			<i class='fas fa-plane fa-fw'></i>&nbsp;&nbsp;
-			<img src='images/countries/" . $airport["country"] . ".gif'>&nbsp;&nbsp;
-			<div class=title>
-				<b>" . highlightKeyword($block_text, $keyword_original) . "</b>
-				<small>" . $region[$suffix . "name"] . "</small>
-			</div>
-			<b class=code>" . $airport["iata"] . "</b>
-		</div>";
+		$block_html = "<div class=\"search_destinations\">
+            <i class='fas fa-plane fa-fw'></i>&nbsp;&nbsp;
+            <img src='images/countries/" . $airport["country"] . ".gif'>&nbsp;&nbsp;
+            <div class=\"title\">
+                <b>" . highlightKeyword($block_text, $keyword_original) . "</b>
+                <small>" . $region[$suffix . "name"] . "</small>
+            </div>
+            <b class=\"code\">" . $airport["iata"] . "</b>
+            </div>";
 		$data_array = array(
 			"id" => $airport["iata"],
 			"html" => $block_html,
