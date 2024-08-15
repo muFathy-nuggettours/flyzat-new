@@ -63,7 +63,8 @@
 		"balance_charge":"Balance Charge",
 		"balance_operations":"Balance Operations",
 		"passengers":"Manage Pasengers",
-		"balance":"Account Balance"
+		"balance":"Account Balance",
+        "reqs" : "My Requests"
     },
 	"passengers":{
 		"birth_date": "Birth Date",
@@ -104,7 +105,14 @@
 		"balance_add_note":"Please enter the amount you want to add with currency",
 		"min_charge":"The minimum amount of recharging is ",
 		"recharging":"Recharging",
-		"balance_not_enough":"Your account balance isn't enough"
+		"balance_not_enough":"Your account balance isn't enough",
+        "visa": "Visa",
+        "bank_transfer": "Bank Transfer",
+        "cash": "Cash",
+        "jumpo4pay": "Jumpo4Pay",
+        "voda_cash": "Vodafone Cash",
+        "sdad": "Sdad",
+        "coll_req": "Collection Request"
 	},
 	"filter":{
 		"categorize_search":"Categorize your search",

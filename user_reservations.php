@@ -89,9 +89,9 @@ if (!mysqlNum($result)){ ?>
 				<? if ($entry["so_end"] < time()){ ?>
 				<a class="btn btn-default btn-sm btn-block" onclick="showRatingModal(<?=$entry["id"]?>)"><?=readLanguage(reservation,flight_rating)?></a>
 				<? } else if ($entry["status"]!=0){ ?>
-				<a class="btn btn-danger btn-sm btn-block" href="contact/"><?=readLanguage(reservation,cancel_request)?></a>
+				<a class="btn btn-default btn-sm btn-block" href="user_request?id=<?=$entry["id"]?>&code=<?=$entry["code"]?>"><?=readLanguage(request,new_request)?></a>
 				<? } else { ?>
-				<a class="btn btn-success btn-sm btn-block" href="contact/"><?=readLanguage(reservation,inquiry)?></a>
+				<a class="btn btn-default btn-sm btn-block" href="user_request?id=<?=$entry["id"]?>&code=<?=$entry["code"]?>"><?=readLanguage(request,new_request)?></a>
 				<? } ?>
 			</td>
 		</tr>

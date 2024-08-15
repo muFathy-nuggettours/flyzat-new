@@ -63,7 +63,8 @@
         "balance_charge": "شحن الرصيد",
         "balance_operations": "عمليات الرصيد",
         "passengers": "إدارة المسافرين",
-        "balance": "رصيد الحساب"
+        "balance": "رصيد الحساب",
+        "reqs" : "طلباتي"
     },
     "passengers": {
         "birth_date": "تاريخ الميلاد",
@@ -104,7 +105,14 @@
         "balance_add_note": "برجاء إدخال المبلغ الذي تود إضافته لرصيد حسابك بعملة",
         "min_charge": "الحد الادني لشحن الرصيد هو",
         "recharging": "شحن رصيد",
-        "balance_not_enough": "رصيد الحساب لا يكفي"
+        "balance_not_enough": "رصيد الحساب لا يكفي",
+        "visa": "فيزا",
+        "bank_transfer": "تحويل بنكي",
+        "cash": "الدفع كاش في المكتب",
+        "jumpo4pay": "جامبو فور باي",
+        "voda_cash": "فودافون كاش",
+        "sdad": "خدمة سداد",
+        "coll_req": "طلب تحصيل"
     },
     "filter": {
         "categorize_search": "صنف بحثك",

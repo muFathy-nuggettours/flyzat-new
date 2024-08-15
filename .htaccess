@@ -101,7 +101,8 @@ RewriteRule ^([A-Z]{2}/|)signup/?$ accounts.php?language=$1&action=signup	[NC,L]
 RewriteRule ^([A-Z]{2}/|)reset-password/?$ accounts.php?language=$1&action=reset-password	[NC,L]
 RewriteRule ^([A-Z]{2}/|)reset-password/([^/]+)/?$ accounts.php?language=$1&action=reset-password&hash=$2	[NC,L]
 RewriteRule ^([A-Z]{2}/|)user/?$ user.php?language=$1	[NC,L]
-RewriteRule ^([A-Z]{2}/|)user/([^/]+)/?$ user.php?language=$1&page=$2	[NC,L,QSA]
+RewriteRule ^([A-Z]{2}/|)user_request/?$ user_request.php?language=$1 [QSA,NC,L]
+RewriteRule ^([A-Z]{2}/|)user/([^/]+)(/([^/]+))?/?$ user.php?language=$1&page=$2&method=$4 [NC,L,QSA]
 #==========================================
 #DYNAMIC URL RE-WRITE
 #==========================================

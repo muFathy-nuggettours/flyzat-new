@@ -299,5 +299,24 @@
         "body_reset_password": "We have received a request to reset your password on our website, please click the link below to reset your password:\r\n\r\n{{1}}\r\n\r\nIf the above link didn't work, please copy the link below to your browser:\r\n{{2}}\r\n\r\nIf you don't want to change your password or if you did not request a new password please ignore this email..",
         "subject_new_password": "Your New Password",
         "body_new_password": "Your password has been reset successfully, you can sign in using your new password below:\r\n\r\nE-Mail: {{1}}\r\nPassword: {{2}}\r\n\r\nIt's recommended that you change your password immediately after login, If you still need assistance please don't hesitate to contact us.."
-    }
+    },
+	"request": {
+        "Details" : "Request Details",
+        "type" : "Request Type",
+		"content" : "Request Details",
+		"code" : "Reservation Number",
+		"status" : "Request Status",
+		"channel" : "Reservation Source",
+		"date" : "Request Date",
+        "more" : "More",
+        "new_req" : "New",
+        "progress_req" : "In Progress",
+        "resolved_req" : "Resolved",
+
+        "inquiry" : "Inquiry",
+        "edit_reservation" : "Edit Reservation",
+        "cancel_reservation" : "Cancel Reservation",
+        "refund_reservation" : "Refund Reservation",
+        "new_request" : "New Request"
+	}
 }

@@ -4,9 +4,14 @@
 
 <!-- Large screen logo -->
 <div class=logo>
-	<div><a href=".">
-		<img src="uploads/_website/<?=$website_information["website_logo"]?>" alt="<?=$website_information["website_name"]?>">
-	</a></div>
+	<div>
+        <a href=".">
+		    <img src="uploads/_website/<?=$website_information["website_logo"]?>" alt="<?=$website_information["website_name"]?>">
+	    </a>
+        <div style="width: 155px;">
+            <b style="font-size: clamp(1rem, 1.5vw, 1.4rem);">الأداة المثالية للشركات ✓</b>
+        </div>
+    </div>
 </div>
 
 <!-- Menu contents -->

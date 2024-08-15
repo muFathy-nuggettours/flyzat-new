@@ -6,13 +6,13 @@ include "_sections.php";
 //========= Panel Categories =========
 
 $panel_categories = array(
-	"إدارة نظام الطيران" => array("إعدادات نظام الطيران","إدارة قواعد البيانات","إدارة الحجوزات","الإدارة المالية"),
-	"إدارة الماليات" => array("إدارة الماليات"),
+	"إدارة نظام الطيران" => array("إعدادات نظام الطيران","إدارة قواعد البيانات","إدارة الحجوزات"),
+	"الإدارة المالية" => array("الإدارة المالية"),
 	"إدارة الموقع الإلكتروني" => array("المحتوي المدمج","المحتوي المخصص"),
 	"المستخدمين و جهات التواصل" => array("إدارة المستخدمين","إدارة جهات التواصل"),
 	"الإعدادات و الصلاحيات" => array("الإعدادات و الصلاحيات"),
 );
-
+ 
 //========= Panel Pages =========
 
 $panel_section["إعدادات نظام الطيران"] = array(
@@ -33,6 +33,7 @@ $panel_section["إدارة قواعد البيانات"] = array(
 );
 
 $panel_section["إدارة الحجوزات"] = array(
+	"operation_hub" => "Operation Hub",
 	"reservations_pending_payment" => "الحجوزات بانتظار الدفع",
 	"reservations_pending" => "الحجوزات المعلقة",
 	"reservations_confirmed" => "الحجوزات المؤكدة",
@@ -43,7 +44,7 @@ $panel_section["إدارة الحجوزات"] = array(
 	"reservations_database" => "قاعدة بيانات الحجوزات",
 );
 
-$panel_section["إدارة الماليات"] = array(
+$panel_section["الإدارة المالية"] = array(
 	"finance_balance_manage" => "إدارة ارصدة الحسابات",
 	"finance_balance_database" => "سجلات ارصدة الحسابات",
 	"finance_payment_records" => "سجلات الدفع الإلكتروني",
