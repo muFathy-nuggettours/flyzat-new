@@ -40,7 +40,9 @@
 	background-size: cover;
 	background-position: center center;
 	width: 100%;
+    height: 85dvh;
 }
+
 
 .slider .swiper-button-next, .slider .swiper-button-prev {
 	background-image: none !important;

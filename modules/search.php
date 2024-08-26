@@ -3,6 +3,165 @@
 <link href="plugins/caleran.min.css?v=<?= $system_settings["system_version"] ?>" rel="stylesheet">
 
 <style>
+    @media only screen and (min-width: 768px) {
+        .web-view {
+            display: block;
+        }
+
+        .modal-view {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width:768px) {
+
+        .modal-view {
+            display: block;
+        }
+
+        .web-view {
+            display: none;
+        }
+
+        .modal {
+            
+            /* Hidden by default */
+            position: sticky;
+            bottom: 0;
+            left: 0;
+            /* top: 20vh !important; */
+            width: 100vw;
+            background-color: white;
+            box-shadow: 0 -3px 15px rgba(0, 0, 0, 0.2);
+            
+            /* Invisible by default */
+            z-index: 10000;
+            /* Ensure it appears above other elements */
+            transition: all 1s ease-in-out;
+            /* Transition for smooth fade and slide */
+            transform: translateY(100%);
+            /* height: 100vh; */
+            /* overflow: hidden !important; */
+            /* Start off-screen */
+        }
+
+        /* Modal visible state */
+        .modal.show {
+            
+            /* Fade in */
+            transform: translateY(0px);
+        }
+
+        .modal-content {
+            padding: 20px;
+            position: relative;
+            height: 100%;
+            overflow-y: auto;
+        }
+
+        /* Close button styling */
+        .close-button {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 24px;
+            color: #333;
+            cursor: pointer;
+        }
+
+        /* Select container styling */
+        .select-container {
+            margin: 20px 0;
+        }
+
+        /* Styled select input */
+        .styled-select {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #007bff;
+            border-radius: 5px;
+            background-color: white;
+            appearance: none;
+            background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23007bff" d="M2 0L0 2h4zM2 5L0 3h4z"/></svg>');
+            background-repeat: no-repeat;
+            background-position: right 10px top 50%;
+            background-size: 12px;
+            cursor: pointer;
+        }
+
+        .styled-select:focus {
+            outline: none;
+            border-color: #0056b3;
+        }
+
+        /* Age selector container */
+        .age-container {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        /* Age buttons styling */
+        .age-button {
+            padding: 10px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            border-radius: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #age {
+            width: 50px;
+            text-align: center;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+
+        .age-input {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Submit button styling */
+        .submit-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .submit-button:hover {
+            background-color: #218838;
+        }
+
+        #swiper-prev-slider {
+            z-index: 1 !important;
+        }
+
+        #swiper-next-slider {
+            z-index: 1 !important;
+        }
+    }
+
+    /* Modal hidden state */
+
+
     @media only screen and (max-width: 768px) {
         .search_destinations.fullscreen {
             position: fixed;
@@ -166,10 +325,15 @@
 
                 <div class=options_container>
                     <div class="component options">
+
                         <span><?= readLanguage('reservation', 'passengers_class') ?></span>
                         <div>
                             <div class=input><i class="fal fa-chair-office icon"></i><select data-input=class><?= populateOptions($data_flight_classes) ?></select></div>
-                            <div style="position:relative">
+                            <div style="position:relative" class="modal-view">
+                                <a id="openModal" class="travelers_dropdown input" data-toggle=dropdown><i class="fal fa-users icon"></i><span></span></a>
+                            </div>
+
+                            <div class="web-view" style="position:relative">
                                 <a class="travelers_dropdown input" data-toggle=dropdown><i class="fal fa-users icon"></i><span></span></a>
                                 <ul class="dropdown-menu travelers">
                                     <li>
@@ -203,6 +367,48 @@
                                     </li>
                                 </ul>
                             </div>
+
+                            <!-- <div id="modal" class="modal">
+                                <div class="modal-content">
+                                    <div style="margin: 50px;">
+                                        <span id="closeModal" class="close-button"><span class="fa fa-times"></span></span>
+                                    </div>
+                                    <div class="age-input">
+                                        <div class="col-6">
+                                            <b><?= readLanguage('common', 'adult') ?></b>
+                                            <span>(12 <?= readLanguage('common', 'years_more') ?>)</span>
+                                        </div>
+                                        <div class="input-group col-6">
+                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('adults', 1)"><span class="fa fa-plus"></span></button>
+                                            <input class="form-control" data-input=adults onchange="updateTravelers()" type="number" id="adults" value="1" min="1" max="9" readonly>
+                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('adults', -1)"><span class="fa fa-minus"></span></button>
+                                        </div>
+                                    </div>
+                                    <div class="age-input">
+                                        <div class="col-6">
+                                            <b><?= readLanguage('common', 'child') ?></b>
+                                            <span>(<?= readLanguage('common', 'from') ?> 2 <?= readLanguage('common', 'to') ?> 12 <?= readLanguage('common', 'years_old') ?>)</span>
+                                        </div>
+                                        <div class="input-group col-6">
+                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('children', 1)"><span class="fa fa-plus"></span></button>
+                                            <input class="form-control" data-input=children onchange="updateTravelers()" type="number" id="children" value="0" min="0" max="8" readonly>
+                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('children', -1)"><span class="fa fa-minus"></span></button>
+                                        </div>
+                                    </div>
+                                    <div class="age-input">
+                                        <div class="col-6">
+                                            <b><?= readLanguage('common', 'infant') ?></b>
+                                            <span>(<?= readLanguage('common', 'less_than') ?> <?= readLanguage('common', 'two_years') ?>)</span>
+                                        </div>
+                                        <div class="input-group col-6">
+                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('toddlers', 1)"><span class="fa fa-plus"></span></button>
+                                            <input class="form-control" data-input=toddlers onchange="updateTravelers()" type="number" id="toddlers" value="0" min="0" max="8" readonly>
+                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('toddlers', -1)"><span class="fa fa-minus"></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
                             <script>
                                 $("[data-input=adults]").val(<?= ($search["adults"] ? $search["adults"] : 1) ?>);
                                 $("[data-input=children]").val(<?= ($search["children"] ? $search["children"] : 0) ?>);
@@ -878,15 +1084,27 @@
     }
 
     function updateTravelerCount(type, change) {
-        var input = document.getElementById(type);
-        var newValue = parseInt(input.value) + change;
-        var adults = parseInt(document.getElementById('adults').value);
-        var toddlersInput = document.getElementById('toddlers');
+        
+        // Select all inputs that have id #type
+        var inputs = document.querySelectorAll(`#${type}`);
+    
+        inputs.forEach((input) => {
+            var newValue = parseInt(input.value) + change;
+
+            var adults = parseInt(document.getElementById('adults').value);
+            var toddlersInput = document.getElementById('toddlers');
 
         if (type === 'adults' && newValue < parseInt(toddlersInput.value)) {
-            toddlersInput.value = newValue;
+            // toddlersInput.value = newValue;
+
+            const toddlersInputs =  document.querySelectorAll(`#toddlers`);
+
+            toddlersInputs.forEach((input) => {
+                input.value = newValue;
+            })
+
         }
- 
+
         if (type === 'toddlers' && newValue > adults) {
             return;
         }
@@ -894,5 +1112,39 @@
         if (newValue >= input.min && newValue <= input.max) {
             input.value = newValue;
         }
+
+        });
+        
+        
+
+        
+        updateTravelers();
     }
+
+
+    window.addEventListener("DOMContentLoaded", (event) => {
+        document.getElementById("openModal").addEventListener("click", function() {
+        document.getElementById("modal").classList.add("show");
+       
+        document.body.style.overflow = "hidden !important" ; // Disable background scroll
+        // console.log('here');
+
+        const style = document.createElement('style');
+        style.innerHTML = 'body { overflow: hidden !important; }';
+        document.head.appendChild(style);
+
+    });
+
+    document.getElementById("closeModal").addEventListener("click", function() {
+        document.getElementById("modal").classList.remove("show");
+
+        const style = document.createElement('style');
+        style.innerHTML = 'body { overflow: auto !important; }';
+        document.head.appendChild(style);
+
+    });
+});
+
+
+    
 </script>

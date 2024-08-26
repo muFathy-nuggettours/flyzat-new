@@ -89,5 +89,45 @@
 <script src="core/_setup.js?v=<?=$system_settings["system_version"]?>"></script>
 <script src="website/setup.js?v=<?=$system_settings["system_version"]?>"></script>
 
+<div id="modal" class="modal">
+                                <div class="modal-content">
+                                    <div style="margin: 50px;">
+                                        <span id="closeModal" class="close-button"><span class="fa fa-times"></span></span>
+                                    </div>
+                                    <div class="age-input">
+                                        <div class="col-6">
+                                            <b><?= readLanguage('common', 'adult') ?></b>
+                                            <span>(12 <?= readLanguage('common', 'years_more') ?>)</span>
+                                        </div>
+                                        <div class="input-group col-6">
+                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('adults', 1)"><span class="fa fa-plus"></span></button>
+                                            <input class="form-control" data-input=adults onchange="updateTravelers()" type="number" id="adults" value="1" min="1" max="9" readonly>
+                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('adults', -1)"><span class="fa fa-minus"></span></button>
+                                        </div>
+                                    </div>
+                                    <div class="age-input">
+                                        <div class="col-6">
+                                            <b><?= readLanguage('common', 'child') ?></b>
+                                            <span>(<?= readLanguage('common', 'from') ?> 2 <?= readLanguage('common', 'to') ?> 12 <?= readLanguage('common', 'years_old') ?>)</span>
+                                        </div>
+                                        <div class="input-group col-6">
+                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('children', 1)"><span class="fa fa-plus"></span></button>
+                                            <input class="form-control" data-input=children onchange="updateTravelers()" type="number" id="children" value="0" min="0" max="8" readonly>
+                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('children', -1)"><span class="fa fa-minus"></span></button>
+                                        </div>
+                                    </div>
+                                    <div class="age-input">
+                                        <div class="col-6">
+                                            <b><?= readLanguage('common', 'infant') ?></b>
+                                            <span>(<?= readLanguage('common', 'less_than') ?> <?= readLanguage('common', 'two_years') ?>)</span>
+                                        </div>
+                                        <div class="input-group col-6">
+                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('toddlers', 1)"><span class="fa fa-plus"></span></button>
+                                            <input class="form-control" data-input=toddlers onchange="updateTravelers()" type="number" id="toddlers" value="0" min="0" max="8" readonly>
+                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('toddlers', -1)"><span class="fa fa-minus"></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 </body></html>
 <? if ($connection){ mysqlClose(); } ob_end_flush(); ?>
