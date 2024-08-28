@@ -197,7 +197,7 @@
         .select2-container--default .select2-results {
             position: absolute !important;
             z-index: 9999;
-            
+
         }
 
         .flight_search_module {
@@ -224,7 +224,7 @@
         .select2-container--default .select2-dropdown {
             width: 100% !important;
             left: 0 !important;
-            top: 7% !important;
+            /* top: 7% !important; */
             /* Position just below the input */
             border: 1px solid #ccc;
             /* Optional: Add a border for clarity */
@@ -232,17 +232,37 @@
             /* Optional: Add shadow for better visibility */
         }
 
-        .select2-close-btn {
+        .select2-title {
+            /* Ensure it's above the dropdown */
+            padding: 5px 10px;
+            margin: 0;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .title-bar {
+            background-color: #185086FF;
             position: fixed;
-            top: 10px;
-            left: 10px;
+            top: 0;
+            right: 0;
+            z-index: 10001;
+            width: 100%;
+            height: 48px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .select2-close-btn {
+
             background: #f00;
             color: #fff;
             border: none;
             padding: 5px 10px;
             border-radius: 5px;
             cursor: pointer;
-            z-index: 10001;
+
             /* Ensure it's above the dropdown */
             margin: 0;
             /* Remove margin if unnecessary */
@@ -311,9 +331,9 @@
         }
 
         .search_destinations .title {
-                display: flex;
-                flex-direction: column;
-                flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
         }
 
         .search_destinations .code {
@@ -328,8 +348,8 @@
             position: fixed;
             top: 10px;
             left: 10px;
-            background: #f00;
-            color: #fff;
+            background: #fec524;
+            color: #000;
             border: none;
             padding: 5px 10px;
             border-radius: 5px;
@@ -930,12 +950,33 @@
                     // Handle the mobile close button
                     if (isMobile) {
                         if (!$('.select2-close-btn').length) {
-                            $('body').append('<button class="select2-close-btn" type="button"><span class="fa fa-times"></span></button>');
+                            $('body').append('<div class="title-bar"><span class="select2-title">' +
+                                (object.attr("data-input") == "from" ? '<?= readLanguage('reservation', 'departure_city_airport') ?>' : '<?= readLanguage('reservation', 'arrival_city_airport') ?>') +
+                                '</span><button class="select2-close-btn" type="button"><?= readLanguage('plugins', 'message_close') ?></button></div>');
                         }
-                        $('.select2-close-btn').on('click', function() {
+
+
+
+                        $('.select2-close-btn').on('click', function(e) {
+                            e.stopPropagation();
+                            e.preventDefault();
                             object.select2('close');
                             $(this).remove(); // Remove the button after closing
                         });
+
+                        $('.title-bar').on('click', function(e) {
+
+                            e.stopPropagation();
+                            e.preventDefault();
+
+                        });
+
+
+                        setTimeout(function() {
+                            $('.title-bar').off('click');
+
+                        }, 500);
+
                     }
                 })
                 .on("select2:select", function(e) {
@@ -945,6 +986,21 @@
                     // Store the selected value
                     let selectedValue = $(this).val();
                     object.data('selectedValue', selectedValue);
+
+                    $('.title-bar').on('click', function(e) {
+
+                        e.stopPropagation();
+                        e.preventDefault();
+
+                    });
+
+
+                    setTimeout(function() {
+                        $('.title-bar').off('click');
+
+                    }, 500);
+
+
                 })
                 .on("select2:close", function(e) {
                     e.stopPropagation();
@@ -952,14 +1008,29 @@
 
                     // Ensure the button is removed when the dropdown closes
                     if (isMobile) {
+                        $('.title-bar').remove();
+                        $('.select2-title').remove();
                         $('.select2-close-btn').remove();
                         $('.select2-container--default .select2-dropdown').css('top', '100%');
                     }
 
+                    $('.title-bar').on('click', function(e) {
+
+                        e.stopPropagation();
+                        e.preventDefault();
+
+                    });
+
+                    setTimeout(function() {
+                        $('.title-bar').off('click');
+
+                    }, 500);
                     // Re-initialize Select2 to reset its state
                     setTimeout(function() {
                         object.select2('destroy');
                         initializeSelect2();
+                        $('.title-bar').off('click');
+
                     }, 200); // Delay to ensure complete close before reinitialization
                 });
         }
