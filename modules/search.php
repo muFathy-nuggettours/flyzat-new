@@ -24,7 +24,7 @@
         }
 
         .modal {
-            
+
             /* Hidden by default */
             position: sticky;
             bottom: 0;
@@ -33,7 +33,7 @@
             width: 100vw;
             background-color: white;
             box-shadow: 0 -3px 15px rgba(0, 0, 0, 0.2);
-            
+
             /* Invisible by default */
             z-index: 10000;
             /* Ensure it appears above other elements */
@@ -47,7 +47,7 @@
 
         /* Modal visible state */
         .modal.show {
-            
+
             /* Fade in */
             transform: translateY(0px);
         }
@@ -159,9 +159,115 @@
         }
     }
 
-    /* Modal hidden state */
+    /* DropDown */
+
+    @media (max-width: 768px) {
+        .select2-container--open {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            z-index: 9999;
+            background: white;
+            overflow-y: auto;
+            padding: 5rem 0;
+        }
+
+        .select2-dropdown {
+            border: none !important;
+        }
+
+        .select2-search--dropdown {
+            padding: 10px;
+        }
+
+        .select2-results {
+            padding: 10px;
+            width: 100%;
+        }
 
 
+        .select2-results__options {
+            height: 100%;
+            max-height: max-content !important;
+            overflow: auto;
+        }
+
+        .select2-container--default .select2-results {
+            position: absolute !important;
+            z-index: 9999;
+            
+        }
+
+        .flight_search_module {
+            overflow: visible !important;
+        }
+    }
+
+    .flight_search_module {
+        overflow: visible !important;
+    }
+
+    /* Ensure dropdown is visible and positioned correctly */
+    .select2-container--default .select2-results {
+        position: absolute !important;
+        z-index: 9999;
+        width: 100%;
+        background-color: white;
+    }
+
+
+
+    /* Ensure the dropdown is full width on mobile */
+    @media (max-width: 768px) {
+        .select2-container--default .select2-dropdown {
+            width: 100% !important;
+            left: 0 !important;
+            top: 7% !important;
+            /* Position just below the input */
+            border: 1px solid #ccc;
+            /* Optional: Add a border for clarity */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            /* Optional: Add shadow for better visibility */
+        }
+
+        .select2-close-btn {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background: #f00;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 10001;
+            /* Ensure it's above the dropdown */
+            margin: 0;
+            /* Remove margin if unnecessary */
+        }
+
+        .select2-close-btn:focus {
+            outline: none;
+        }
+    }
+
+    /* Avoid overflow issues */
+    .flight_search_module {
+        overflow: visible !important;
+    }
+
+    /* Ensure the input is not focused improperly */
+    .select2-container--default .select2-selection--single {
+        outline: none !important;
+    }
+
+    .select2 .select2-container .select2-container--default .select2-container--below .select2-container--focus {
+        z-index: 10;
+    }
+
+    /* Modal hidden state on mobile */
     @media only screen and (max-width: 768px) {
         .search_destinations.fullscreen {
             position: fixed;
@@ -170,13 +276,70 @@
             width: 100%;
             height: 100%;
             background: white;
-            /* or any background color you prefer */
-            z-index: 9999;
-            /* Make sure it's on top */
+            /* Background color */
+            display: none;
+            /* Hide by default */
+            overflow: auto;
+            /* Allow scrolling if needed */
+            transition: z-index 0.3s;
+            /* Smooth transition for z-index change */
+        }
+
+        /* When modal is open */
+        .search_destinations.fullscreen.open {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+        }
+
+        .search_destinations {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+        }
+
+        .search_destinations .logo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+        }
+
+        .search_destinations .logo i {
+            color: #aaa;
+        }
+
+        .search_destinations .title {
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+        }
+
+        .search_destinations .code {
+            padding: 6px;
+            background: #2073BA;
+            color: white;
+            font-size: 12px;
+        }
+
+        /* Ensure modal does not overlap close button */
+        .select2-close-btn {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background: #f00;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 10001;
+            /* Ensure it is above the modal */
+        }
+
+        .select2-close-btn:focus {
+            outline: none;
         }
     }
 
@@ -368,46 +531,7 @@
                                 </ul>
                             </div>
 
-                            <!-- <div id="modal" class="modal">
-                                <div class="modal-content">
-                                    <div style="margin: 50px;">
-                                        <span id="closeModal" class="close-button"><span class="fa fa-times"></span></span>
-                                    </div>
-                                    <div class="age-input">
-                                        <div class="col-6">
-                                            <b><?= readLanguage('common', 'adult') ?></b>
-                                            <span>(12 <?= readLanguage('common', 'years_more') ?>)</span>
-                                        </div>
-                                        <div class="input-group col-6">
-                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('adults', 1)"><span class="fa fa-plus"></span></button>
-                                            <input class="form-control" data-input=adults onchange="updateTravelers()" type="number" id="adults" value="1" min="1" max="9" readonly>
-                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('adults', -1)"><span class="fa fa-minus"></span></button>
-                                        </div>
-                                    </div>
-                                    <div class="age-input">
-                                        <div class="col-6">
-                                            <b><?= readLanguage('common', 'child') ?></b>
-                                            <span>(<?= readLanguage('common', 'from') ?> 2 <?= readLanguage('common', 'to') ?> 12 <?= readLanguage('common', 'years_old') ?>)</span>
-                                        </div>
-                                        <div class="input-group col-6">
-                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('children', 1)"><span class="fa fa-plus"></span></button>
-                                            <input class="form-control" data-input=children onchange="updateTravelers()" type="number" id="children" value="0" min="0" max="8" readonly>
-                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('children', -1)"><span class="fa fa-minus"></span></button>
-                                        </div>
-                                    </div>
-                                    <div class="age-input">
-                                        <div class="col-6">
-                                            <b><?= readLanguage('common', 'infant') ?></b>
-                                            <span>(<?= readLanguage('common', 'less_than') ?> <?= readLanguage('common', 'two_years') ?>)</span>
-                                        </div>
-                                        <div class="input-group col-6">
-                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('toddlers', 1)"><span class="fa fa-plus"></span></button>
-                                            <input class="form-control" data-input=toddlers onchange="updateTravelers()" type="number" id="toddlers" value="0" min="0" max="8" readonly>
-                                            <button style="color: #0d5c96; font-size: larger;" class="btn" type="button" onclick="updateTravelerCount('toddlers', -1)"><span class="fa fa-minus"></span></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
+
 
                             <script>
                                 $("[data-input=adults]").val(<?= ($search["adults"] ? $search["adults"] : 1) ?>);
@@ -758,70 +882,92 @@
         $(this).parent().is(".open") && e.stopPropagation();
     });
 
-    //Bind destination Select2
+    // Bind destination Select2
     function bindDestinationSelect2(object, value = null) {
-        object.select2({
-            containerCssClass: object.attr("data-input"),
-            width: "100%",
-            placeholder: (object.attr("data-input") == "from" ? "<?= readLanguage('reservation', 'departure_city_airport') ?>" : "<?= readLanguage('reservation', 'arrival_city_airport') ?>"),
-            dropdownParent: $(".flight_search_module"),
-            minimumInputLength: 0,
-            escapeMarkup: function(markup) {
-                return markup;
-            },
-            templateResult: function(data) {
-                return data.html;
-            },
-            templateSelection: function(data) {
-                return data.text;
-            },
-            ajax: {
-                url: "requests/",
-                method: "POST",
-                dataType: "json",
-                processResults: function(data) {
-                    return {
-                        results: data.results
-                    };
-                },
-                data: function(params) {
-                    var query = {
-                        action: "search_destinations",
-                        token: "<?= $token ?>",
-                        search: params.term
-                    };
-                    return query;
-                }
-            }
-        });
-        object.on("select2:select", function(e) {
-            let value = $(this).val();
-            object.parent().find(".error").removeClass("error");
-            if (object.attr("data-input") == "to-multiple" || (object.attr("data-input") == "to" && trip_type == 3)) {
-                if (object.attr("data-input") == "to" && trip_type == 3) {
-                    var container = $(".multiple_trips .trip_extra").first();
-                } else {
-                    var container = object.parents(".trip_extra").next();
-                }
-                let next_from = container.find("[data-input=from-multiple]");
-                if (next_from) {
-                    $.ajax({
+        const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+        // Function to initialize Select2
+        function initializeSelect2() {
+            object.select2({
+                    containerCssClass: object.attr("data-input"),
+                    width: "100%",
+                    placeholder: (object.attr("data-input") == "from" ? "<?= readLanguage('reservation', 'departure_city_airport') ?>" : "<?= readLanguage('reservation', 'arrival_city_airport') ?>"),
+                    dropdownParent: isMobile ? $('body') : $(".flight_search_module"),
+                    minimumInputLength: 0,
+                    escapeMarkup: function(markup) {
+                        return markup;
+                    },
+                    templateResult: function(data) {
+                        return data.html;
+                    },
+                    templateSelection: function(data) {
+                        return data.text;
+                    },
+                    ajax: {
                         url: "requests/",
                         method: "POST",
-                        data: {
-                            action: "get_destination",
-                            token: "<?= $token ?>",
-                            iata: value
+                        dataType: "json",
+                        processResults: function(data) {
+                            return {
+                                results: data.results
+                            };
                         },
-                        success: function(result) {
-                            if (result) {
-                                next_from.append("<option value='" + value + "' selected>" + result + "</option>").trigger("change");
-                            }
+                        data: function(params) {
+                            var query = {
+                                action: "search_destinations",
+                                token: "<?= $token ?>",
+                                search: params.term
+                            };
+                            return query;
                         }
-                    });
-                }
-            }
-        });
+                    }
+                })
+                .off('select2:select select2:open select2:close') // Unbind existing event handlers to prevent duplication
+                .on("select2:open", function(e) {
+                    e.stopPropagation();
+                    e.preventDefault();
+
+                    // Handle the mobile close button
+                    if (isMobile) {
+                        if (!$('.select2-close-btn').length) {
+                            $('body').append('<button class="select2-close-btn" type="button"><span class="fa fa-times"></span></button>');
+                        }
+                        $('.select2-close-btn').on('click', function() {
+                            object.select2('close');
+                            $(this).remove(); // Remove the button after closing
+                        });
+                    }
+                })
+                .on("select2:select", function(e) {
+                    e.stopPropagation();
+                    e.preventDefault();
+
+                    // Store the selected value
+                    let selectedValue = $(this).val();
+                    object.data('selectedValue', selectedValue);
+                })
+                .on("select2:close", function(e) {
+                    e.stopPropagation();
+                    e.preventDefault();
+
+                    // Ensure the button is removed when the dropdown closes
+                    if (isMobile) {
+                        $('.select2-close-btn').remove();
+                        $('.select2-container--default .select2-dropdown').css('top', '100%');
+                    }
+
+                    // Re-initialize Select2 to reset its state
+                    setTimeout(function() {
+                        object.select2('destroy');
+                        initializeSelect2();
+                    }, 200); // Delay to ensure complete close before reinitialization
+                });
+        }
+
+        // Initialize Select2
+        initializeSelect2();
+
+        // Set initial value if provided
         if (value) {
             $.ajax({
                 url: "requests/",
@@ -833,18 +979,19 @@
                 },
                 success: function(result) {
                     if (result) {
-                        object.append("<option value='" + value + "' selected>" + result + "</option>");
+                        object.append("<option class='optionstyle' value='" + value + "' selected>" + result + "</option>").trigger('change.select2');
+                        object.data('selectedValue', value); // Store initial value
                     }
                 }
             });
         }
-        object.trigger("change");
     }
 
     $(document).ready(function() {
-        bindDestinationSelect2($("[data-input=from]"), "<?= $search["from"] ?>");
-        bindDestinationSelect2($("[data-input=to]"), "<?= $search["to"] ?>");
+        bindDestinationSelect2($("[data-input=from]"), "<?= $search['from'] ?>");
+        bindDestinationSelect2($("[data-input=to]"), "<?= $search['to'] ?>");
     });
+
 
     //Switch Destinations
     function switchDestinations(target) {
@@ -973,6 +1120,41 @@
 
     setActiveType(<?= ($search["type"] ? $search["type"] : 1) ?>);
 
+
+
+
+
+    $(document).ready(function() {
+        const fullscreenModal = $('.search_destinations.fullscreen');
+
+        function openModal() {
+            fullscreenModal.css('z-index', '10000'); // Set high z-index when open
+            fullscreenModal.addClass('open'); // Add class to handle visibility
+        }
+
+        function closeModal() {
+            fullscreenModal.css('z-index', '0'); // Set low z-index when closed
+            fullscreenModal.removeClass('open'); // Remove class to handle visibility
+        }
+
+        // Example button to open the modal
+        $('.open-modal-btn').on('click', function() {
+            openModal();
+        });
+
+        // Example button to close the modal
+        $('.close-modal-btn').on('click', function() {
+            closeModal();
+        });
+
+        // Optional: Close modal when clicking outside of it
+        $(document).on('click', function(event) {
+            if (!$(event.target).closest('.search_destinations.fullscreen, .open-modal-btn').length) {
+                closeModal();
+            }
+        });
+    });
+
     //===== Submit =====
 
     function submitSearch() {
@@ -1084,67 +1266,63 @@
     }
 
     function updateTravelerCount(type, change) {
-        
+
         // Select all inputs that have id #type
         var inputs = document.querySelectorAll(`#${type}`);
-    
+
         inputs.forEach((input) => {
             var newValue = parseInt(input.value) + change;
 
             var adults = parseInt(document.getElementById('adults').value);
             var toddlersInput = document.getElementById('toddlers');
 
-        if (type === 'adults' && newValue < parseInt(toddlersInput.value)) {
-            // toddlersInput.value = newValue;
+            if (type === 'adults' && newValue < parseInt(toddlersInput.value)) {
+                // toddlersInput.value = newValue;
 
-            const toddlersInputs =  document.querySelectorAll(`#toddlers`);
+                const toddlersInputs = document.querySelectorAll(`#toddlers`);
 
-            toddlersInputs.forEach((input) => {
+                toddlersInputs.forEach((input) => {
+                    input.value = newValue;
+                })
+
+            }
+
+            if (type === 'toddlers' && newValue > adults) {
+                return;
+            }
+
+            if (newValue >= input.min && newValue <= input.max) {
                 input.value = newValue;
-            })
-
-        }
-
-        if (type === 'toddlers' && newValue > adults) {
-            return;
-        }
-
-        if (newValue >= input.min && newValue <= input.max) {
-            input.value = newValue;
-        }
+            }
 
         });
-        
-        
 
-        
+
+
+
         updateTravelers();
     }
 
 
     window.addEventListener("DOMContentLoaded", (event) => {
         document.getElementById("openModal").addEventListener("click", function() {
-        document.getElementById("modal").classList.add("show");
-       
-        document.body.style.overflow = "hidden !important" ; // Disable background scroll
-        // console.log('here');
+            document.getElementById("modal").classList.add("show");
 
-        const style = document.createElement('style');
-        style.innerHTML = 'body { overflow: hidden !important; }';
-        document.head.appendChild(style);
+            document.body.style.overflow = "hidden !important"; // Disable background scroll
 
+            const style = document.createElement('style');
+            style.innerHTML = 'body { overflow: hidden !important; }';
+            document.head.appendChild(style);
+
+        });
+
+        document.getElementById("closeModal").addEventListener("click", function() {
+            document.getElementById("modal").classList.remove("show");
+
+            const style = document.createElement('style');
+            style.innerHTML = 'body { overflow: auto !important; }';
+            document.head.appendChild(style);
+
+        });
     });
-
-    document.getElementById("closeModal").addEventListener("click", function() {
-        document.getElementById("modal").classList.remove("show");
-
-        const style = document.createElement('style');
-        style.innerHTML = 'body { overflow: auto !important; }';
-        document.head.appendChild(style);
-
-    });
-});
-
-
-    
 </script>

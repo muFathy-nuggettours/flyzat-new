@@ -1,7 +1,7 @@
 <? include "system/_handler.php";
 
 //Security Measure: Validate post token
-if (!$post["token"]){ brokenLink(); exit(); }
+if (!$_SESSION["token"]){ brokenLink(); exit(); }
 
 //========== [Air Search Request Operations] ==========
 
@@ -98,11 +98,11 @@ if ($post["action"]=="upload_passport"){
 		
 		if (!validateFileName($_FILES["passport"]["name"]) || !isImage($_FILES["passport"]["name"])){
 			header("HTTP/1.1 400 Bad Request");
-			exit(readLanguage(plugins,upload_error_extension));
+			exit(readLanguage('plugins','upload_error_extension'));
 			
 		} else if (!$_FILES["passport"]["size"] || $_FILES["passport"]["size"] > parseSize(ini_get("upload_max_filesize"))){
 			header("HTTP/1.1 400 Bad Request");
-			exit(readLanguage(plugins,upload_error_size) . ini_get("upload_max_filesize"));			
+			exit(readLanguage('plugins','upload_error_size') . ini_get("upload_max_filesize"));			
 
 		} else {
 			$original_name = pathinfo($_FILES["passport"]["name"], PATHINFO_FILENAME);
@@ -145,7 +145,7 @@ if ($post["action"]=="upload_passport"){
 		exit(json_encode($return));
 	} else {
 		header("HTTP/1.1 400 Bad Request");
-		exit(readLanguage(plugins,upload_error));
+		exit(readLanguage('plugins','upload_error'));
 	}
 }
 
@@ -158,12 +158,8 @@ if ($post["action"]=="search_destinations"){
 	if (!$keyword && count($search_history)){
 		$array = array();
 		foreach ($search_history AS $key=>$value){
-			if (!in_array($value["from"])){
 				array_push($array, strtoupper($value["from"]));
-			}
-			if (!in_array($value["to"])){
 				array_push($array, strtoupper($value["to"]));
-			}
 		}
 		$condition = "iata IN ('" . implode("','", $array) . "')";
 		$order = "popularity DESC, priority DESC";
@@ -177,15 +173,17 @@ if ($post["action"]=="search_destinations"){
 		$country = getCountry($airport["country"]);
 		$region = getID($airport["region"], "system_database_regions");
 		$block_text = $airport[$suffix . "name"] . "، " . $country[$suffix . "name"];
-		$block_html = "<div class=\"search_destinations\">
-            <i class='fas fa-plane fa-fw'></i>&nbsp;&nbsp;
-            <img src='images/countries/" . $airport["country"] . ".gif'>&nbsp;&nbsp;
-            <div class=\"title\">
-                <b>" . highlightKeyword($block_text, $keyword_original) . "</b>
-                <small>" . $region[$suffix . "name"] . "</small>
-            </div>
-            <b class=\"code\">" . $airport["iata"] . "</b>
-            </div>";
+		$block_html = "<div class=search_destinations>
+			<div class=logo>
+			<i class='fas fa-plane fa-fw'></i>&nbsp;&nbsp;
+			<img src='images/countries/" . $airport["country"] . ".gif'>&nbsp;&nbsp;
+			</div>
+			<div class=title>
+				<b>" . highlightKeyword($block_text, $keyword_original) . "</b>
+				<small>" . $region[$suffix . "name"] . "</small>
+			</div>
+			<b class=code>" . $airport["iata"] . "</b>
+		</div>";
 		$data_array = array(
 			"id" => $airport["iata"],
 			"html" => $block_html,
